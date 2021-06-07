@@ -84,3 +84,6 @@ tmp
 
 # Vim files
 tags
+
+
+./build

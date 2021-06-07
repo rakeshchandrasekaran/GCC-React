@@ -8,6 +8,7 @@ import youtubeLogo from '../images/youtube.png';
 import twitterLogo from '../images/twitter.png';
 import './Header.css';
 import config from '../config/config';
+import L from '../utils/localization';
 
 const appRoute = config.appRoute;
 
@@ -36,8 +37,8 @@ const Header = ({type}) => {
             <Button variant="dark" className="font-size-large">A+</Button>
           </div>
           <div className="language-buttons">
-            <Button variant="dark" className="english-button">English</Button>
-            <Button variant="dark" className="tamil-button">தமிழ்</Button>
+            <Button variant="dark" className="english-button" onClick={ () => {window.sessionStorage.setItem("language", "english"); window.location.reload()}}>English</Button>
+            <Button variant="dark" className="tamil-button" onClick={ () => {window.sessionStorage.setItem("language", "tamil"); window.location.reload()}}>தமிழ்</Button>
           </div>
           <div className="social-media-links">
             <Navbar.Brand href="#facebook">
@@ -90,28 +91,28 @@ const Header = ({type}) => {
           <Navbar.Collapse id="responsive-navbar-nav">
             <div className="sub-nav-links">
               <Navbar.Brand href={appRoute}>
-                <Button variant="warning">Home</Button>
+                <Button variant="warning">{L.t('subNav.home')}</Button>
               </Navbar.Brand>
               <Navbar.Brand href={`${appRoute}/about_us`}>
-                <Button variant="warning">About Us</Button>
+                <Button variant="warning">{L.t('subNav.aboutUs')}</Button>
               </Navbar.Brand>
               <Navbar.Brand href="#twitter">
-                <Button variant="warning">Council</Button>
+                <Button variant="warning">{L.t('subNav.council')}</Button>
               </Navbar.Brand>
               <Navbar.Brand href="#youtube">
-                <Button variant="warning">Work with Us</Button>
+                <Button variant="warning">{L.t('subNav.workWithUs')}</Button>
               </Navbar.Brand>
               <Navbar.Brand href="#facebook">
-                <Button variant="warning">Events</Button>
+                <Button variant="warning">{L.t('subNav.events')}</Button>
               </Navbar.Brand>
               <Navbar.Brand href="#instagram">
-                <Button variant="warning">Projects</Button>
+                <Button variant="warning">{L.t('subNav.projects')}</Button>
               </Navbar.Brand>
               <Navbar.Brand href="#twitter">
-                <Button variant="warning">FAQ</Button>
+                <Button variant="warning">{L.t('subNav.faq')}</Button>
               </Navbar.Brand>
               <Navbar.Brand href="#youtube">
-                <Button variant="warning">Contact Us</Button>
+                <Button variant="warning">{L.t('subNav.contactUs')}</Button>
               </Navbar.Brand>
             </div>
 
