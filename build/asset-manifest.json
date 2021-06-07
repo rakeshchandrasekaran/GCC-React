@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/react-with-gh-pages/static/css/main.f5a4044e.chunk.css",
-    "main.js": "/react-with-gh-pages/static/js/main.6101dd23.chunk.js",
-    "main.js.map": "/react-with-gh-pages/static/js/main.6101dd23.chunk.js.map",
-    "runtime-main.js": "/react-with-gh-pages/static/js/runtime-main.dddee02a.js",
-    "runtime-main.js.map": "/react-with-gh-pages/static/js/runtime-main.dddee02a.js.map",
-    "static/js/2.95579c67.chunk.js": "/react-with-gh-pages/static/js/2.95579c67.chunk.js",
-    "static/js/2.95579c67.chunk.js.map": "/react-with-gh-pages/static/js/2.95579c67.chunk.js.map",
-    "static/js/3.936d9ab7.chunk.js": "/react-with-gh-pages/static/js/3.936d9ab7.chunk.js",
-    "static/js/3.936d9ab7.chunk.js.map": "/react-with-gh-pages/static/js/3.936d9ab7.chunk.js.map",
-    "index.html": "/react-with-gh-pages/index.html",
-    "static/css/main.f5a4044e.chunk.css.map": "/react-with-gh-pages/static/css/main.f5a4044e.chunk.css.map",
-    "static/js/2.95579c67.chunk.js.LICENSE.txt": "/react-with-gh-pages/static/js/2.95579c67.chunk.js.LICENSE.txt",
-    "static/media/main_logo.c440b9cb.svg": "/react-with-gh-pages/static/media/main_logo.c440b9cb.svg"
+    "main.css": "/GCC-React/static/css/main.f5a4044e.chunk.css",
+    "main.js": "/GCC-React/static/js/main.74567541.chunk.js",
+    "main.js.map": "/GCC-React/static/js/main.74567541.chunk.js.map",
+    "runtime-main.js": "/GCC-React/static/js/runtime-main.3addd78e.js",
+    "runtime-main.js.map": "/GCC-React/static/js/runtime-main.3addd78e.js.map",
+    "static/js/2.d8b3690b.chunk.js": "/GCC-React/static/js/2.d8b3690b.chunk.js",
+    "static/js/2.d8b3690b.chunk.js.map": "/GCC-React/static/js/2.d8b3690b.chunk.js.map",
+    "static/js/3.deb603cc.chunk.js": "/GCC-React/static/js/3.deb603cc.chunk.js",
+    "static/js/3.deb603cc.chunk.js.map": "/GCC-React/static/js/3.deb603cc.chunk.js.map",
+    "index.html": "/GCC-React/index.html",
+    "static/css/main.f5a4044e.chunk.css.map": "/GCC-React/static/css/main.f5a4044e.chunk.css.map",
+    "static/js/2.d8b3690b.chunk.js.LICENSE.txt": "/GCC-React/static/js/2.d8b3690b.chunk.js.LICENSE.txt",
+    "static/media/main_logo.c440b9cb.svg": "/GCC-React/static/media/main_logo.c440b9cb.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.dddee02a.js",
-    "static/js/2.95579c67.chunk.js",
+    "static/js/runtime-main.3addd78e.js",
+    "static/js/2.d8b3690b.chunk.js",
     "static/css/main.f5a4044e.chunk.css",
-    "static/js/main.6101dd23.chunk.js"
+    "static/js/main.74567541.chunk.js"
   ]
 }

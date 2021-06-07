@@ -4,6 +4,9 @@ const englishContent = {
   home: {
     header: 'Welcome'
   },
+  aboutUs: {
+    header: 'About Us',
+  },
   subNav: {
     home: 'Home',
     aboutUs: 'About Us',
@@ -19,6 +22,9 @@ const englishContent = {
 const tamilContent = {
   home: {
     header: 'வரவேற்பு'
+  },
+  aboutUs: {
+    header: 'சென்னை மாநகராட்சியைப் பற்றி',
   },
   subNav: {
     home: 'முகப்பு',

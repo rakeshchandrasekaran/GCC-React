@@ -1,8 +1,9 @@
 import React from 'react';
+import L from '../utils/localization';
 
 const AboutUs = () => (
   <p>
-    About Us
+    {L.t('aboutUs.header')}
   </p>
 );
 
