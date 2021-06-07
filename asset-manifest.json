@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/GCC-React/static/css/main.47919e98.chunk.css",
-    "main.js": "/GCC-React/static/js/main.5a167dd2.chunk.js",
-    "main.js.map": "/GCC-React/static/js/main.5a167dd2.chunk.js.map",
+    "main.css": "/GCC-React/static/css/main.2368049c.chunk.css",
+    "main.js": "/GCC-React/static/js/main.cb827619.chunk.js",
+    "main.js.map": "/GCC-React/static/js/main.cb827619.chunk.js.map",
     "runtime-main.js": "/GCC-React/static/js/runtime-main.3addd78e.js",
     "runtime-main.js.map": "/GCC-React/static/js/runtime-main.3addd78e.js.map",
     "static/js/2.d8b3690b.chunk.js": "/GCC-React/static/js/2.d8b3690b.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.deb603cc.chunk.js": "/GCC-React/static/js/3.deb603cc.chunk.js",
     "static/js/3.deb603cc.chunk.js.map": "/GCC-React/static/js/3.deb603cc.chunk.js.map",
     "index.html": "/GCC-React/index.html",
-    "static/css/main.47919e98.chunk.css.map": "/GCC-React/static/css/main.47919e98.chunk.css.map",
+    "static/css/main.2368049c.chunk.css.map": "/GCC-React/static/css/main.2368049c.chunk.css.map",
     "static/js/2.d8b3690b.chunk.js.LICENSE.txt": "/GCC-React/static/js/2.d8b3690b.chunk.js.LICENSE.txt",
     "static/media/main_logo.c440b9cb.svg": "/GCC-React/static/media/main_logo.c440b9cb.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.3addd78e.js",
     "static/js/2.d8b3690b.chunk.js",
-    "static/css/main.47919e98.chunk.css",
-    "static/js/main.5a167dd2.chunk.js"
+    "static/css/main.2368049c.chunk.css",
+    "static/js/main.cb827619.chunk.js"
   ]
 }
