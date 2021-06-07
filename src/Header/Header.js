@@ -32,13 +32,13 @@ const Header = ({type}) => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <div className="font-size-chooser">
-            <Button variant="dark" className="font-size-small">A</Button>
-            <Button variant="dark" className="font-size-medium">A</Button>
-            <Button variant="dark" className="font-size-large">A+</Button>
+            <Button variant="dark" className="font-size-small btn-cs">A</Button>
+            <Button variant="dark" className="font-size-medium btn-cs">A</Button>
+            <Button variant="dark" className="font-size-large btn-cs">A+</Button>
           </div>
           <div className="language-buttons">
-            <Button variant="dark" className="english-button" onClick={ () => {window.sessionStorage.setItem("language", "english"); window.location.reload()}}>English</Button>
-            <Button variant="dark" className="tamil-button" onClick={ () => {window.sessionStorage.setItem("language", "tamil"); window.location.reload()}}>தமிழ்</Button>
+            <Button variant="dark" className="english-button btn-cs" onClick={ () => {window.sessionStorage.setItem("language", "english"); window.location.reload()}}>English</Button>
+            <Button variant="dark" className="tamil-button btn-cs" onClick={ () => {window.sessionStorage.setItem("language", "tamil"); window.location.reload()}}>தமிழ்</Button>
           </div>
           <div className="social-media-links">
             <Navbar.Brand href="#facebook">

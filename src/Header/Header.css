@@ -17,6 +17,12 @@
     font-weight: bolder;
 }
 
+.btn-cs {
+    background: #01243F !important;
+    color: #fcfcfc;
+    border-color: #01243F;
+}
+
 .btn-warning {
     border-radius: 20px;
     color: black;
