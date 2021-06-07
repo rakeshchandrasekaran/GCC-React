@@ -7,6 +7,9 @@ import instaLogo from '../images/instagram.png';
 import youtubeLogo from '../images/youtube.png';
 import twitterLogo from '../images/twitter.png';
 import './Header.css';
+import config from '../config/config';
+
+const appRoute = config.appRoute;
 
 const Header = ({type}) => {
   {
@@ -86,10 +89,10 @@ const Header = ({type}) => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <div className="sub-nav-links">
-              <Navbar.Brand href="#facebook">
+              <Navbar.Brand href={appRoute}>
                 <Button variant="warning">Home</Button>
               </Navbar.Brand>
-              <Navbar.Brand href="#instagram">
+              <Navbar.Brand href={`${appRoute}/about_us`}>
                 <Button variant="warning">About Us</Button>
               </Navbar.Brand>
               <Navbar.Brand href="#twitter">
