@@ -61,6 +61,30 @@ const englishContent = {
     projects: 'Projects',
     faq: 'FAQ',
     contactUs: 'Contact Us'
+  },
+  council: {
+    firstRowHeader: 'Council',
+    firstRowSubHeader: 'Experience breeds Perspectives',
+    firstRowDescription: 'C-hub wants to create teams with experienced individuals who have a specialization in the chosen verticals. The Advisory councils will constitute a team of experts from different verticals. C-Hub will support, empower, foster and advance ideas to next level.',
+    secondRowHeader: 'The Chennai Innovation Hub will work on various verticals like',
+    thirdRowHeader: 'Join Advisory Council',
+    thirdRowDescription: 'Do you consider yourself an industry leader? Would you like to be part of the change? Have you always wanted to be at the crux of the changemaking process? Join the Advisory council.',
+    thirdRowSubHeader: 'Council’s Responsibilities',
+    thirdRowData: [
+      'Formulate the structure and the annual plan for the respective verticals.',
+      'Make connections and network across verticals to keep up with trends.',
+      'Mentoring individuals / Start-ups throughout the evolution of the idea.',
+      'Co-create solutions : Provide/ Facilitate resources to aid in problem solving.',
+      'Identifying ideas and Capacitu building.',
+      'Recommend specific solutions based on the subject matter.'
+    ],
+    fourthRowHeader: 'How to Apply ?',
+    fourthRowSubHeader1: 'Submit your Application',
+    fourthRowDescription1: 'Interested Individuals can write to the C-hub team at “ chub.gcc@gmail.com “with the subject line “ Interested to apply for the ( Name of the vertical) advisory council ”.',
+    fourthRowSubHeader2: 'Get Shortlisted',
+    fourthRowDescription2: 'Shortlisted candidates will be invited to share their ideas with the C-hub Leadership team',
+    fourthRowSubHeader3: 'Join the Council',
+    fourthRowDescription3: 'Selected candidates will be introduced to the rest of their peers in order to formulate the structure and approach of their verticals',
   }
 };
 
@@ -125,6 +149,30 @@ const tamilContent = {
     projects: 'திட்டங்கள்',
     faq: 'FAQ',
     contactUs: 'எங்களை தொடர்பு கொள்ள'
+  },
+  council: {
+    firstRowHeader: 'சபை',
+    firstRowSubHeader: 'அனுபவம் இனப்பெருக்கம்',
+    firstRowDescription: 'தேர்ந்தெடுக்கப்பட்ட செங்குத்துகளில் நிபுணத்துவம் பெற்ற அனுபவம் வாய்ந்த நபர்களுடன் குழுக்களை உருவாக்க சி-ஹப் விரும்புகிறது. ஆலோசனைக் குழுக்கள் வெவ்வேறு செங்குத்துகளைச் சேர்ந்த நிபுணர்களின் குழுவை அமைக்கும். சி-ஹப் அடுத்த நிலைக்கு யோசனைகளை ஆதரிக்கும், அதிகாரம் அளிக்கும், வளர்க்கும் மற்றும் முன்னேறும்.',
+    secondRowHeader: 'சென்னை கண்டுபிடிப்பு மையம் போன்ற பல்வேறு செங்குத்துகளில் வேலை செய்யும்',
+    thirdRowHeader: 'ஆலோசனைக் குழுவில் சேரவும்',
+    thirdRowDescription: 'உங்களை ஒரு தொழில் தலைவராக கருதுகிறீர்களா? மாற்றத்தின் ஒரு பகுதியாக நீங்கள் இருக்க விரும்புகிறீர்களா? மாற்றத்தை உருவாக்கும் செயல்முறையின் உச்சத்தில் நீங்கள் எப்போதும் இருக்க விரும்புகிறீர்களா? ஆலோசனைக் குழுவில் சேரவும்.',
+    thirdRowSubHeader: '',
+    thirdRowData: [
+      'அந்தந்த செங்குத்துகளுக்கான கட்டமைப்பு மற்றும் ஆண்டு திட்டத்தை உருவாக்குங்கள்.',
+      'போக்குகளைத் தொடர செங்குத்துகளில் இணைப்புகள் மற்றும் நெட்வொர்க்கை உருவாக்கவும்.',
+      'யோசனையின் பரிணாமம் முழுவதும் தனிநபர்கள் / ஸ்டார்ட்-அப்களை வழிநடத்துதல்.',
+      'தீர்வுகளை இணை உருவாக்குதல்: சிக்கலைத் தீர்ப்பதற்கு உதவ வளங்களை வழங்குதல் / எளிதாக்குதல்.',
+      'யோசனைகளை அடையாளம் காண்பது மற்றும் கேபசிட்டு கட்டிடம்.',
+      'பொருள் அடிப்படையில் குறிப்பிட்ட தீர்வுகளை பரிந்துரைக்கவும்.'
+    ],
+    fourthRowHeader: 'எப்படி விண்ணப்பிப்பது ?',
+    fourthRowSubHeader1: 'உங்கள் விண்ணப்பத்தை சமர்ப்பிக்கவும்',
+    fourthRowDescription1: 'ஆர்வமுள்ள நபர்கள் "chub.gcc@gmail.com" இல் சி-ஹப் குழுவுக்கு "(செங்குத்து பெயர்) ஆலோசனைக் குழுவிற்கு விண்ணப்பிக்க ஆர்வம்" என்ற தலைப்புடன் எழுதலாம்.',
+    fourthRowSubHeader2: 'குறுகியப்பட்டியலைப் பெறுங்கள்',
+    fourthRowDescription2: 'பட்டியலிடப்பட்ட வேட்பாளர்கள் தங்கள் கருத்துக்களை சி-ஹப் தலைமைக் குழுவுடன் பகிர்ந்து கொள்ள அழைக்கப்படுவார்கள்',
+    fourthRowSubHeader3: 'சபையில் சேரவும்',
+    fourthRowDescription3: 'தேர்ந்தெடுக்கப்பட்ட வேட்பாளர்கள் தங்கள் செங்குத்துகளின் கட்டமைப்பையும் அணுகுமுறையையும் வகுப்பதற்காக மீதமுள்ள சகாக்களுக்கு அறிமுகப்படுத்தப்படுவார்கள்',
   }
 };
 
