@@ -10,10 +10,7 @@ import currentEventImage3 from '../images/home/current_event_image3.png';
 import students from '../images/home/students.png';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 
-
 import '@splidejs/splide/dist/css/themes/splide-default.min.css';
-
-
 
 const Home = () => (
   <div>
@@ -24,10 +21,12 @@ const Home = () => (
       <div className="caption">
         <img src={chennaiHub} alt="" />
       </div>
+      <br/>
+      <br/>
+      <br/>
       <div className="div-home">
-        <a className="navbar-navigation-button btn-home"  id="btnWorkWithUsInSIdeBanner" href="./workwithus.html">
-        {L.t('home.firstRowBtn')}
-        </a>
+        <button className="navbar-navigation-button btn-home"  id="btnWorkWithUsInSIdeBanner" href="./workwithus.html">
+        {L.t('home.firstRowBtn')}</button>
       </div>
     </div>
     <div className="col-xs-12 col-sm-12 backgroud-banners2" >
@@ -94,7 +93,6 @@ const Home = () => (
         </Splide>
       </div>
     </div>
-
     <div className="col-xs-12 col-sm-12 backgroud-banners3">
       <br />
       <div className="main-caption3-heading row">
@@ -144,14 +142,6 @@ const Home = () => (
 
       </div>
     </div>
-
   </div>
 );
 export default Home;
-
-
-// options={{
-//   rewind: true,
-//   perPage: 3,
-//   perMove: 1
-// }}
