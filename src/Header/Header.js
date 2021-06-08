@@ -96,22 +96,22 @@ const Header = ({type}) => {
               <Navbar.Brand href={`${appRoute}/about_us`}>
                 <Button variant="warning">{L.t('subNav.aboutUs')}</Button>
               </Navbar.Brand>
-              <Navbar.Brand href="#twitter">
+              <Navbar.Brand href={`${appRoute}/council`}>
                 <Button variant="warning">{L.t('subNav.council')}</Button>
               </Navbar.Brand>
-              <Navbar.Brand href="#youtube">
+              <Navbar.Brand href={`${appRoute}/work_with_us`}>
                 <Button variant="warning">{L.t('subNav.workWithUs')}</Button>
               </Navbar.Brand>
-              <Navbar.Brand href="#facebook">
+              <Navbar.Brand href={`${appRoute}/events`}>
                 <Button variant="warning">{L.t('subNav.events')}</Button>
               </Navbar.Brand>
-              <Navbar.Brand href="#instagram">
+              <Navbar.Brand href={`${appRoute}/projects`}>
                 <Button variant="warning">{L.t('subNav.projects')}</Button>
               </Navbar.Brand>
-              <Navbar.Brand href="#twitter">
+              <Navbar.Brand href={`${appRoute}/faq`}>
                 <Button variant="warning">{L.t('subNav.faq')}</Button>
               </Navbar.Brand>
-              <Navbar.Brand href="#youtube">
+              <Navbar.Brand href={`${appRoute}/contact_us`}>
                 <Button variant="warning">{L.t('subNav.contactUs')}</Button>
               </Navbar.Brand>
             </div>

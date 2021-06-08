@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/GCC-React/static/css/main.d74ac189.chunk.css",
-    "main.js": "/GCC-React/static/js/main.7566cd8c.chunk.js",
-    "main.js.map": "/GCC-React/static/js/main.7566cd8c.chunk.js.map",
+    "main.js": "/GCC-React/static/js/main.544fbd22.chunk.js",
+    "main.js.map": "/GCC-React/static/js/main.544fbd22.chunk.js.map",
     "runtime-main.js": "/GCC-React/static/js/runtime-main.c797c49a.js",
     "runtime-main.js.map": "/GCC-React/static/js/runtime-main.c797c49a.js.map",
     "static/css/2.11c54b2c.chunk.css": "/GCC-React/static/css/2.11c54b2c.chunk.css",
@@ -15,6 +15,7 @@
     "static/css/main.d74ac189.chunk.css.map": "/GCC-React/static/css/main.d74ac189.chunk.css.map",
     "static/js/2.a21b2d8b.chunk.js.LICENSE.txt": "/GCC-React/static/js/2.a21b2d8b.chunk.js.LICENSE.txt",
     "static/media/Chennai Hub.fcaefcab.png": "/GCC-React/static/media/Chennai Hub.fcaefcab.png",
+    "static/media/Ellipse.9c0f6cd5.png": "/GCC-React/static/media/Ellipse.9c0f6cd5.png",
     "static/media/about_us_1_chief_innovation_officer.ad324ae9.png": "/GCC-React/static/media/about_us_1_chief_innovation_officer.ad324ae9.png",
     "static/media/about_us_1_chief_innovation_officer_tamil.c79cc498.png": "/GCC-React/static/media/about_us_1_chief_innovation_officer_tamil.c79cc498.png",
     "static/media/about_us_1_values_Collaboration.cb0df594.png": "/GCC-React/static/media/about_us_1_values_Collaboration.cb0df594.png",
@@ -36,6 +37,8 @@
     "static/media/about_us_vision-img2.42021cfc.png": "/GCC-React/static/media/about_us_vision-img2.42021cfc.png",
     "static/media/about_us_vision-img3.d18f0c45.png": "/GCC-React/static/media/about_us_vision-img3.d18f0c45.png",
     "static/media/about_us_vision-img4.68cf2247.png": "/GCC-React/static/media/about_us_vision-img4.68cf2247.png",
+    "static/media/council_Chennai_Innovation_Hub_Verticals.6a92b5c1.png": "/GCC-React/static/media/council_Chennai_Innovation_Hub_Verticals.6a92b5c1.png",
+    "static/media/council_light_house.3d5bf981.png": "/GCC-React/static/media/council_light_house.3d5bf981.png",
     "static/media/current_event_image1.ef020676.png": "/GCC-React/static/media/current_event_image1.ef020676.png",
     "static/media/current_event_image2.9a2003f4.png": "/GCC-React/static/media/current_event_image2.9a2003f4.png",
     "static/media/current_event_image3.7508be61.png": "/GCC-React/static/media/current_event_image3.7508be61.png",
@@ -49,6 +52,6 @@
     "static/css/2.11c54b2c.chunk.css",
     "static/js/2.a21b2d8b.chunk.js",
     "static/css/main.d74ac189.chunk.css",
-    "static/js/main.7566cd8c.chunk.js"
+    "static/js/main.544fbd22.chunk.js"
   ]
 }
