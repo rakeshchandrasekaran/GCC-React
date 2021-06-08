@@ -34,6 +34,10 @@ const englishContent = {
       'Enhance quality of life and ensure sustainability in processes'
     ],
     thirdRowHeader: 'Team',
+    thirdRowImage1:'style = width: 160px; height: 160px;',
+    thirdRowImage2:'',
+    thirdRowImage3:'',
+    thirdRowImage4:'',
     fourthRowHeader: 'Mission',
     fourthRowData: [
       'A cross-boundary collaborative regime instituted to decide on innovation pathways.',
@@ -77,6 +81,10 @@ const tamilContent = {
   },
   aboutUs: {
     firstRowHeader: 'எங்களை பற்றி',
+    thirdRowImage1:'style = width: 160px; height: 160px; display: none;',
+    thirdRowImage2:'',
+    thirdRowImage3:'',
+    thirdRowImage4:'',
     firstRowSubHeade: [
       'புதுமை.',
       'நிலைத்திருங்கள்.',
