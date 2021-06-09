@@ -6,6 +6,7 @@ import Home from './Home';
 import AboutUs from './AboutUs';
 import Council from './Council/Council';
 import Projects from './Projects/Projects';
+import ContactUs from './ContactUs/ContactUs';
 
 // import WorkWithUs from './WorkWithUs/WorkWithUs';
 
@@ -14,6 +15,7 @@ const routes = {
   aboutUs: `/about_us`,
   council: `/council`,
   projects: `/projects`,
+  projects: `/contact_us`,
   home: `/`
 };
 
@@ -28,6 +30,7 @@ function App() {
       <div className="content-grid">
         <HashRouter basename={publicUrl}>
           <Switch>
+          <Route path={routes.contactUs} component={ContactUs} />
             <Route path={routes.projects} component={Projects} />
             <Route path={routes.council} component={Council} />
             <Route path={routes.aboutUs} component={AboutUs} />
