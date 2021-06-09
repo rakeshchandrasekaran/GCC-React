@@ -40,13 +40,13 @@ const Projects = () => (
         <div className="col-xs-12 col-sm-12 row" style={{height: '260px', backgroundColor: 'rgba(223, 120, 112, 0.05)'}}>
                 <div className="col-xs-12 col-sm-12 col-md-1 col-lg-1 row">
                 </div>
-                <div className="col-xs-12 col-sm-12 col-md-3 col-lg-3 row" style={{marginTop: '25px'}}>
+                <div className="col-xs-12 col-sm-12 col-md-3 col-lg-3" style={{marginTop: '25px'}}>
                     <p style={{color: '#DF7870', fontSize: '32px'}}>{L.t('projects.thirdRowHeader')}
                     </p>
                     <div>
                         <button type="button" className="btn btnworkwithus-cs" style={{backgroundColor: '#BB6059',
                             color: '#ffffff'}} id="btnworkwithus" 
-                            onclick="window.location.href='./workwithus.html'">{L.t('projects.thirdRowHeader')}</button>
+                            onclick="window.location.href='./workwithus.html'">{L.t('projects.thirdRowButton')}</button>
                     </div>
                 </div>
                 <div className="col-xs-12 col-sm-12 col-md-8 col-lg-8">

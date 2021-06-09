@@ -99,7 +99,7 @@ const Header = ({type}) => {
               <Navbar.Brand href={`${appRoute}/council`}>
                 <Button variant="warning">{L.t('subNav.council')}</Button>
               </Navbar.Brand>
-              <Navbar.Brand href={`${appRoute}/work_with_us`}>
+              <Navbar.Brand href={`${appRoute}/workWithUs`}>
                 <Button variant="warning">{L.t('subNav.workWithUs')}</Button>
               </Navbar.Brand>
               <Navbar.Brand href={`${appRoute}/events`}>

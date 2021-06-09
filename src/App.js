@@ -7,15 +7,18 @@ import AboutUs from './AboutUs';
 import Council from './Council/Council';
 import Projects from './Projects/Projects';
 import ContactUs from './ContactUs/ContactUs';
-
-// import WorkWithUs from './WorkWithUs/WorkWithUs';
-
+import FAQ from './FAQ/FAQ';
+import Events from './Events/Events';
+import WorkWithUs from './WorkWithUs/WorkWithUs';
 
 const routes = {
   aboutUs: `/about_us`,
   council: `/council`,
   projects: `/projects`,
-  projects: `/contact_us`,
+  contactUs: `/contact_us`,
+  faq: `/faq`,
+  events: `/events`,
+  workWithUs: `/workWithUs`,
   home: `/`
 };
 
@@ -30,7 +33,10 @@ function App() {
       <div className="content-grid">
         <HashRouter basename={publicUrl}>
           <Switch>
-          <Route path={routes.contactUs} component={ContactUs} />
+          <Route path={routes.workWithUs} component={WorkWithUs} />
+          <Route path={routes.events} component={Events} />
+            <Route path={routes.faq} component={FAQ} />
+            <Route path={routes.contactUs} component={ContactUs} />
             <Route path={routes.projects} component={Projects} />
             <Route path={routes.council} component={Council} />
             <Route path={routes.aboutUs} component={AboutUs} />
