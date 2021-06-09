@@ -17,7 +17,7 @@ const routes = {
   // council: `${appRoute}/work_with_us`
 };
 
-console.log('.....public url..update', process.env.PUBLIC_URL);
+console.log('.....public url..wthput switch update', process.env.PUBLIC_URL);
 
 function App() {
   return (
@@ -26,11 +26,9 @@ function App() {
       <Header type="sub-nav" />
       <div className="content-grid">
         <BrowserRouter basename={process.env.PUBLIC_URL}>
-          <Switch>
-            <Route path={routes.council} component={Council} />
-            <Route path={routes.aboutUs} component={AboutUs} />
-            <Route path='/home' component={Home} />
-          </Switch>
+          <Route path={routes.council} component={Council} />
+          <Route path={routes.aboutUs} component={AboutUs} />
+          <Route path='/home' component={Home} />
         </BrowserRouter>
       </div>
       <Footer/>
