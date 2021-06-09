@@ -17,6 +17,8 @@ const routes = {
   // council: `${appRoute}/work_with_us`
 };
 
+console.log('.....public url...', process.env.PUBLIC_URL);
+
 function App() {
   return (
     <div className="App">
