@@ -25,7 +25,7 @@ function App() {
       <Header type="main" />
       <Header type="sub-nav" />
       <div className="content-grid">
-        <BrowserRouter basename={process.env.PUBLIC_URL+ `/`}>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
           <Switch>
             <Route path={routes.council} component={Council} />
             <Route path={routes.aboutUs} component={AboutUs} />
