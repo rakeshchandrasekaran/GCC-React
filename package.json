@@ -2,7 +2,7 @@
   "name": "react-deploy",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://rakeshchandrasekaran.com/GCC-React/",
+  "homepage": "http://rakeshchandrasekaran.com/GCC-React/#/home",
   "dependencies": {
     "@splidejs/react-splide": "^0.4.4",
     "@testing-library/jest-dom": "^5.13.0",
