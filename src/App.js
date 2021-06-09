@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Header from './Header';
 import Footer from './Footer';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 import Home from './Home';
 import AboutUs from './AboutUs';
 import config from './config/config.json';
@@ -23,13 +23,13 @@ function App() {
       <Header type="main" />
       <Header type="sub-nav" />
       <div className="content-grid">
-        <BrowserRouter>
+        <HashRouter>
           <Switch>
             <Route path={routes.council} component={Council} />
             <Route path={routes.aboutUs} component={AboutUs} />
             <Route path='/' component={Home} />
           </Switch>
-        </BrowserRouter>
+        </HashRouter>
       </div>
       <Footer/>
     </div>
