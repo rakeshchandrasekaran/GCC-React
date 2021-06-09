@@ -86,6 +86,12 @@ const englishContent = {
     fourthRowSubHeader3: 'Join the Council',
     fourthRowDescription3: 'Selected candidates will be introduced to the rest of their peers in order to formulate the structure and approach of their verticals',
   },
+  projects:{
+    firstRowHeaders: 'Projects',
+    firstRowDescription: 'Get to know about all the projects that have been developed in collaboration with Chennai Innovation Hub.',
+    thirdRowHeader: 'Interested in Collaborating with C-Hub ?',
+    thirdRowButton:'Work With Us'
+  },
   footer:{
     firstColumnHeader: 'Chennai Innovation Hub',
     firstColumnAddress: [
@@ -186,6 +192,12 @@ const tamilContent = {
     fourthRowDescription2: 'பட்டியலிடப்பட்ட வேட்பாளர்கள் தங்கள் கருத்துக்களை சி-ஹப் தலைமைக் குழுவுடன் பகிர்ந்து கொள்ள அழைக்கப்படுவார்கள்',
     fourthRowSubHeader3: 'சபையில் சேரவும்',
     fourthRowDescription3: 'தேர்ந்தெடுக்கப்பட்ட வேட்பாளர்கள் தங்கள் செங்குத்துகளின் கட்டமைப்பையும் அணுகுமுறையையும் வகுப்பதற்காக மீதமுள்ள சகாக்களுக்கு அறிமுகப்படுத்தப்படுவார்கள்',
+  },
+  projects:{
+    firstRowHeaders: 'திட்டங்கள்',
+    firstRowDescription: 'சென்னை கண்டுபிடிப்பு மையத்துடன் இணைந்து உருவாக்கப்பட்டுள்ள அனைத்து திட்டங்களையும் பற்றி அறிந்து கொள்ளுங்கள்.',
+    thirdRowHeader: 'சி-ஹப் உடன் ஒத்துழைக்க ஆர்வமா ?',
+    thirdRowButton:'எங்களுடன் வேலை செய்யுங்கள்'
   },
   footer:{
     firstColumnHeader: 'சென்னை கண்டுபிடிப்பு மையம்',

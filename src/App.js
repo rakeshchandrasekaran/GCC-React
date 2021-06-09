@@ -1,17 +1,19 @@
 import React from 'react';
 import './App.css';
 import Header from './Header';
-import Footer from './Footer';
 import { HashRouter, Switch, Route } from 'react-router-dom';
 import Home from './Home';
 import AboutUs from './AboutUs';
 import Council from './Council/Council';
+import Projects from './Projects/Projects';
+
 // import WorkWithUs from './WorkWithUs/WorkWithUs';
 
 
 const routes = {
   aboutUs: `/about_us`,
   council: `/council`,
+  projects: `/projects`,
   home: `/`
 };
 
@@ -26,13 +28,14 @@ function App() {
       <div className="content-grid">
         <HashRouter basename={publicUrl}>
           <Switch>
+            <Route path={routes.projects} component={Projects} />
             <Route path={routes.council} component={Council} />
             <Route path={routes.aboutUs} component={AboutUs} />
             <Route path={routes.home} component={Home} />
           </Switch>
         </HashRouter>
       </div>
-      <Footer/>
+      
     </div>
   );
 }
