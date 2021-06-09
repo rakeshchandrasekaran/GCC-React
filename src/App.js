@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Header from './Header';
 import Footer from './Footer';
-import { HashRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Home from './Home';
 import AboutUs from './AboutUs';
 import config from './config/config.json';
@@ -12,8 +12,8 @@ import Council from './Council/Council';
 
 const appRoute = config.appRoute;
 const routes = {
-  aboutUs: `${appRoute}/about_us`,
-  council: `${appRoute}/council`
+  aboutUs: `/about_us`,
+  council: `/council`
   // council: `${appRoute}/work_with_us`
 };
 
@@ -23,13 +23,13 @@ function App() {
       <Header type="main" />
       <Header type="sub-nav" />
       <div className="content-grid">
-        <HashRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL+ `/`}>
           <Switch>
             <Route path={routes.council} component={Council} />
             <Route path={routes.aboutUs} component={AboutUs} />
-            <Route path='/' component={Home} />
+            <Route path='/home' component={Home} />
           </Switch>
-        </HashRouter>
+        </BrowserRouter>
       </div>
       <Footer/>
     </div>
