@@ -84,13 +84,13 @@ const Header = ({type}) => {
       ) :
       (
         <Navbar collapseOnSelect expand="lg" bg="light" variant="light" fixed="top" className="sub-nav-bar">
-          <Navbar.Brand href={`${appRoute}/home`}>
+          <Navbar.Brand href={`${appRoute}/`}>
             <h2 className="sub-nav-logo">C-Hub</h2>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <div className="sub-nav-links">
-              <Navbar.Brand href={`${appRoute}/home`}>
+              <Navbar.Brand href={`${appRoute}/`}>
                 <Button variant="warning">{L.t('subNav.home')}</Button>
               </Navbar.Brand>
               <Navbar.Brand href={`${appRoute}/about_us`}>
