@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Header from './Header';
+import Footer from './Footer';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Home from './Home';
 import AboutUs from './AboutUs';
@@ -30,6 +31,7 @@ function App() {
           </Switch>
         </BrowserRouter>
       </div>
+      <Footer/>
     </div>
   );
 }

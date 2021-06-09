@@ -85,6 +85,19 @@ const englishContent = {
     fourthRowDescription2: 'Shortlisted candidates will be invited to share their ideas with the C-hub Leadership team',
     fourthRowSubHeader3: 'Join the Council',
     fourthRowDescription3: 'Selected candidates will be introduced to the rest of their peers in order to formulate the structure and approach of their verticals',
+  },
+  footer:{
+    firstColumnHeader: 'Chennai Innovation Hub',
+    firstColumnAddress: [
+      'No 53, Raja Muthiah Rd,',
+      ' Kannappar Thidal, Periyamet,',
+      ' Chennai, Tamil Nadu 600003'
+    ],
+    secondColumnHeader: 'Helpful Links',
+    secondColumnFirstRow:'Sitemap',
+    secondColumnSecondRow:'Disclaimer',
+    secondColumnThirdRow: 'Privacy Policy',
+    secondColumnFourthRow: 'Contact Us'
   }
 };
 
@@ -173,6 +186,19 @@ const tamilContent = {
     fourthRowDescription2: 'பட்டியலிடப்பட்ட வேட்பாளர்கள் தங்கள் கருத்துக்களை சி-ஹப் தலைமைக் குழுவுடன் பகிர்ந்து கொள்ள அழைக்கப்படுவார்கள்',
     fourthRowSubHeader3: 'சபையில் சேரவும்',
     fourthRowDescription3: 'தேர்ந்தெடுக்கப்பட்ட வேட்பாளர்கள் தங்கள் செங்குத்துகளின் கட்டமைப்பையும் அணுகுமுறையையும் வகுப்பதற்காக மீதமுள்ள சகாக்களுக்கு அறிமுகப்படுத்தப்படுவார்கள்',
+  },
+  footer:{
+    firstColumnHeader: 'சென்னை கண்டுபிடிப்பு மையம்',
+    firstColumnAddress: [
+      'எண் 53, ராஜா முத்தியா சாலை,',
+      'கண்ணப்பர் திடால், பெரியமேட்,',
+      'சென்னை, தமிழ்நாடு 600003'
+    ],
+    secondColumnHeader: 'பயனுள்ள இணைப்புகள்',
+    secondColumnFirstRow:'தள வரைபடம்',
+    secondColumnSecondRow:'மறுப்பு',
+    secondColumnThirdRow: 'தனியுரிமைக் கொள்கை',
+    secondColumnFourthRow: 'எங்களை தொடர்பு கொள்ள'
   }
 };
 
