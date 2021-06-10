@@ -84,34 +84,34 @@ const Header = ({type}) => {
       ) :
       (
         <Navbar collapseOnSelect expand="lg" bg="light" variant="light" fixed="top" className="sub-nav-bar">
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href={`${appRoute}/`}>
             <h2 className="sub-nav-logo">C-Hub</h2>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <div className="sub-nav-links">
-              <Navbar.Brand href={appRoute}>
+              <Navbar.Brand href={`${appRoute}/`}>
                 <Button variant="warning">{L.t('subNav.home')}</Button>
               </Navbar.Brand>
               <Navbar.Brand href={`${appRoute}/about_us`}>
                 <Button variant="warning">{L.t('subNav.aboutUs')}</Button>
               </Navbar.Brand>
-              <Navbar.Brand href="#twitter">
+              <Navbar.Brand href={`${appRoute}/council`}>
                 <Button variant="warning">{L.t('subNav.council')}</Button>
               </Navbar.Brand>
-              <Navbar.Brand href="#youtube">
+              <Navbar.Brand href={`${appRoute}/workWithUs`}>
                 <Button variant="warning">{L.t('subNav.workWithUs')}</Button>
               </Navbar.Brand>
-              <Navbar.Brand href="#facebook">
+              <Navbar.Brand href={`${appRoute}/events`}>
                 <Button variant="warning">{L.t('subNav.events')}</Button>
               </Navbar.Brand>
-              <Navbar.Brand href="#instagram">
+              <Navbar.Brand href={`${appRoute}/projects`}>
                 <Button variant="warning">{L.t('subNav.projects')}</Button>
               </Navbar.Brand>
               <Navbar.Brand href={`${appRoute}/faq`}>
                 <Button variant="warning">{L.t('subNav.faq')}</Button>
               </Navbar.Brand>
-              <Navbar.Brand href="#youtube">
+              <Navbar.Brand href={`${appRoute}/contact_us`}>
                 <Button variant="warning">{L.t('subNav.contactUs')}</Button>
               </Navbar.Brand>
             </div>
