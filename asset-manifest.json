@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/GCC-React/static/css/main.d74ac189.chunk.css",
-    "main.js": "/GCC-React/static/js/main.3c38d253.chunk.js",
-    "main.js.map": "/GCC-React/static/js/main.3c38d253.chunk.js.map",
-    "runtime-main.js": "/GCC-React/static/js/runtime-main.c797c49a.js",
-    "runtime-main.js.map": "/GCC-React/static/js/runtime-main.c797c49a.js.map",
+    "main.css": "/GCC-React/static/css/main.7ca8e731.chunk.css",
+    "main.js": "/GCC-React/static/js/main.f3d23287.chunk.js",
+    "main.js.map": "/GCC-React/static/js/main.f3d23287.chunk.js.map",
+    "runtime-main.js": "/GCC-React/static/js/runtime-main.02df1b65.js",
+    "runtime-main.js.map": "/GCC-React/static/js/runtime-main.02df1b65.js.map",
     "static/css/2.11c54b2c.chunk.css": "/GCC-React/static/css/2.11c54b2c.chunk.css",
-    "static/js/2.5a7c0e67.chunk.js": "/GCC-React/static/js/2.5a7c0e67.chunk.js",
-    "static/js/2.5a7c0e67.chunk.js.map": "/GCC-React/static/js/2.5a7c0e67.chunk.js.map",
-    "static/js/3.2c888150.chunk.js": "/GCC-React/static/js/3.2c888150.chunk.js",
-    "static/js/3.2c888150.chunk.js.map": "/GCC-React/static/js/3.2c888150.chunk.js.map",
+    "static/js/2.c032c85d.chunk.js": "/GCC-React/static/js/2.c032c85d.chunk.js",
+    "static/js/2.c032c85d.chunk.js.map": "/GCC-React/static/js/2.c032c85d.chunk.js.map",
+    "static/js/3.8c3d0a36.chunk.js": "/GCC-React/static/js/3.8c3d0a36.chunk.js",
+    "static/js/3.8c3d0a36.chunk.js.map": "/GCC-React/static/js/3.8c3d0a36.chunk.js.map",
     "index.html": "/GCC-React/index.html",
     "static/css/2.11c54b2c.chunk.css.map": "/GCC-React/static/css/2.11c54b2c.chunk.css.map",
-    "static/css/main.d74ac189.chunk.css.map": "/GCC-React/static/css/main.d74ac189.chunk.css.map",
-    "static/js/2.5a7c0e67.chunk.js.LICENSE.txt": "/GCC-React/static/js/2.5a7c0e67.chunk.js.LICENSE.txt",
+    "static/css/main.7ca8e731.chunk.css.map": "/GCC-React/static/css/main.7ca8e731.chunk.css.map",
+    "static/js/2.c032c85d.chunk.js.LICENSE.txt": "/GCC-React/static/js/2.c032c85d.chunk.js.LICENSE.txt",
     "static/media/Chennai Hub.fcaefcab.png": "/GCC-React/static/media/Chennai Hub.fcaefcab.png",
     "static/media/Ellipse.9c0f6cd5.png": "/GCC-React/static/media/Ellipse.9c0f6cd5.png",
     "static/media/about_us_1_chief_innovation_officer.ad324ae9.png": "/GCC-React/static/media/about_us_1_chief_innovation_officer.ad324ae9.png",
@@ -42,6 +42,7 @@
     "static/media/current_event_image1.ef020676.png": "/GCC-React/static/media/current_event_image1.ef020676.png",
     "static/media/current_event_image2.9a2003f4.png": "/GCC-React/static/media/current_event_image2.9a2003f4.png",
     "static/media/current_event_image3.7508be61.png": "/GCC-React/static/media/current_event_image3.7508be61.png",
+    "static/media/FaqOpeningBanner.css": "/GCC-React/static/media/faq_main_banner.cdb0d8a4.png",
     "static/media/Home.css": "/GCC-React/static/media/main_banner_3.c722a84a.jpg",
     "static/media/main_logo.c440b9cb.svg": "/GCC-React/static/media/main_logo.c440b9cb.svg",
     "static/media/projects_card1.4c88da72.png": "/GCC-React/static/media/projects_card1.4c88da72.png",
@@ -51,10 +52,10 @@
     "static/media/students.a04387c8.png": "/GCC-React/static/media/students.a04387c8.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c797c49a.js",
+    "static/js/runtime-main.02df1b65.js",
     "static/css/2.11c54b2c.chunk.css",
-    "static/js/2.5a7c0e67.chunk.js",
-    "static/css/main.d74ac189.chunk.css",
-    "static/js/main.3c38d253.chunk.js"
+    "static/js/2.c032c85d.chunk.js",
+    "static/css/main.7ca8e731.chunk.css",
+    "static/js/main.f3d23287.chunk.js"
   ]
 }
