@@ -1,15 +1,17 @@
 import React from 'react';
-import L from '../utils/localization';
-import vector from '../images/common/Vector.png';
-// import script from './script';
+import './Faq.css';
+import FaqOpeningBanner from "./FaqOpeningBanner";
+import MoreFaqSection from "./MoreFaqSection";
+import QaSection from "./QaSection";
 
-const FAQ = () => (
+const Faq = () => (
 
- <div id="faqSection">
- <div class="faq-split" id="faqSplit1"></div>
- <div class="faq-split" id="faqSplit2"></div>
-</div>
+  <React.Fragment>
+    <FaqOpeningBanner />
+    <QaSection />
+    <MoreFaqSection />
+  </React.Fragment>
 
 );
 
-export default FAQ;
+export default Faq;

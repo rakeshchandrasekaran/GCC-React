@@ -7,7 +7,7 @@ import AboutUs from './AboutUs';
 import Council from './Council/Council';
 import Projects from './Projects/Projects';
 import ContactUs from './ContactUs/ContactUs';
-import Faq from "./Faq";
+import Faq from './Faq';
 import Events from './Events/Events';
 import WorkWithUs from './WorkWithUs/WorkWithUs';
 
