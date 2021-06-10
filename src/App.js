@@ -7,7 +7,7 @@ import AboutUs from './AboutUs';
 import Council from './Council/Council';
 import Projects from './Projects/Projects';
 import ContactUs from './ContactUs/ContactUs';
-import FAQ from './FAQ/FAQ';
+import Faq from "./Faq";
 import Events from './Events/Events';
 import WorkWithUs from './WorkWithUs/WorkWithUs';
 
@@ -35,7 +35,7 @@ function App() {
           <Switch>
           <Route path={routes.workWithUs} component={WorkWithUs} />
           <Route path={routes.events} component={Events} />
-            <Route path={routes.faq} component={FAQ} />
+            <Route path={routes.faq} component={Faq} />
             <Route path={routes.contactUs} component={ContactUs} />
             <Route path={routes.projects} component={Projects} />
             <Route path={routes.council} component={Council} />
@@ -44,7 +44,7 @@ function App() {
           </Switch>
         </HashRouter>
       </div>
-      
+
     </div>
   );
 }

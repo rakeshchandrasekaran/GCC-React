@@ -1,0 +1,10 @@
+.faqSection {
+    margin-top: 46px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.faq-split {
+    min-width: 524px;
+}
