@@ -108,7 +108,7 @@ const Header = ({type}) => {
               <Navbar.Brand href="#instagram">
                 <Button variant="warning">{L.t('subNav.projects')}</Button>
               </Navbar.Brand>
-              <Navbar.Brand href="#twitter">
+              <Navbar.Brand href={`${appRoute}/faq`}>
                 <Button variant="warning">{L.t('subNav.faq')}</Button>
               </Navbar.Brand>
               <Navbar.Brand href="#youtube">

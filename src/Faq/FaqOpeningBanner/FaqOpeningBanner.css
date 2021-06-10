@@ -1,0 +1,34 @@
+.background-banners {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-image: url("../../images/faq_main_banner.png");
+    min-height: 500px;
+}
+
+.caption {
+    position: absolute;
+    left: 15%;
+    top: 31%;
+    color: #000;
+    width: 387px;
+    text-align: left;
+}
+
+.caption h1 {
+    font-size: 45px;
+    font-weight: 600;
+    color: white;
+}
+
+.caption .hr-line {
+    border: 2px solid #DF7870;
+    background-color: #DF7870;
+    max-width: 75px;
+    margin-top: 0px;
+    margin-right: 3px;
+}
+
