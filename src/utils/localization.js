@@ -216,7 +216,8 @@ const englishContent = {
         locationText: 'Location',
         location:'College of Engineering, Guindy, Chennai - 600025'
       }
-    ]
+    ],
+    firstRowButton: 'Contact Us'
   },
   footer: {
     firstColumnHeader: 'Chennai Innovation Hub',
@@ -448,7 +449,8 @@ const tamilContent = {
         locationText: 'இடம்',
         location:'பொறியியல் கல்லூரி, கிண்டி, சென்னை - 600025'
       }
-    ]
+    ],
+    firstRowButton: 'எங்களை தொடர்பு கொள்ள'
   },
   footer: {
     firstColumnHeader: 'சென்னை கண்டுபிடிப்பு மையம்',
