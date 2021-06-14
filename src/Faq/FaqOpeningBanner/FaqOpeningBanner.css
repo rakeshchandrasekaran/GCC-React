@@ -6,9 +6,14 @@
     background-size: cover;
 
     background-image: url("../../images/faq_main_banner.png");
-    min-height: 500px;
+    min-height: 550px;
 }
 
+@media (max-width: 768px) {
+    .background-banners {
+        min-height: 350px;
+    }
+}
 .caption {
     position: absolute;
     left: 15%;
@@ -32,3 +37,9 @@
     margin-right: 3px;
 }
 
+@media (max-width: 768px) {
+    .caption {
+        width: unset;
+        max-width: 387px;
+    }
+}

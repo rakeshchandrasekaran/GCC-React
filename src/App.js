@@ -7,9 +7,10 @@ import AboutUs from './AboutUs';
 import Council from './Council/Council';
 import Projects from './Projects/Projects';
 import ContactUs from './ContactUs/ContactUs';
-import Faq from './Faq/Faq';
 import Events from './Events/Events';
 import WorkWithUs from './WorkWithUs/WorkWithUs';
+import FAQ from "./FAQ";
+import FooterSection from "./FooterSection";
 
 const routes = {
   aboutUs: `/about_us`,
@@ -35,7 +36,7 @@ function App() {
           <Switch>
             <Route path={routes.workWithUs} component={WorkWithUs} />
             <Route path={routes.events} component={Events} />
-            <Route path={routes.faq} component={Faq} />
+            <Route path={routes.faq} component={FAQ} />
             <Route path={routes.contactUs} component={ContactUs} />
             <Route path={routes.projects} component={Projects} />
             <Route path={routes.council} component={Council} />
@@ -44,7 +45,7 @@ function App() {
           </Switch>
         </HashRouter>
       </div>
-
+      <FooterSection />
     </div>
   );
 }
