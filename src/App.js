@@ -9,7 +9,7 @@ import Projects from './Projects/Projects';
 import ContactUs from './ContactUs/ContactUs';
 import Events from './Events/Events';
 import WorkWithUs from './WorkWithUs/WorkWithUs';
-import FAQ from "./FAQ";
+import FAQ from "./Faq";
 import FooterSection from "./FooterSection";
 
 const routes = {
