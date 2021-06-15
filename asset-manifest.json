@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/GCC-React/static/css/main.e64265cc.chunk.css",
-    "main.js": "/GCC-React/static/js/main.945ba4ae.chunk.js",
-    "main.js.map": "/GCC-React/static/js/main.945ba4ae.chunk.js.map",
+    "main.css": "/GCC-React/static/css/main.a01c2b27.chunk.css",
+    "main.js": "/GCC-React/static/js/main.00ca4dcc.chunk.js",
+    "main.js.map": "/GCC-React/static/js/main.00ca4dcc.chunk.js.map",
     "runtime-main.js": "/GCC-React/static/js/runtime-main.4ea49ced.js",
     "runtime-main.js.map": "/GCC-React/static/js/runtime-main.4ea49ced.js.map",
     "static/css/2.11c54b2c.chunk.css": "/GCC-React/static/css/2.11c54b2c.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.71301e17.chunk.js.map": "/GCC-React/static/js/3.71301e17.chunk.js.map",
     "index.html": "/GCC-React/index.html",
     "static/css/2.11c54b2c.chunk.css.map": "/GCC-React/static/css/2.11c54b2c.chunk.css.map",
-    "static/css/main.e64265cc.chunk.css.map": "/GCC-React/static/css/main.e64265cc.chunk.css.map",
+    "static/css/main.a01c2b27.chunk.css.map": "/GCC-React/static/css/main.a01c2b27.chunk.css.map",
     "static/js/2.e2671fe0.chunk.js.LICENSE.txt": "/GCC-React/static/js/2.e2671fe0.chunk.js.LICENSE.txt",
     "static/media/Chennai Hub.fcaefcab.png": "/GCC-React/static/media/Chennai Hub.fcaefcab.png",
     "static/media/Ellipse.9c0f6cd5.png": "/GCC-React/static/media/Ellipse.9c0f6cd5.png",
@@ -57,7 +57,7 @@
     "static/js/runtime-main.4ea49ced.js",
     "static/css/2.11c54b2c.chunk.css",
     "static/js/2.e2671fe0.chunk.js",
-    "static/css/main.e64265cc.chunk.css",
-    "static/js/main.945ba4ae.chunk.js"
+    "static/css/main.a01c2b27.chunk.css",
+    "static/js/main.00ca4dcc.chunk.js"
   ]
 }
