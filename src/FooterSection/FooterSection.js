@@ -21,7 +21,7 @@ const FooterSection = ({type}) => {
           </div>
           <div className='col-md-6 mt-md-0 mt-3 footer-column-section'>
             <div>
-              <div style={{'padding-bottom': '3px', 'fontWeight': 500}}>Stay Connected</div>
+              <div style={{'paddingBottom': '3px', 'fontWeight': 500}}>Stay Connected</div>
               <form><input placeholder='Enter E-mail ID'/>
                 <button>Submit</button>
               </form>
