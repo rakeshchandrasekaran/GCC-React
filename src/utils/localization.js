@@ -180,41 +180,35 @@ const englishContent = {
   events: {
     firstRowHeader: 'Events',
     firstEventData: [
-      { 
+      {
         name: 'Hackathon',
         header: 'Smart City Hackathon',
-        description:'Come up with technology solutions to make our cities smarter, and participate in our 12-hour hackathon that will be held in Chennai, one of the first few smart cities in India. This hackathon is being organised by the Chennai Innovation Hub along with Greater Chennai Corporation. For further queries mail us at “chub.gcc@gmail.com” .'
+        description: 'Come up with technology solutions to make our cities smarter, and participate in our 12-hour hackathon that will be held in Chennai, one of the first few smart cities in India. This hackathon is being organised by the Chennai Innovation Hub along with Greater Chennai Corporation. For further queries mail us at “chub.gcc@gmail.com” .',
+        eventDateTeamSizeText: 'Team Size',
+        eventDateTeanSize: '2-4 Members',
+        eventDateRegistrationFeeText: 'Registration Fee',
+        eventDateRegistrationFee: 'Free',
+        eventDateDateText: 'Date',
+        eventDateDate: '15th June 2021',
+        eventDateTimeText: 'Time',
+        eventDateTime: '10AM - 10PM',
+        eventDateLocationText: 'Location',
+        eventDateLocation: 'Information Center, Egmore, Chennai - 600002'
       },
       {
-        name:'Networking Event',
-        header:'Students Networking Event',
-        description:'Participate in the upcoming student networking event to connect with some of the brightest minds in the city.For further queries mail us at “chub.gcc@gmail.com” '
-      }
-    ],
-    firstEventDate: [
-      {
-        teamSizeText: 'Team Size',
-        teanSize: '2-4 Members',
-        registrationFeeText :'Registration Fee',
-        registrationFee:'Free',
-        dateText: 'Date',
-        date:'15th June 2021',
-        timeText: 'Time',
-        time:'10AM - 10PM',
-        locationText: 'Location',
-        location:'Information Center, Egmore, Chennai - 600002'
-      },
-      {
-        teamSizeText: 'Team Size',
-        teanSize: 'No Limit',
-        registrationFeeText :'Registration Fee',
-        registrationFee:'Free',
-        dateText: 'Date',
-        date:'25th June 2021',
-        timeText: 'Time',
-        time:'10AM - 1PM',
-        locationText: 'Location',
-        location:'College of Engineering, Guindy, Chennai - 600025'
+        name: 'Networking Event',
+        header: 'Students Networking Event',
+        description: 'Participate in the upcoming student networking event to connect with some of the brightest minds in the city.For further queries mail us at “chub.gcc@gmail.com” ',
+        eventDateTeamSizeText: 'Team Size',
+        eventDateTeanSize: 'No Limit',
+        eventDateRegistrationFeeText: 'Registration Fee',
+        eventDateRegistrationFee: 'Free',
+        eventDateDateText: 'Date',
+        eventDateDate: '25th June 2021',
+        eventDateTimeText: 'Time',
+        eventDateTime: '10AM - 1PM',
+        eventDateLocationText: 'Location',
+        eventDateLocation: 'College of Engineering, Guindy, Chennai - 600025'
       }
     ],
     firstRowButton: 'Contact Us'
@@ -413,41 +407,35 @@ const tamilContent = {
   events: {
     firstRowHeader: 'நிகழ்வுகள்',
     firstEventData: [
-      { 
+      {
         name: 'ஹாகாதான்',
         header: 'ஸ்மார்ட் சிட்டி ஹாகாதான்',
-        description:'எங்கள் நகரங்களை சிறந்ததாக்க தொழில்நுட்ப தீர்வுகளைக் கொண்டு வாருங்கள், இந்தியாவின் முதல் சில ஸ்மார்ட் நகரங்களில் ஒன்றான சென்னையில் நடைபெறவுள்ள எங்கள் 12 மணி நேர ஹேக்கத்தானில் பங்கேற்கவும். இந்த ஹேக்கத்தானை கிரேட்டர் சென்னை கார்ப்பரேஷனுடன் சேர்ந்து சென்னை புதுமை மையமும் ஏற்பாடு செய்து வருகிறது. மேலும் கேள்விகளுக்கு “chub.gcc@gmail.com” என்ற மின்னஞ்சலில் எங்களுக்கு மின்னஞ்சல் அனுப்புங்கள்.'
+        description: 'எங்கள் நகரங்களை சிறந்ததாக்க தொழில்நுட்ப தீர்வுகளைக் கொண்டு வாருங்கள், இந்தியாவின் முதல் சில ஸ்மார்ட் நகரங்களில் ஒன்றான சென்னையில் நடைபெறவுள்ள எங்கள் 12 மணி நேர ஹேக்கத்தானில் பங்கேற்கவும். இந்த ஹேக்கத்தானை கிரேட்டர் சென்னை கார்ப்பரேஷனுடன் சேர்ந்து சென்னை புதுமை மையமும் ஏற்பாடு செய்து வருகிறது. மேலும் கேள்விகளுக்கு “chub.gcc@gmail.com” என்ற மின்னஞ்சலில் எங்களுக்கு மின்னஞ்சல் அனுப்புங்கள்.',
+        eventDateTeamSizeText: 'அணி அளவு',
+        eventDateTeanSize: '2-4 உறுப்பினர்கள்',
+        eventDateRegistrationFeeText: 'பதிவு கட்டணம்',
+        eventDateRegistrationFee: 'இலவசம்',
+        eventDateDateText: 'தேதி',
+        eventDateDate: '15th ஜூன் 2021',
+        eventDateTimeText: 'நேரம்',
+        eventDateTime: '10AM - 10PM',
+        eventDateLocationText: 'இடம்',
+        eventDateLocation: 'தகவல் மையம், எக்மோர், சென்னை - 600002'
       },
       {
-        name:'நெட்வொர்க்கிங் நிகழ்வு',
-        header:'மாணவர்கள் நெட்வொர்க்கிங் நிகழ்வு',
-        description:'நகரத்தின் பிரகாசமான மனதுடன் இணைக்க வரவிருக்கும் மாணவர் வலைப்பின்னல் நிகழ்வில் பங்கேற்கவும். மேலும் கேள்விகளுக்கு "chub.gcc@gmail.com" '
-      }
-    ],
-    firstEventDate: [
-      {
-        teamSizeText: 'அணி அளவு',
-        teanSize: '2-4 உறுப்பினர்கள்',
-        registrationFeeText :'பதிவு கட்டணம்',
-        registrationFee:'இலவசம்',
-        dateText: 'தேதி',
-        date:'15th ஜூன் 2021',
-        timeText: 'நேரம்',
-        time:'10AM - 10PM',
-        locationText: 'இடம்',
-        location:'தகவல் மையம், எக்மோர், சென்னை - 600002'
-      },
-      {
-        teamSizeText: 'அணி அளவு',
-        teanSize: 'எல்லை இல்லாத',
-        registrationFeeText :'பதிவு கட்டணம்',
-        registrationFee:'இலவசம்',
-        dateText: 'தேதி',
-        date:'25th ஜூன் 2021',
-        timeText: 'நேரம்',
-        time:'10AM - 1PM',
-        locationText: 'இடம்',
-        location:'பொறியியல் கல்லூரி, கிண்டி, சென்னை - 600025'
+        name: 'நெட்வொர்க்கிங் நிகழ்வு',
+        header: 'மாணவர்கள் நெட்வொர்க்கிங் நிகழ்வு',
+        description: 'நகரத்தின் பிரகாசமான மனதுடன் இணைக்க வரவிருக்கும் மாணவர் வலைப்பின்னல் நிகழ்வில் பங்கேற்கவும். மேலும் கேள்விகளுக்கு "chub.gcc@gmail.com" ',
+        eventDateTeamSizeText: 'அணி அளவு',
+        eventDateTeanSize: 'எல்லை இல்லாத',
+        eventDateRegistrationFeeText: 'பதிவு கட்டணம்',
+        eventDateRegistrationFee: 'இலவசம்',
+        eventDateDateText: 'தேதி',
+        eventDateDate: '25th ஜூன் 2021',
+        eventDateTimeText: 'நேரம்',
+        eventDateTime: '10AM - 1PM',
+        eventDateLocationText: 'இடம்',
+        eventDateLocation: 'பொறியியல் கல்லூரி, கிண்டி, சென்னை - 600025'
       }
     ],
     firstRowButton: 'எங்களை தொடர்பு கொள்ள'
@@ -466,7 +454,6 @@ const tamilContent = {
     secondColumnFourthRow: 'எங்களை தொடர்பு கொள்ள'
   }
 };
-
 
 const translate = (contentPath, values) => {
   const language = window.sessionStorage.getItem('language');
