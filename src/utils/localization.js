@@ -116,7 +116,7 @@ const englishContent = {
             ]
           }
         ]
-      },{
+      }, {
         title: 'Hackathons',
         image: './images/workWithUs/hackathon.png',
         description: 'Hackathons are the best way to bring together brains and brawns in helping a community solve problems that matter. The problem statements will be formulated by the leadership team at the C-hub. The participating teams will have the opportunity to also pitch their ideas to other investors in networking events conducted by the Greater Chennai Corporation. The winning ideas that are relevant and implementable by the GCC will be absorbed and the teams are welcome to work with the Corporation to realize these ideas. This platform would be a great way for the citizens and the government to work together in solving real time problems across the said verticals. This event would promote collaboration and will be a way towards looking at bringing different stakeholders to approach any problem through a holistic lens.',
@@ -131,7 +131,7 @@ const englishContent = {
             ]
           }
         ]
-      },{
+      }, {
         title: 'Networking Events',
         image: './images/workWithUs/networking.png',
         description: 'The power of a community is deciphered through the network its established. This crisis and the last ones were good examples to explain how we have always showed up as a city for one another. It is time we make this networking and creating meaningful connections a habit. The Greater Chennai Corporation will organize Networking events which will help all the stakeholders in the ecosystem make meaningful connections. This will foster collaborations, allow all of us to share our ideas and make improvements together.',
@@ -144,7 +144,7 @@ const englishContent = {
             ]
           }
         ]
-      },{
+      }, {
         title: 'Research & Development',
         image: './images/workWithUs/research.png',
         description: 'Research and development is an important activity that allows any entity to continuously iterate and make improvements. This horizontal collaborates on research and development with institutions specializing in science, technology and management. The Greater Chennai Corporation can support partners in various capacities right from sharing data, resources relevant for the said research. Institutions will be encouraged to approach the Greater Chennai Corporation for partnerships.',
@@ -156,7 +156,7 @@ const englishContent = {
             ]
           }
         ]
-      },{
+      }, {
         title: 'Internships & Fellowships',
         image: './images/workWithUs/internship.png',
         description: 'The greater chennai Corporation invites students to apply for internships and fellowships at the C-hub. The GCC offers both paid and unpaid internships based on the profiles of the students. Students in their final year of College with an internship requirement can choose to work with the GCC on the ongoing projects. Interns will be engaged in real time projects for them in order to create an experiential internship. Interns are welcome to work with any of the departments working out of the GCC.Depending on the experience of the individuals, an appropriate stipend can be arranged.This experience will allow interns to understand real time working of the system and support them to be part of the system. This experience will also open up a network and new avenues that can be explored.',
@@ -398,6 +398,91 @@ const tamilContent = {
     fourthRowDescription2: 'பட்டியலிடப்பட்ட வேட்பாளர்கள் தங்கள் கருத்துக்களை சி-ஹப் தலைமைக் குழுவுடன் பகிர்ந்து கொள்ள அழைக்கப்படுவார்கள்',
     fourthRowSubHeader3: 'சபையில் சேரவும்',
     fourthRowDescription3: 'தேர்ந்தெடுக்கப்பட்ட வேட்பாளர்கள் தங்கள் செங்குத்துகளின் கட்டமைப்பையும் அணுகுமுறையையும் வகுப்பதற்காக மீதமுள்ள சகாக்களுக்கு அறிமுகப்படுத்தப்படுவார்கள்',
+  },
+  workWithUs: {
+    bannerTitle: 'எங்களுடன் வேலை செய்யுங்கள்',
+    bannerSubTitle: 'சென்னை கண்டுபிடிப்பு மையத்துடன் ஒத்துழைத்து, செங்குத்துகளில் பல்வேறு திட்டங்களில் பணிபுரியும் வாய்ப்பைப் பெறுங்கள்.',
+    mailContent: 'எங்களுக்கு மின்னஞ்சல் அனுப்புங்கள்',
+    mailId: 'chub.gcc@gmail.com',
+    categories: [
+      {
+        title: 'சேஞ்ச்மேக்கரின் திட்டம்',
+        image: './images/workWithUs/changeMaker.png',
+        description: 'மாற்றம் வீட்டிலேயே தொடங்குகிறது, மேலும் எங்கள் திட்டத்தின் மூலம் அடிமட்ட அளவிலான மாற்றங்களைக் கொண்டு வர விரும்புகிறோம். கல்வி நிறுவனங்கள் புதுமை உரையாடலின் ஒரு பகுதியாக இருக்க வேண்டும், இந்த காரணத்திற்காகவே, இந்த நகரத்தின் எதிர்காலத்தை அவர்களுடன் ஒருங்கிணைக்க எங்கள் மாணவர்களை ஊக்குவிக்கும் ஒரு பிரத்யேக திட்டத்தை உருவாக்க நாங்கள் விரும்பினோம். <br> <br> சேஞ்ச்மேக்கரின் திட்டம் பிரத்தியேகமாக நகரத்தில் சி-ஹப்பிற்கான கல்வி ஈடுபாடுகளை உருவாக்குவதில் கவனம் செலுத்துகிறது. இந்த திட்டம் சென்னையில் உள்ள கல்லூரிகளுடன் தொடர்புகளை ஏற்படுத்துதல் மற்றும் உருவாக்குவது குறித்து கவனம் செலுத்தும். அடிமட்ட மட்டத்தில் புதுமைகளை வளர்ப்பதற்கு பள்ளிகளுடன் ஒத்துழைக்க இந்த பிரிவு திறந்திருக்கும். இறுதி ஆண்டு மாணவர்கள் தங்கள் இளங்கலைப் படிப்பைத் தொடர்ந்தால், கிரேட்டர் சென்னை கார்ப்பரேஷன் வெளியிட்டுள்ள சிக்கல் அறிக்கைகளை அவர்களின் இறுதி ஆண்டு திட்டங்களுக்கு பயன்படுத்தலாம். கிரேட்டர் சென்னை கார்ப்பரேஷனுடன் சேர்ந்து பிஎச்.டி மாணவர்கள் தங்கள் ஆராய்ச்சியை மேற்கொள்ள தரவு தொகுப்புகள் மற்றும் பொருத்தமான ஆதாரங்கள் கிடைக்கும். சேஞ்ச்மேக்கரின் திட்டம் என்எஸ்எஸ் / என்சிசி திட்டங்களில் சேர்ந்த மாணவர்களை அவர்களின் பாடத்திட்டத்தின் ஒரு பகுதியாக பட்டியலிடப்பட்ட சமூகப் பணிகளில் பங்கேற்க அழைக்கிறது.',
+        subTitle: 'மாற்றத்தை உருவாக்குபவராக இருக்க விரும்புகிறீர்களா அல்லது ஒன்றை அறிய விரும்புகிறீர்களா? <br> நடவடிக்கை எடுக்க வேண்டிய நேரம் இது!',
+        participants: [
+          {
+            participantTitle: 'மாணவர்கள்',
+            participantImage: './images/workWithUs/student.png',
+            steps: [
+              'சேர விரும்பும் மாணவர் உங்கள் பெயர், வயது, தற்போதைய கல்வி அனுபவம் மற்றும் திட்டத்தில் சேர உந்துதல் மற்றும் <span> "சேஞ்ச்மேக்கர் திட்டத்தில் ஆர்வமுள்ளவர்" </ span> என்ற பாட வரியுடன் எங்களுக்கு எழுதுங்கள்',
+              'உங்கள் ஆய்வறிக்கையில் எங்களுடன் பணியாற்ற விரும்பும் இறுதி ஆண்டு இளங்கலை மாணவர் எழுதலாம் <span> "ஜி.சி.சி உடன் இளங்கலை ஆய்வறிக்கை திட்டத்தை மேற்கொள்ள ஆர்வம்" </ span>',
+              'உங்கள் ஆராய்ச்சியில் ஒத்துழைக்க விரும்பும் பி.எச்.டி மாணவர்கள் <span> "ஜி.சி.சி உடன் எனது பிஎச்.டி ஆய்வறிக்கையில் பணியாற்ற ஆர்வமாக உள்ளனர்" </ span>'
+            ]
+          },
+          {
+            participantTitle: 'பள்ளிகள் மற்றும் பல்கலைக்கழகங்கள்',
+            participantImage: './images/workWithUs/institute.png',
+            steps: [
+              'தங்கள் வளாகத்தில் புதுமை மையத்தை அமைப்பதில் ஆர்வமுள்ள பள்ளிகள் / பல்கலைக்கழகங்கள் <span> "ஒரு கண்டுபிடிப்பு மையத்தை (பள்ளி / கல்லூரியின் பெயர்) அமைக்க ஆர்வமாக உள்ளன" </ span> ',
+              'வேறு ஏதேனும் தொடர்புடைய விசாரணைகள் அல்லது ஒத்துழைப்புக்கான யோசனைகளுக்கு <span> "சேஞ்ச்மேக்கரின் திட்டத்தின் மூலம் ஜி.சி.சி உடன் ஒத்துழைக்க ஆர்வமாக உள்ளது" </ span>'
+            ]
+          }
+        ]
+      }, {
+        title: 'ஹேக்கத்தான்கள்',
+        image: './images/workWithUs/hackathon.png',
+        description: 'ஒரு சமூகத்திற்கு முக்கியமான சிக்கல்களைத் தீர்க்க உதவுவதில் மூளை மற்றும் ப்ரான்ஸை ஒன்றிணைப்பதற்கான சிறந்த வழி ஹாகாதான்கள். சி-ஹப்பில் தலைமைக் குழுவால் சிக்கல் அறிக்கைகள் வகுக்கப்படும். கிரேட்டர் சென்னை கார்ப்பரேஷன் நடத்திய நெட்வொர்க்கிங் நிகழ்வுகளில் பங்கேற்கும் அணிகள் தங்கள் கருத்துக்களை மற்ற முதலீட்டாளர்களிடமும் வழங்குவதற்கான வாய்ப்பைப் பெறும். ஜி.சி.சி யால் பொருத்தமான மற்றும் செயல்படுத்தக்கூடிய வெற்றிகரமான யோசனைகள் உள்வாங்கப்படும், மேலும் இந்த யோசனைகளை உணர நிறுவனத்துடன் இணைந்து பணியாற்ற அணிகள் வரவேற்கப்படுகின்றன. இந்த தளம் குடிமக்களும் அரசாங்கமும் ஒன்றிணைந்து செயல்படுவதற்கான சிறந்த வழியாகும். இந்த நிகழ்வு ஒத்துழைப்பை ஊக்குவிக்கும் மற்றும் ஒரு முழுமையான லென்ஸ் மூலம் எந்தவொரு பிரச்சினையையும் அணுக வெவ்வேறு பங்குதாரர்களைக் கொண்டுவருவதற்கான ஒரு வழியாகும்.',
+        subTitle: 'சேர எப்படி?',
+        participants: [
+          {
+            steps: [
+              'எங்கள் வரவிருக்கும் ஹேக்கத்தானில் பங்கேற்க ஆர்வமா?  <a href="https://www.google.com/" target="_blank">பதிவு <img alt="Register" src="./images/workWithUs/register.png"></a>',
+              'ஜி.சி.சி உடன் ஹாக்தானை ஹோஸ்ட் செய்ய ஆர்வமா? பொருள் வரியுடன் எங்களுக்கு எழுதுங்கள் <span>"ஜி.சி.சி உடன் இணை ஹோஸ்ட் ஹாகாதனுக்கு ஆர்வம்"</span> ',
+              'ஜி.சி.சி உடன் சிக்கல் அறிக்கைகளை வகுக்க நீங்கள் ஆர்வமாக உள்ளீர்களா? பொருள் வரியுடன் எங்களுக்கு எழுதுங்கள் <span>"ஹாகாதான் சிக்கல் அறிக்கைகளுக்கு ஜி.சி.சி உடன் பணிபுரிய ஆர்வம்"</span>',
+              'வேறு எந்த கூட்டாண்மைக்கும்: தயவுசெய்து பொருள் வரியுடன் எங்களுக்கு எழுதுங்கள் <span>"கூட்டு: ஹாகாதான்"</span> ',
+            ]
+          }
+        ]
+      }, {
+        title: 'நெட்வொர்க்கிங் நிகழ்வுகள்',
+        image: './images/workWithUs/networking.png',
+        description: 'ஒரு சமூகத்தின் சக்தி அது நிறுவப்பட்ட நெட்வொர்க் மூலம் புரிந்து கொள்ளப்படுகிறது. இந்த நெருக்கடியும் கடைசி விஷயங்களும் ஒருவருக்கொருவர் நகரமாக நாம் எப்போதுமே எப்படிக் காட்டியிருக்கிறோம் என்பதை விளக்குவதற்கு நல்ல எடுத்துக்காட்டுகள். இந்த நெட்வொர்க்கிங் மற்றும் அர்த்தமுள்ள இணைப்புகளை ஒரு பழக்கமாக உருவாக்குவதற்கான நேரம் இது. கிரேட்டர் சென்னை கார்ப்பரேஷன் நெட்வொர்க்கிங் நிகழ்வுகளை ஏற்பாடு செய்யும், இது சுற்றுச்சூழல் அமைப்பில் உள்ள அனைத்து பங்குதாரர்களுக்கும் அர்த்தமுள்ள இணைப்புகளை ஏற்படுத்த உதவும். இது ஒத்துழைப்புகளை வளர்க்கும், நம் அனைவரையும் எங்கள் யோசனைகளைப் பகிர்ந்து கொள்ளவும் மேம்பாடுகளைச் செய்யவும் அனுமதிக்கும்.',
+        subTitle: 'சேர எப்படி?',
+        participants: [
+          {
+            steps: [
+              'உங்கள் இடத்தில் ஒரு நெட்வொர்க்கிங் நிகழ்வை நடத்த விரும்புகிறீர்களா? பொருள் வரியுடன் எங்களுக்கு எழுதுங்கள் <span>"கூட்டாண்மை: நெட்வொர்க்கிங் நிகழ்வு"</span>',
+              'எங்களுடன் ஒரு நெட்வொர்க்கிங் நிகழ்வை நிர்வகிக்க விரும்புகிறீர்களா? பொருள் வரியுடன் எங்களுக்கு எழுதுங்கள் <span>"ஜி.சி.சி உடன் நெட்வொர்க்கிங் நிகழ்வை நிர்வகிக்க ஆர்வம்"</span>'
+            ]
+          }
+        ]
+      }, {
+        title: 'ஆராய்ச்சி மற்றும் மேம்பாடு',
+        image: './images/workWithUs/research.png',
+        description: 'ஆராய்ச்சி மற்றும் மேம்பாடு என்பது ஒரு முக்கியமான செயலாகும், இது எந்தவொரு நிறுவனத்தையும் தொடர்ச்சியாக மீண்டும் செயல்படுத்தவும் மேம்பாடுகளை செய்யவும் அனுமதிக்கிறது. இந்த கிடைமட்டம் அறிவியல், தொழில்நுட்பம் மற்றும் நிர்வாகத்தில் நிபுணத்துவம் பெற்ற நிறுவனங்களுடன் ஆராய்ச்சி மற்றும் மேம்பாட்டுடன் ஒத்துழைக்கிறது. கிரேட்டர் சென்னை கார்ப்பரேஷன் தரவுகளைப் பகிர்வதிலிருந்து பல்வேறு திறன்களில் கூட்டாளர்களை ஆதரிக்க முடியும், கூறப்பட்ட ஆராய்ச்சிக்கு பொருத்தமான வளங்கள். கூட்டாண்மைக்காக கிரேட்டர் சென்னை கார்ப்பரேஷனை அணுக நிறுவனங்கள் ஊக்குவிக்கப்படும்.',
+        subTitle: 'சேர எப்படி?',
+        participants: [
+          {
+            steps: [
+              'பொருள் வரியுடன் ஒரு கூட்டாளராக மாற எங்களுக்கு எழுதுங்கள் <span>"கூட்டாண்மை: ஆராய்ச்சி மற்றும் மேம்பாடு"</span>'
+            ]
+          }
+        ]
+      }, {
+        title: 'இன்டர்ன்ஷிப் & பெலோஷிப்',
+        image: './images/workWithUs/internship.png',
+        description: 'பெரிய சென்னை கார்ப்பரேஷன் சி-ஹப்பில் இன்டர்ன்ஷிப் மற்றும் பெல்லோஷிப்பிற்கு விண்ணப்பிக்க மாணவர்களை அழைக்கிறது. ஜி.சி.சி மாணவர்களின் சுயவிவரங்களின் அடிப்படையில் கட்டண மற்றும் செலுத்தப்படாத இன்டர்ன்ஷிப்பை வழங்குகிறது. இன்டர்ன்ஷிப் தேவை கொண்ட கல்லூரியின் இறுதி ஆண்டு மாணவர்கள், ஜி.சி.சி உடன் இணைந்து செயல்படும் திட்டங்களில் பணியாற்ற தேர்வு செய்யலாம். ஒரு அனுபவமிக்க இன்டர்ன்ஷிப்பை உருவாக்குவதற்காக இன்டர்ன்ஸ் அவர்களுக்கான நிகழ்நேர திட்டங்களில் ஈடுபடுவார். ஜி.சி.சியில் பணிபுரியும் எந்தவொரு துறையுடனும் பணிபுரிய பயிற்சியாளர்கள் வரவேற்கப்படுகிறார்கள். தனிநபர்களின் அனுபவத்தைப் பொறுத்து, பொருத்தமான உதவித்தொகையை ஏற்பாடு செய்யலாம். இந்த அனுபவம் பயிற்சியாளர்களுக்கு கணினியின் நிகழ்நேர செயல்பாட்டைப் புரிந்துகொள்வதற்கும் அவர்களை அங்கம் வகிப்பதற்கும் உதவும். அமைப்பின். இந்த அனுபவம் ஒரு நெட்வொர்க் மற்றும் ஆராயக்கூடிய புதிய வழிகளையும் திறக்கும்.',
+        subTitle: 'சேர எப்படி?',
+        participants: [
+          {
+            steps: [
+              'எங்களுடன் பயிற்சி பெற வேண்டுமா? பொருள் அனுபவத்துடன் உங்கள் விண்ணப்பத்துடன் உங்கள் அனுபவம் மற்றும் ஆர்வங்களுடன் எங்களுக்கு எழுதுங்கள் <span>"ஜி.சி.சி உடன் பயிற்சி பெற ஆர்வம்"</span>'
+            ]
+          }
+        ]
+      }
+    ],
   },
   projects: {
     firstRowHeaders: 'திட்டங்கள்',
