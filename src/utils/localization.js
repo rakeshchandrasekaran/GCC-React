@@ -86,6 +86,91 @@ const englishContent = {
     fourthRowSubHeader3: 'Join the Council',
     fourthRowDescription3: 'Selected candidates will be introduced to the rest of their peers in order to formulate the structure and approach of their verticals',
   },
+  workWithUs: {
+    bannerTitle: 'Work with Us',
+    bannerSubTitle: 'Collaborate with Chennai Innovation Hub and get an opportunity to work on various projects across verticals.',
+    mailContent: 'Mail us at',
+    mailId: 'chub.gcc@gmail.com',
+    categories: [
+      {
+        title: 'Changemaker’s Program',
+        image: './images/workWithUs/changeMaker.png',
+        description: 'Change begins at home and we want to be able to bring about grassroot level changes through our program. Academic entities must very much be a part of the innovation conversation and it is for this reason, we wanted to create an exclusive program where we encourage our students to integrate this city’s future with their own.<br><br>The Changemaker’s program exclusively focuses on creating academic engagements for C-Hub in the city. This program will focus on establishing and building connections with the colleges in Chennai. This wing will be open to collaborate with schools to foster innovation at grassroot level. Final year students pursuing their Bachelor’s can use existing problem statements put out by the Greater Chennai Corporation for their final year projects. The data sets and appropriate resources will be available for the PhD students to carry out their research along with the Greater Chennai Corporation. The Changemaker’s program also invites students enrolled in NSS/NCC programs to participate in social work listed as part of their curriculum.',
+        subTitle: 'Want to be a change maker or know one? <br>It is time to take action!',
+        participants: [
+          {
+            participantTitle: 'Students',
+            participantImage: './images/workWithUs/student.png',
+            steps: [
+              'Student who wants to join include your name, age, current education experience and your motivation to join the program and Write to us with the subject line <span>"Interested in the Changemaker Program"</span>',
+              'Final year Bachelor’s student who would like to work with us for your thesis can write to is with the subject line <span>"Interested to carry out Bachelor thesis project with GCC"</span>',
+              'PhD students who want to collaborate on your research can write to us with the subject line <span>"Interested to work on my PhD thesis with GCC"</span>'
+            ]
+          },
+          {
+            participantTitle: 'Schools & Universities',
+            participantImage: './images/workWithUs/institute.png',
+            steps: [
+              'Schools/Universities who are interested in setting up innovation hub in their campus can write to us with the subject line <span>"Interested to set up an Innovation Hub in (school/college’s name)"</span>',
+              'For any other relevant enquiries or ideas for collaboration write to us with the subject line <span>"Interested to Collaborate with GCC through the Changemaker’s program"</span>'
+            ]
+          }
+        ]
+      },{
+        title: 'Hackathons',
+        image: './images/workWithUs/hackathon.png',
+        description: 'Hackathons are the best way to bring together brains and brawns in helping a community solve problems that matter. The problem statements will be formulated by the leadership team at the C-hub. The participating teams will have the opportunity to also pitch their ideas to other investors in networking events conducted by the Greater Chennai Corporation. The winning ideas that are relevant and implementable by the GCC will be absorbed and the teams are welcome to work with the Corporation to realize these ideas. This platform would be a great way for the citizens and the government to work together in solving real time problems across the said verticals. This event would promote collaboration and will be a way towards looking at bringing different stakeholders to approach any problem through a holistic lens.',
+        subTitle: 'How to Join ?',
+        participants: [
+          {
+            steps: [
+              'Interested to participate in our upcoming hackathon?  <a href="https://www.google.com/" target="_blank">Register <img alt="Register" src="./images/workWithUs/register.png"></a>',
+              'Interested in co-hosting a Hackthon with GCC? Write to us with the Subject line <span>"Interested to Co-host Hackathon with GCC"</span> ',
+              'Are you interested to formulate problem statements with the GCC? Write to us with the Subject line <span>"Interested to work with GCC for Hackathon Problem statements"</span>',
+              'For any other partnerships: Please write to us with the subject line <span>"Partnership:Hackathon"</span> ',
+            ]
+          }
+        ]
+      },{
+        title: 'Networking Events',
+        image: './images/workWithUs/networking.png',
+        description: 'The power of a community is deciphered through the network its established. This crisis and the last ones were good examples to explain how we have always showed up as a city for one another. It is time we make this networking and creating meaningful connections a habit. The Greater Chennai Corporation will organize Networking events which will help all the stakeholders in the ecosystem make meaningful connections. This will foster collaborations, allow all of us to share our ideas and make improvements together.',
+        subTitle: 'How to Join ?',
+        participants: [
+          {
+            steps: [
+              'Do you want to host a Networking event at your venue? Write to us with subject line as <span>"Partnerships: Networking Event"</span>',
+              'Do you want to curate a networking event with us? Write to us with subject line as <span>"Interested to Curate Networking event with GCC"</span>'
+            ]
+          }
+        ]
+      },{
+        title: 'Research & Development',
+        image: './images/workWithUs/research.png',
+        description: 'Research and development is an important activity that allows any entity to continuously iterate and make improvements. This horizontal collaborates on research and development with institutions specializing in science, technology and management. The Greater Chennai Corporation can support partners in various capacities right from sharing data, resources relevant for the said research. Institutions will be encouraged to approach the Greater Chennai Corporation for partnerships.',
+        subTitle: 'How to Join ?',
+        participants: [
+          {
+            steps: [
+              'Write to us to become a Partner with subject line <span>"Partnerships: Research and Development"</span>'
+            ]
+          }
+        ]
+      },{
+        title: 'Internships & Fellowships',
+        image: './images/workWithUs/internship.png',
+        description: 'The greater chennai Corporation invites students to apply for internships and fellowships at the C-hub. The GCC offers both paid and unpaid internships based on the profiles of the students. Students in their final year of College with an internship requirement can choose to work with the GCC on the ongoing projects. Interns will be engaged in real time projects for them in order to create an experiential internship. Interns are welcome to work with any of the departments working out of the GCC.Depending on the experience of the individuals, an appropriate stipend can be arranged.This experience will allow interns to understand real time working of the system and support them to be part of the system. This experience will also open up a network and new avenues that can be explored.',
+        subTitle: 'How to Join ?',
+        participants: [
+          {
+            steps: [
+              'Want to intern with us? Write to us with your experience and interests along with your resume with the Subject line <span>"Interested to Intern with GCC"</span>'
+            ]
+          }
+        ]
+      }
+    ],
+  },
   projects: {
     firstRowHeaders: 'Projects',
     firstRowDescription: 'Get to know about all the projects that have been developed in collaboration with Chennai Innovation Hub.',

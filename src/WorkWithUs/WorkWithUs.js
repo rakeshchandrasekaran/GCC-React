@@ -1,13 +1,13 @@
 import React from 'react';
-import L from '../utils/localization';
-import vector from '../images/common/Vector.png';
-// import script from './script';
+import WorkOpeningBanner from "./WorkOpeningBanner";
+import WorkTabView from "./WorkTabView";
 
 const WorkWithUs = () => (
 
- <div id="divWorkWithUs">
- 
-</div>
+  <div id="WorkWithUs">
+    <WorkOpeningBanner />
+    <WorkTabView />
+  </div>
 
 );
 
