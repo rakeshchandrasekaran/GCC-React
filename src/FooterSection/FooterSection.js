@@ -15,7 +15,7 @@ const FooterSection = ({type}) => {
             <div>
               <div><span><a href='#'>Sitemap</a></span> | <span><a href='#'>Disclaimer</a></span> | <span><a
                 href='#'>Privacy Policy</a></span> | <span><a href='#'>Contact Us</a></span></div>
-              <div>Copyright © C-HUB
+              <div>Copyright © Chennai Innovation Hub
               </div>
             </div>
           </div>

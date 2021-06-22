@@ -2,7 +2,7 @@ import React from 'react';
 import L from '../utils/localization';
 import './Contact.css';
 import vector from '../images/common/Vector.png';
-import ripponBuildingMap from '../images/contactUs/rippon_building_map_Image.png';
+import ripponBuildingMap from '../images/contactUs/Ripon_Building_MAP.png';
 
 const ContactUs = () => (
     <div>
