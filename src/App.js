@@ -42,7 +42,7 @@ function App() {
             <Route path={routes.projects} component={Projects} />
             <Route path={routes.council} component={Council} />
             <Route path={routes.aboutUs} component={AboutUs} />
-            <Route path={routes.home} component={Home} />
+            <Route path={routes.home} component={Home1} />
           </Switch>
         </HashRouter>
       </div>
