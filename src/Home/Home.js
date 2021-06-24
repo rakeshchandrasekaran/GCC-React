@@ -14,7 +14,7 @@ import '@splidejs/splide/dist/css/themes/splide-default.min.css';
 
 const Home = () => (
   <div>
-    
+
     <div className="col-xs-12 col-sm-12 backgroud-banners1">
     <br/>
     <br/>
@@ -114,7 +114,7 @@ const Home = () => (
           </div>
         </div>
         <div className="col-xs-12 col-sm-12" style={{ marginTop: '50px', paddingBottom: '10px' }}>
-          <h3 id="hThirdBannerSubHeading" style={{ fontSize: '26px', color: '#005A9E', fontSize: '26px', texAlign: 'center' }}>
+          <h3 id="hThirdBannerSubHeading" style={{ fontSize: '26px', color: '#005A9E', texAlign: 'center' }}>
             {L.t('home.thirdBannerSubHeading')}
           </h3>
         </div>

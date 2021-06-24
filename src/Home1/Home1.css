@@ -1,0 +1,35 @@
+#HomePage .home-background-banners {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/home/main_banner.jpg");
+    min-height: 960px;
+}
+
+#HomePage .center-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#HomePage .banner-btn-home{
+    color: #DC7471;
+    font-size: 18px;
+    max-width: 275px;
+    height: 52px;
+    border-radius: 45px;
+    margin-top : 40px;
+    border: none;
+    padding: 0 20px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+#HomePage .banner-innovate-image{
+    width: 425px;
+    height: 130px;
+    margin-top: 84px;
+    margin-right: 60px;
+}

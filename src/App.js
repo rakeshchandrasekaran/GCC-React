@@ -3,6 +3,7 @@ import './App.css';
 import Header from './Header';
 import { HashRouter, Switch, Route } from 'react-router-dom';
 import Home from './Home';
+import Home1 from "./Home1";
 import AboutUs from './AboutUs';
 import Council from './Council/Council';
 import Projects from './Projects/Projects';
