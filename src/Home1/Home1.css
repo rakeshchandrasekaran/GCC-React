@@ -136,3 +136,35 @@
 #HomePage .splide__pagination {
 	bottom: -1.5em;
 }
+
+@media (max-width: 1068px) {
+	#HomePage .banner-innovate-image{
+		margin-top:144px;
+	}
+}
+
+@media (max-width: 480px) {
+	#HomePage h2 {
+		font-size: 35px;
+	}
+
+	#HomePage .banner-innovate-image{
+		height: 98px;
+	}
+
+	.change-maker-button {
+		width: unset;
+		padding: 0 40px;
+	}
+}
+
+@media (max-width: 370px) {
+	#HomePage .banner-innovate-image{
+		height: 85px;
+	}
+
+	#HomePage .carousal-img-css {
+		width: 300px;
+		height: 350px;
+	}
+}

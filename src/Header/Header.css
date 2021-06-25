@@ -13,6 +13,10 @@
     padding-left: 8rem;
 }
 
+.sub-nav-bar .navbar-brand {
+    margin: 0;
+}
+
 .sub-nav-logo {
     color: #DC7471;
     font-weight: bolder;
@@ -29,6 +33,12 @@
     color: black;
     background-color: unset;
     border: none;
+    padding: 12px 12px;
+    margin: 0 6px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #323130;
 }
 
 .btn-warning:hover {
@@ -36,6 +46,20 @@
     color: rgb(223, 120, 112);
     background-color: rgba(220, 116, 113, 0.12);
     border: none;
+}
+
+.btn-warning:not(:disabled):not(.disabled).active:focus, .btn-warning:not(:disabled):not(.disabled):active:focus, .show>.btn-warning.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
+.btn-warning.focus, .btn-warning:focus, .btn-warning:not(:disabled):not(.disabled).active, .btn-warning:not(:disabled):not(.disabled):active, .show>.btn-warning.dropdown-toggle {
+    background-color: rgba(220, 116, 113, 0.12);
+    border-color: rgba(220, 116, 113, 0.12);
+    box-shadow: none;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #DC7471;
 }
 
 .main-logo-text {
@@ -94,7 +118,55 @@
 
 @media (max-width: 768px) {
     .main-nav-bar, .sub-nav-bar {
-        padding-right: 0.6rem;
+        padding-right: 1rem;
         padding-left: 0.6rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar-brand {
+        margin-right: 0px;
+    }
+
+    .main-nav-bar {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .main-nav-bar .navbar-brand {
+        padding: 0;
+    }
+
+    .main-nav-bar .navbar-toggler-icon {
+        background-image: url('../images/arrow-small.png') !important;
+        height: 16px;
+    }
+
+    .main-nav-bar .navbar-toggler {
+        padding: 0;
+    }
+
+    .sub-nav-bar {
+        top: 5.9rem;
+    }
+
+    .sub-nav-logo {
+        font-size: 24px;
+        margin-bottom: 0;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        width: 25px;
+    }
+}
+
+@media (max-width: 360px) {
+    .sub-nav-logo {
+        font-size: 20px;
+    }
+
+    .navbar-light .navbar-toggler {
+        padding: 0;
+        border: none;
     }
 }
