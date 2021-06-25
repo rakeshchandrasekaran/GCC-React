@@ -1,0 +1,104 @@
+#about-us-page {
+    margin-top: 68px;
+}
+#about-us-page .about-us-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-us-page .left-pane {
+    flex: 1;
+    max-width: 520px;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 72px;
+    color: #DF7870;
+    text-align: left;
+}
+
+#about-us-page .right-pane {
+    max-width: 520px;
+    flex: 1;
+    text-align: left;
+}
+
+#about-us-page .about-us-content {
+    margin-top: 27px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #161515;
+}
+
+.right-pane h2 {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 40px;
+    color: #004578;
+}
+
+.about-us-content span {
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 22px;
+    color: #004578;
+}
+
+.core-functions-section {
+    text-align: center;
+    margin-top: 54px;
+    margin-bottom: 58px;
+}
+
+#about-us-page h3 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 22px;
+    text-align: center;
+    color: #004578;
+}
+
+#about-us-page .hr-line-center {
+    border: 2px solid #DF7870;
+    border-radius: 10px;
+    background-color: #DF7870;
+    max-width: 75px;
+    margin: 13px auto 44px;
+}
+
+.core-functions-points {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1033px;
+    margin: auto;
+}
+
+.core-functions-point {
+    display: flex;
+    justify-content: start;
+    max-width: 321px;
+    flex-wrap: nowrap;
+}
+
+.core-functions-point img{
+    height: 30px;
+    width: 30px;
+    margin-right: 12px;
+}
+
+.core-functions-point p{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #004578;
+    text-align: left;
+}
+
+.about-team-section {
+    background: #FFF8F8;
+    height: 407px;
+    padding-top: 53px;
+}

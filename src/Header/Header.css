@@ -2,15 +2,16 @@
     background-color: #01243F !important;
     z-index: 9999;
     color: white;
-    padding-right: 8rem;
-    padding-left: 8rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
 }
 
 .sub-nav-bar {
     top: 5rem;
     background-color: white !important;
-    padding-right: 8rem;
-    padding-left: 8rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.08);
 }
 
 .sub-nav-bar .navbar-brand {

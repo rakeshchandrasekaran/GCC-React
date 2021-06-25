@@ -29,8 +29,9 @@
     color: white;
 }
 
-.caption .hr-line {
+.caption .hr-line, #about-us-page .hr-line {
     border: 2px solid #DF7870;
+    border-radius: 10px;
     background-color: #DF7870;
     max-width: 75px;
     margin-top: 0px;
