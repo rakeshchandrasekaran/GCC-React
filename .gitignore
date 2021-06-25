@@ -64,7 +64,7 @@ typings/
 .idea
 
 # public directory
-public
+
 
 #coverage
 .nyc_output
