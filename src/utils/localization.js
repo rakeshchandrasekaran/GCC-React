@@ -35,23 +35,38 @@ const englishContent = {
       'Enhance quality of life and ensure sustainability in processes'
     ],
     thirdRowHeader: 'Team',
+    thirdRowData: [
+      'Chief Innovation Officer',
+      'Advisory Committee',
+      'Educational Institutions',
+      'The Greater Chennai Corporation'
+    ],
     thirdRowImage1: 'style = width: 160px; height: 160px;',
     thirdRowImage2: '',
     thirdRowImage3: '',
     thirdRowImage4: '',
     fourthRowHeader: 'Mission',
     fourthRowData: [
-      'A cross-boundary collaborative regime instituted to decide on innovation pathways.',
-      'Building partnerships between the quadruple helix (QH) of stakeholders into an ecosystem for know-how solutioning.'
+      {content: 'A cross-boundary collaborative regime instituted to decide on innovation pathways.',image: './images/aboutUs/boundary.png'},
+      {content: 'Building partnerships between the quadruple helix (QH) of stakeholders into an ecosystem for know-how solutioning.', image: './images/aboutUs/partnership.png'}
     ],
     fifthRowHeader: 'Vision',
     fifthRowData: [
-      'To become the largest think tank in the Country in the next three years.',
-      'To successfully establish Proof of concept by piloting in Chennai.',
-      'To create a working template that can be adapted by other cities in Tamil Nadu.',
-      'To be a platform for intersectionality of academics, entrepreneurship and the Chennai Corporation.'
+      {content: 'To become the largest think tank in the Country in the next three years.',image: './images/aboutUs/country.png'},
+      {content: 'To successfully establish Proof of concept by piloting in Chennai.',image: './images/aboutUs/success.png'},
+      {content: 'To create a working template that can be adapted by other cities in Tamil Nadu.',image: './images/aboutUs/template.png'},
+      {content: 'To be a platform for intersectionality of academics, entrepreneurship and the Chennai Corporation.', image: './images/aboutUs/platform.png'}
     ],
-    sixthRowHeader: 'Values'
+    sixthRowHeader: 'Values',
+    sixthRowData: [
+      {content: 'Collaboration', image: './images/aboutUs/collaboration.png'},
+      {content: 'Fairness', image: './images/aboutUs/fair-trade.png'},
+      {content: 'Learning', image: './images/aboutUs/knowledge.png'},
+      {content: 'Openness', image: './images/aboutUs/businessmen.png'},
+      {content: 'Excellence', image: './images/aboutUs/excellence.png'},
+      {content: 'Efficient', image: './images/aboutUs/time-management.png'},
+      {content: 'Challenge Status Quo', image: './images/aboutUs/flag.png'},
+    ]
   },
   subNav: {
     home: 'Home',

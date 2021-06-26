@@ -15,7 +15,7 @@ const ProjectsNew = () => {
           L.t('projects.secondRowContent') && L.t('projects.secondRowContent').map((data) => {
             return (
               <div className='projects-grid-card'>
-                <img src={data.image}/>
+                <img alt='' src={data.image}/>
                 <p>{data.host}</p>
                 <h3>{data.title}</h3>
               </div>

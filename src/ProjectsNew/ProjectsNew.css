@@ -1,6 +1,6 @@
 #projects-page .projects-page-header {
     background: #004578;
-    padding: 64px 0;
+    padding: 64px 16px;
     text-align: center;
 }
 
@@ -8,10 +8,12 @@
     background: rgba(223, 120, 112, 0.05);
     padding: 40px 0 63px;
     text-align: left;
+    background-image: url('./../images/projects/background.png');
+    background-repeat: no-repeat;
 }
 
 #projects-page .projects-grid-section {
-    padding: 8px 0;
+    padding: 8px 0 24px;
     margin: auto;
     max-width: 1000px;
     display: flex;
@@ -22,6 +24,7 @@
 
 .projects-collaborate-section .projects-collaborate-content {
     max-width: 1100px;
+    padding: 0 16px;
     margin: auto;
 }
 
@@ -107,4 +110,9 @@
     line-height: 35px;
     color: #161515;
     text-align: left;
+}
+
+.projects-grid-card img {
+    width: 100%;
+    height: auto;
 }
