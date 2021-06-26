@@ -175,6 +175,10 @@ const englishContent = {
   projects: {
     firstRowHeaders: 'Projects',
     firstRowDescription: 'Get to know about all the projects that have been developed in collaboration with Chennai Innovation Hub.',
+    secondRowContent: [
+      {title: 'Corona Monitoring Application', host: 'Greater Chennai Corporation',image: './images/projects/corona.png'},
+      {title: 'Shelter for Urban Incubators', host: 'Greater Chennai Corporation',image: './images/projects/shelter.png'}
+    ],
     thirdRowHeader: 'Interested in Collaborating with C-Hub ?',
     thirdRowButton: 'Work With Us'
   },
