@@ -6,6 +6,7 @@ import Home1 from "./Home1";
 import AboutUs from './AboutUs';
 import Council from './Council/Council';
 import Projects from './Projects/Projects';
+import ProjectsNew from "./ProjectsNew";
 import ContactUs from './ContactUs/ContactUs';
 import Events from './Events/Events';
 import WorkWithUs from './WorkWithUs/WorkWithUs';
@@ -39,7 +40,7 @@ function App() {
             <Route path={routes.events} component={Events} />
             <Route path={routes.faq} component={FAQ} />
             <Route path={routes.contactUs} component={ContactUs} />
-            <Route path={routes.projects} component={Projects} />
+            <Route path={routes.projects} component={ProjectsNew} />
             <Route path={routes.council} component={Council} />
             <Route path={routes.aboutUs} component={AboutUsNew} />
             <Route path={routes.home} component={Home1} />
