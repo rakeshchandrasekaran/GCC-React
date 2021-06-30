@@ -3,6 +3,7 @@ import _ from 'lodash';
 const englishContent = {
   home: {
     firstRowBtn: 'Work With Us',
+    ourPartners: 'Our Partners',
     secondBannerHeading: 'Current Events',
     Events: [{
       'event_name': '',
@@ -336,6 +337,7 @@ const englishContent = {
 const tamilContent = {
   home: {
     firstRowBtn: 'எங்களுடன் வேலை செய்யுங்கள்',
+    ourPartners: 'Our Partners',
     secondBannerHeading: 'தற்போதைய நிகழ்வுகள்',
     Events: [{
       'event_name': '',
