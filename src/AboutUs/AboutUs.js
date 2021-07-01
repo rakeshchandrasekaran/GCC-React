@@ -31,6 +31,11 @@ import aboutUs_5_values_Excellence from '../images/aboutUs/about_us_5_values_Exc
 import aboutUs_6_values_Efficient from '../images/aboutUs/about_us_6_values_Efficient.png';
 import aboutUs_7_values_Chanllenge_QUO from '../images/aboutUs/about_us_7_values_Challenge_QUO.png';
 
+import Commissioner_GaganDeep_Singh from '../images/aboutUs/OurTeam/commissioner_gagandeep_singh.png';
+import DC_MS_Prasanth from '../images/aboutUs/OurTeam/dc_ms_prasanth.png';
+import CEO_Raj_Cherubal from '../images/aboutUs/OurTeam/ceo_raj_cherubal.png';
+import CIO_Azhagu from '../images/aboutUs/OurTeam/cio_Azhagu.png';
+import CDA_New from '../images/aboutUs/OurTeam/cda_new.png';
 
 const AboutUs = () => (
   <div className="container" id="google_translate_element">
@@ -114,34 +119,45 @@ const AboutUs = () => (
           <img src={vector} style={{ width: '72.5px', height: '4px;' }} />
         </div>
         <br />
-        <div className="col-sm-12 row" id="divTeam">
-          <div className="col-sm-3">
-            <img src={chiefInnovationofficer} style={{ width: '160px', height: '160px' }} />
+
+
+        <div id="divTeamList">
+        <div className="col-sm-12 row" style={{ textAlign: 'center' }}>
+        <h2 id="hThirdRowHeader" style={{ color: '#004578', fontSize: '40px' }}>
+            {L.t('aboutUs.thirdRowHeader')}
+          </h2>
           </div>
-          <div className="col-sm-3">
-            <img src={advisoryCommittee} style={{ width: '160px', height: '160px' }} />
-          </div>
-          <div className="col-sm-3">
-            <img src={educationalInstitutions} style={{ width: '160px', height: '160px' }} />
-          </div>
-          <div className="col-sm-3">
-            <img src={theGreaterChennaiCorporation} style={{ width: '160px', height: '160px' }} />
-          </div>
-        </div>
-        <div className="col-sm-12 row" id="divTeamTamil" style={{ display: 'none' }}>
-          <div className="col-sm-3">
-            <img src={chiefInnovationofficerTamil} style={{ width: '160px', height: '160px' }} />
-          </div>
-          <div className="col-sm-3">
-            <img src={advisoryCommitteeTamil} style={{ width: '160px', height: '160px' }} />
-          </div>
-          <div className="col-sm-3">
-            <img src={educationalInstitutionsTamil} style={{ width: '160px', height: '160px' }} />
-          </div>
-          <div className="col-sm-3">
-            <img src={theGreaterChennaiCorporationTamil} style={{ width: '160px', height: '160px' }} />
-          </div>
-        </div>
+				<div className="col-sm-12 row" style={{ textAlign: 'center' }}>
+					<div className="col-sm-1">
+					</div>
+					<div className="col-sm-10" style={{ marginBottom: '30px' }}>
+						<img src={Commissioner_GaganDeep_Singh} />
+						<img src={DC_MS_Prasanth} />
+						<img src={CEO_Raj_Cherubal} />
+					</div>
+					<div className="col-sm-1">
+					</div>
+				</div>
+				<div style={{ textAlign: 'center' }}>
+					<div className="col-sm-12 row" style={{ textAlign: 'center', marginBottom: '30px' }}>
+						<div className="col-sm-2">
+						</div>
+						<div className="col-sm-8">
+							<img src={CIO_Azhagu}
+								style={{ width: '180px', height: '175px' }} />
+							<img src={CDA_New}
+								style={{ width: '180px', height: '175px' }} />
+						
+						</div>
+						<div className="col-sm-2">
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+
       </div>
       {/* Team End */}
 

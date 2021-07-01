@@ -23,43 +23,43 @@ import './../Home1.css';
 const Partners = () => {
 	return (
 		<div className="col-sm-12" style={{ backgroundColor: '#FFFFFF', color: '#004578', height: '100%', marginTop: '15px' }}>
-        <div style={{ textAlign: 'center' }}>
-          <h2 id="hSixthRowHeader" style={{ textAlign: 'center', fontSize: '40px' }}>
-            {L.t('home.ourPartners')}
-          </h2>
-          <img src={vector} style={{ width: '72.5px', height: '4px;' }} />
-        </div>
-		<div id="divValues">
-		<div className="col-sm-12 row" style={{ textAlign: 'center' }}>
-		  <div className="col-sm-1">
-		  </div>
-		  <div className="col-sm-10" style={{ marginBottom: '30px' }}>
-			<img src={mrCooper} />
-			<img src={undp} />
-			<img src={hyundai}/>
-			<img src={greatLakes} />
-		  </div>
-		  <div className="col-sm-1">
-		  </div>
+			<div style={{ textAlign: 'center' }}>
+				<h2 id="hSixthRowHeader" style={{ textAlign: 'center', fontSize: '40px' }}>
+					{L.t('home.ourPartners')}
+				</h2>
+				<img src={vector} style={{ width: '72.5px', height: '4px;' }} />
+			</div>
+			<div id="divPartners">
+				<div className="col-sm-12 row" style={{ textAlign: 'center' }}>
+					<div className="col-sm-1">
+					</div>
+					<div className="col-sm-10" style={{ marginBottom: '30px' }}>
+						<img src={mrCooper} />
+						<img src={undp} />
+						<img src={hyundai} />
+						<img src={greatLakes} />
+					</div>
+					<div className="col-sm-1">
+					</div>
+				</div>
+				<div style={{ textAlign: 'center' }}>
+					<div className="col-sm-12 row" style={{ textAlign: 'center', marginBottom: '30px' }}>
+						<div className="col-sm-2">
+						</div>
+						<div className="col-sm-8">
+							<img src={iitm}
+								style={{ width: '180px', height: '175px' }} />
+							<img src={moudgoi}
+								style={{ width: '180px', height: '175px' }} />
+							<img src={loyola}
+								style={{ width: '180px', height: '175px' }} />
+						</div>
+						<div className="col-sm-2">
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-		<div style={{ textAlign: 'center' }}>
-		  <div className="col-sm-12 row" style={{ textAlign: 'center', marginBottom: '30px' }}>
-			<div className="col-sm-2">
-			</div>
-			<div className="col-sm-8">
-			  <img src={iitm}
-				style={{ width: '180px', height: '175px' }} />
-			  <img src={moudgoi}
-				style={{ width: '180px', height: '175px' }} />
-			  <img src={loyola}
-				style={{ width: '180px', height: '175px' }} />
-			</div>
-			<div className="col-sm-2">
-			</div>
-		  </div>
-		</div>
-</div>
-	  </div>
 	);
 }
 

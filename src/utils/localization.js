@@ -67,7 +67,21 @@ const englishContent = {
       {content: 'Excellence', image: './images/aboutUs/excellence.png'},
       {content: 'Efficient', image: './images/aboutUs/time-management.png'},
       {content: 'Challenge Status Quo', image: './images/aboutUs/flag.png'},
-    ]
+    ],
+    team :{
+      leadershipHeader: 'Leadership Team',
+      commissioner: 'Gagandeep Singh Bedi, I.A.S',
+      commDesignation: 'Principal Secretary / Commissioner /Special Officer',
+      deptCommissioner: 'M.S.Prasanth, I.A.S',
+      dcDesignation: 'Deputy Commissioner (Works)',
+      ceo: 'Mr.Raj Cherubal',
+      ceoDesignation: 'CEO, Chennai Smart City Limited',
+      coreTeamHeader:'Core Team',
+      cio: 'M.P. Azhagu Pandia Raja',
+      cioDesignation: 'City Innovation Officer',
+      cdo:'Senthilkumaran Murugesan',
+      cdoDesignation: 'City Data Officer'
+    }
   },
   subNav: {
     home: 'Home',
@@ -385,7 +399,21 @@ const tamilContent = {
       'தமிழ்நாட்டின் பிற நகரங்களால் மாற்றியமைக்கக்கூடிய ஒரு வேலை வார்ப்புருவை உருவாக்க. சென்னையில் பைலட்டிங்.',
       'கல்வியாளர்கள், தொழில்முனைவோர் மற்றும் சென்னை கார்ப்பரேஷன் ஆகியவற்றின் குறுக்குவெட்டுக்கான தளமாக இருக்க வேண்டும்.'
     ],
-    sixthRowHeader: 'மதிப்புகள்'
+    sixthRowHeader: 'மதிப்புகள்',
+    team :{
+      leadershipHeader: 'Leadership Team',
+      commissioner: 'Gagandeep Singh Bedi, I.A.S',
+      commDesignation: 'Principal Secretary / Commissioner /Special Officer',
+      deptCommissioner: 'M.S.Prasanth, I.A.S',
+      dcDesignation: 'Deputy Commissioner (Works)',
+      ceo: 'Mr.Raj Cherubal',
+      ceoDesignation: 'CEO, Chennai Smart City Limited',
+      coreTeamHeader:'Core Team',
+      cio: 'M.P. Azhagu Pandia Raja',
+      cioDesignation: 'City Innovation Officer',
+      cdo:'Senthilkumaran Murugesan',
+      cdoDesignation: 'City Data Officer'
+    }
   },
   subNav: {
     home: 'முகப்பு',
