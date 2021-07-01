@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/GCC-React/static/css/main.b631deb7.chunk.css",
-    "main.js": "/GCC-React/static/js/main.71aa36ab.chunk.js",
-    "main.js.map": "/GCC-React/static/js/main.71aa36ab.chunk.js.map",
+    "main.js": "/GCC-React/static/js/main.7409d9e8.chunk.js",
+    "main.js.map": "/GCC-React/static/js/main.7409d9e8.chunk.js.map",
     "runtime-main.js": "/GCC-React/static/js/runtime-main.1b374b71.js",
     "runtime-main.js.map": "/GCC-React/static/js/runtime-main.1b374b71.js.map",
     "static/css/2.11c54b2c.chunk.css": "/GCC-React/static/css/2.11c54b2c.chunk.css",
@@ -43,11 +43,16 @@
     "static/media/about_us_vision-img3.d18f0c45.png": "/GCC-React/static/media/about_us_vision-img3.d18f0c45.png",
     "static/media/about_us_vision-img4.68cf2247.png": "/GCC-React/static/media/about_us_vision-img4.68cf2247.png",
     "static/media/ProjectsNew.css": "/GCC-React/static/media/background.c8302823.png",
+    "static/media/cdo_SenthilKumaran.25224961.png": "/GCC-React/static/media/cdo_SenthilKumaran.25224961.png",
+    "static/media/ceo_raj_cherubal.4a74d698.png": "/GCC-React/static/media/ceo_raj_cherubal.4a74d698.png",
+    "static/media/cio_Azhagu.dcaf9e61.png": "/GCC-React/static/media/cio_Azhagu.dcaf9e61.png",
+    "static/media/commissioner_gagandeep_singh.75d4f20a.png": "/GCC-React/static/media/commissioner_gagandeep_singh.75d4f20a.png",
     "static/media/council_Chennai_Innovation_Hub_Verticals.6a92b5c1.png": "/GCC-React/static/media/council_Chennai_Innovation_Hub_Verticals.6a92b5c1.png",
     "static/media/council_light_house.3d5bf981.png": "/GCC-React/static/media/council_light_house.3d5bf981.png",
     "static/media/current_event_image1.ef020676.png": "/GCC-React/static/media/current_event_image1.ef020676.png",
     "static/media/current_event_image2.9a2003f4.png": "/GCC-React/static/media/current_event_image2.9a2003f4.png",
     "static/media/current_event_image3.7508be61.png": "/GCC-React/static/media/current_event_image3.7508be61.png",
+    "static/media/dc_ms_prasanth.6a791d94.png": "/GCC-React/static/media/dc_ms_prasanth.6a791d94.png",
     "static/media/events_1.be1a1760.png": "/GCC-React/static/media/events_1.be1a1760.png",
     "static/media/events_2.55dd91ee.png": "/GCC-React/static/media/events_2.55dd91ee.png",
     "static/media/FaqOpeningBanner.css": "/GCC-React/static/media/faq_main_banner.62228f10.png",
@@ -67,6 +72,6 @@
     "static/css/2.11c54b2c.chunk.css",
     "static/js/2.640cc396.chunk.js",
     "static/css/main.b631deb7.chunk.css",
-    "static/js/main.71aa36ab.chunk.js"
+    "static/js/main.7409d9e8.chunk.js"
   ]
 }
