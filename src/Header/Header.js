@@ -70,7 +70,7 @@ const Header = ({ type }) => {
                 className="d-inline-block align-top"
               />
             </Navbar.Brand>
-            <Navbar.Brand href="#twitter">
+            {/* <Navbar.Brand href="#twitter">
               <img
                 alt="twitter"
                 src={twitterLogo}
@@ -78,8 +78,8 @@ const Header = ({ type }) => {
                 height="30"
                 className="d-inline-block align-top"
               />
-            </Navbar.Brand>
-            <Navbar.Brand href="#youtube">
+            </Navbar.Brand> */}
+            {/* <Navbar.Brand href="#youtube">
               <img
                 alt="youtube"
                 src={youtubeLogo}
@@ -87,7 +87,7 @@ const Header = ({ type }) => {
                 height="30"
                 className="d-inline-block align-top"
               />
-            </Navbar.Brand>
+            </Navbar.Brand> */}
           </div>
         </Navbar.Collapse>
       </Navbar>

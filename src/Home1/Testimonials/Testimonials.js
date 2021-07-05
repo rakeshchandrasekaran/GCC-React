@@ -13,7 +13,7 @@ const Testimonials = () => {
 		<div className=''>
 			<h2>{L.t('home.testimonials.heading')}</h2>
 			<div className="hr-line" />
-			<div style={{ width: '795px', height: '414px', boxShadow: '0px 4px 13px 0px #5B5B5B08' }}>
+			<div className="well" style={{ width: '795px', height: '414px', boxShadow: '0px 4px 13px 0px #5B5B5B08' }}>
 				<Splide
 					options={{
 						rewind: true,
@@ -67,7 +67,6 @@ const Testimonials = () => {
 											{data.name}
 										</h2>
 									</div>
-									
 								</SplideSlide>
 							);
 						})

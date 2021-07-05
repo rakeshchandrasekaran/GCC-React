@@ -358,7 +358,15 @@ const englishContent = {
     secondColumnSecondRow: 'Disclaimer',
     secondColumnThirdRow: 'Privacy Policy',
     secondColumnFourthRow: 'Contact Us'
-  }
+  },
+  disclaimer:[
+    'Chennai Innovation Hub (C-HUB) provides information and other services through its website as a service to those interested in C-HUB and/or Chennai Innovation Hub. Attempt is made to provide comprehensive access to content and services related to a wide variety of subjects of interest to visitors. Continuous efforts are made to add new content and services to the site.',
+    'While every effort is made to ensure that the information provided is accurate, C-HUB does not guarantee the accuracy, authenticity and completeness of the information and services provided. The content is provided on "as is" basis, as a general guidance to users. The visitors to the website are assumed to access the content and services at their own will and not hold C-HUB responsible for any liability arising out of the use of the content & services, explicit or implicit, provided in the website.'
+  ],
+  privacyPolicy:[
+    'This website is designed, developed and maintained by <<MRC>>. for the Chennai Innovation Hub (C-HUB). These terms and conditions shall be governed by and construed in accordance with the Indian Laws. Any dispute arising under these terms and conditions shall be subject to the jurisdiction of the courts of India.',
+    'The Information posted on this website could include hypertext links to external websites. The Chennai Innovation Hub (C-HUB) is providing these links and pointers solely for your information and convenience. When you select a link to an outside website, you are leaving "Chennai Innovation Hub (C-HUB)" site and are subject to the privacy and security policies of the owners / sponsors of the outside website.'
+  ]
 };
 
 const tamilContent = {
@@ -694,7 +702,15 @@ const tamilContent = {
     secondColumnSecondRow: 'மறுப்பு',
     secondColumnThirdRow: 'தனியுரிமைக் கொள்கை',
     secondColumnFourthRow: 'எங்களை தொடர்பு கொள்ள'
-  }
+  },
+  disclaimer: [
+    'சென்னை புதுமை மையம் (சி-ஹப்) தனது வலைத்தளத்தின் மூலம் சி-ஹப் மற்றும் / அல்லது சென்னை புதுமை மையத்தில் ஆர்வமுள்ளவர்களுக்கு ஒரு சேவையாக தகவல் மற்றும் பிற சேவைகளை வழங்குகிறது. பார்வையாளர்களுக்கு ஆர்வமுள்ள பல்வேறு விஷயங்களுடன் தொடர்புடைய உள்ளடக்கம் மற்றும் சேவைகளுக்கு விரிவான அணுகலை வழங்க முயற்சி மேற்கொள்ளப்படுகிறது. தளத்தில் புதிய உள்ளடக்கம் மற்றும் சேவைகளைச் சேர்க்க தொடர்ச்சியான முயற்சிகள் மேற்கொள்ளப்படுகின்றன. ',
+    'வழங்கப்பட்ட தகவல்கள் துல்லியமானவை என்பதை உறுதிப்படுத்த ஒவ்வொரு முயற்சியும் மேற்கொள்ளப்பட்டாலும், வழங்கப்பட்ட தகவல் மற்றும் சேவைகளின் துல்லியம், நம்பகத்தன்மை மற்றும் முழுமையை சி-ஹப் உத்தரவாதம் அளிக்காது. பயனர்களுக்கு பொதுவான வழிகாட்டியாக, உள்ளடக்கம் "உள்ளபடி" அடிப்படையில் வழங்கப்படுகிறது. வலைத்தளத்திற்கு வருபவர்கள் தங்கள் விருப்பப்படி உள்ளடக்கம் மற்றும் சேவைகளை அணுகுவதாகக் கருதப்படுகிறார்கள், மேலும் வலைத்தளத்தில் வழங்கப்பட்ட உள்ளடக்கம் மற்றும் சேவைகளின் பயன்பாடு அல்லது வெளிப்படையான அல்லது மறைமுகமான எந்தவொரு பொறுப்பிற்கும் சி-ஹப் பொறுப்பேற்க மாட்டார்கள். '
+  ],
+  privacyPolicy:[
+  'இந்த வலைத்தளம் <<MRC>> ஆல் வடிவமைக்கப்பட்டுள்ளது, உருவாக்கப்பட்டது மற்றும் பராமரிக்கப்படுகிறது. சென்னை கண்டுபிடிப்பு மையத்திற்கு (சி-ஹப்). இந்த விதிமுறைகள் மற்றும் நிபந்தனைகள் இந்திய சட்டங்களின்படி நிர்வகிக்கப்படுகின்றன. இந்த விதிமுறைகள் மற்றும் நிபந்தனைகளின் கீழ் எழும் எந்தவொரு சர்ச்சையும் இந்திய நீதிமன்றங்களின் அதிகார எல்லைக்கு உட்பட்டதாக இருக்கும். ',
+    'இந்த இணையதளத்தில் வெளியிடப்பட்ட தகவல்களில் வெளிப்புற வலைத்தளங்களுக்கான ஹைபர்டெக்ஸ்ட் இணைப்புகள் இருக்கலாம். சென்னை கண்டுபிடிப்பு மையம் (சி-ஹப்) இந்த இணைப்புகள் மற்றும் சுட்டிகளை உங்கள் தகவல் மற்றும் வசதிக்காக மட்டுமே வழங்குகிறது. நீங்கள் ஒரு வெளிப்புற வலைத்தளத்திற்கான இணைப்பைத் தேர்ந்தெடுக்கும்போது, ​​நீங்கள் "சென்னை புதுமை மையம் (சி-ஹப்)" தளத்தை விட்டு வெளியேறுகிறீர்கள், மேலும் வெளிப்புற வலைத்தளத்தின் உரிமையாளர்கள் / ஆதரவாளர்களின் தனியுரிமை மற்றும் பாதுகாப்புக் கொள்கைகளுக்கு உட்பட்டுள்ளீர்கள். '
+  ]
 };
 
 const translate = (contentPath, values) => {

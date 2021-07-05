@@ -13,6 +13,10 @@ import WorkWithUs from './WorkWithUs/WorkWithUs';
 import FAQ from "./Faq";
 import FooterSection from "./FooterSection";
 import AboutUsNew from "./AboutUsNew";
+import Disclaimer from "./Disclaimer";
+import PrivacyPolicy from "./PrivacyPolicy";
+import Sitemap from "./Sitemap";
+
 
 const routes = {
   aboutUs: `/about_us`,
@@ -22,6 +26,9 @@ const routes = {
   faq: `/faq`,
   events: `/events`,
   workWithUs: `/workWithUs`,
+  disclaimer: `/disclaimer`,
+  privacyPolicy: `/privacyPolicy`,
+  sitemap: `/sitemap`,
   home: `/`
 };
 
@@ -43,6 +50,9 @@ function App() {
             <Route path={routes.projects} component={ProjectsNew} />
             <Route path={routes.council} component={Council} />
             <Route path={routes.aboutUs} component={AboutUsNew} />
+            <Route path={routes.disclaimer} component={Disclaimer} />
+            <Route path={routes.privacyPolicy} component={PrivacyPolicy} />
+            <Route path={routes.sitemap} component={Sitemap} />
             <Route path={routes.home} component={Home1} />
           </Switch>
         </HashRouter>

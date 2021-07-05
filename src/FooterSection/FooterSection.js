@@ -4,6 +4,9 @@ import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button'
 import L from '../utils/localization';
 import Location from '../images/footer/location.png';
+import config from '../config/config';
+
+const appRoute = config.appRoute;
 
 
 const FooterSection = ({type}) => {
@@ -13,8 +16,8 @@ const FooterSection = ({type}) => {
         <div className='row' style={{'margin': 0}}>
           <div className='col-md-6 mt-md-0 mt-3 footer-column-section'>
             <div>
-              <div><span><a href='#'>Sitemap</a></span> | <span><a href='#'>Disclaimer</a></span> | <span><a
-                href='#'>Privacy Policy</a></span> | <span><a href='#'>Contact Us</a></span></div>
+              <div><span><a href={`${appRoute}/sitemap`}>Sitemap</a></span> | <span><a href={`${appRoute}/disclaimer`}>Disclaimer</a></span> | <span><a
+                href={`${appRoute}/privacyPolicy`}>Privacy Policy</a></span> | <span><a href={`${appRoute}/contact_Us`}>Contact Us</a></span></div>
               <div>Copyright © Chennai Innovation Hub
               </div>
             </div>
