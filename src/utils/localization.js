@@ -14,7 +14,35 @@ const englishContent = {
     thirdBannerHeading: 'Changemaker’s Program',
     thirdBannerHeadingDescription: 'Change begins at home and we want to be able to bring about grassroot level changes through our program. The Changemaker’s program exclusively focuses on creating academic engagements for C-Hub in the city.',
     thirdBannerSubHeading: 'Who can join the Changemaker’s Program ?',
-    thirdBannerBeAChangeButton: 'Be a Change Maker'
+    thirdBannerBeAChangeButton: 'Be a Change Maker',
+    testimonials: {
+      heading: 'Testimonials',
+      testimonials: [{
+        name: 'Janani Krishnan',
+        image: './images/home/testimonials/Janani_K.png',
+        subHeading: 'Through C-Hub, I got to work with all the stratas of administration and it kindled my creativity.',
+        description: 'Getting to work with Chub was a great opportunity on my way, who is aspiring to get into the sector of public administration. Various activities of the Greater Chennai Corporation that I got involved on behalf of the Chub, were catering to the real time needs and the recent covid situation was a major part of it. Through this, I got to work with all the stratas of administration within the system. Chub is a place that kindled my creativity and also enabled me to envision an idealistic and a developed society. It turned to be a platform that challenged my skills and knowledge and led me to aid to the welfare of the citizens of Greater Chennai Corporation, in all possible spheres.'
+      },
+      {
+        name: 'Jeffin Pious J',
+        image: '../../images/home/testimonials/Jeffin_P_J.png',
+        subHeading: 'C-hub have always encouraged new ideas to be pitched in. I worked on real life tasks that impacts Chennai. ',
+        description: 'I have been part of this ecosystem for 5 months and I got opportunities to learn in various domains. I got a chance to work on various real life tasks like optimising the COVID response of Chennai, solid waste management tools etc. The Greater Chennai Corporation and the C-HUB have always encouraged the feasible ideas pitched in. The fellow interns make the working atmosphere comfortable and they are helpful.  I also got chances to work on the field and gain knowledge from concerned officials.'
+      },
+      {
+        name: 'Madhumeetha B',
+        image: '../../images/home/testimonials/Madhumeetha_B.png',
+        subHeading: 'Being a citizen of this wonderful city, I am grateful for having this chance to do some good for my Madras.',
+        description: 'I have had the chance to understand from the inside how urban governance works during my time at the Chennai Innovation Hub. I could also work on finding solutions for real time problems through different types of projects. I have been working on different focus areas including Combating Covid -19, setting up the Chennai Innovation Hub, Transport for all etc. Being a citizen of this wonderful city, I am grateful for having this chance to do some good for my Madras. I have had the wonderful opportunity of working with the City Innovation Officer alongside the Pioneering team in facilitating the Innovation ecosystem for my city.'
+      },
+      {
+        name: 'Sandip Prakash B',
+        image: '../../images/home/testimonials/Sandip_P_B.png',
+        subHeading: 'C-hub is a key mix of exciting, stimulating and challenging work for inventive leaders.',
+        description: 'The key mix of exciting, stimulating and challenging work for inventive leaders. Building systems for COVID-19 war room, the Chennai innovation hub, playing a part in vaccine portal and burial ground management etc to directly impact the city is an exhilarating experience.'
+      }
+      ]
+    }
   },
   aboutUs: {
     firstRowHeader: 'About Us',
@@ -48,27 +76,27 @@ const englishContent = {
     thirdRowImage4: '',
     fourthRowHeader: 'Mission',
     fourthRowData: [
-      {content: 'A cross-boundary collaborative regime instituted to decide on innovation pathways.',image: './images/aboutUs/boundary.png'},
-      {content: 'Building partnerships between the quadruple helix (QH) of stakeholders into an ecosystem for know-how solutioning.', image: './images/aboutUs/partnership.png'}
+      { content: 'A cross-boundary collaborative regime instituted to decide on innovation pathways.', image: './images/aboutUs/boundary.png' },
+      { content: 'Building partnerships between the quadruple helix (QH) of stakeholders into an ecosystem for know-how solutioning.', image: './images/aboutUs/partnership.png' }
     ],
     fifthRowHeader: 'Vision',
     fifthRowData: [
-      {content: 'To become the largest think tank in the Country in the next three years.',image: './images/aboutUs/country.png'},
-      {content: 'To successfully establish Proof of concept by piloting in Chennai.',image: './images/aboutUs/success.png'},
-      {content: 'To create a working template that can be adapted by other cities in Tamil Nadu.',image: './images/aboutUs/template.png'},
-      {content: 'To be a platform for intersectionality of academics, entrepreneurship and the Chennai Corporation.', image: './images/aboutUs/platform.png'}
+      { content: 'To become the largest think tank in the Country in the next three years.', image: './images/aboutUs/country.png' },
+      { content: 'To successfully establish Proof of concept by piloting in Chennai.', image: './images/aboutUs/success.png' },
+      { content: 'To create a working template that can be adapted by other cities in Tamil Nadu.', image: './images/aboutUs/template.png' },
+      { content: 'To be a platform for intersectionality of academics, entrepreneurship and the Chennai Corporation.', image: './images/aboutUs/platform.png' }
     ],
     sixthRowHeader: 'Values',
     sixthRowData: [
-      {content: 'Collaboration', image: './images/aboutUs/collaboration.png'},
-      {content: 'Fairness', image: './images/aboutUs/fair-trade.png'},
-      {content: 'Learning', image: './images/aboutUs/knowledge.png'},
-      {content: 'Openness', image: './images/aboutUs/businessmen.png'},
-      {content: 'Excellence', image: './images/aboutUs/excellence.png'},
-      {content: 'Efficient', image: './images/aboutUs/time-management.png'},
-      {content: 'Challenge Status Quo', image: './images/aboutUs/flag.png'},
+      { content: 'Collaboration', image: './images/aboutUs/collaboration.png' },
+      { content: 'Fairness', image: './images/aboutUs/fair-trade.png' },
+      { content: 'Learning', image: './images/aboutUs/knowledge.png' },
+      { content: 'Openness', image: './images/aboutUs/businessmen.png' },
+      { content: 'Excellence', image: './images/aboutUs/excellence.png' },
+      { content: 'Efficient', image: './images/aboutUs/time-management.png' },
+      { content: 'Challenge Status Quo', image: './images/aboutUs/flag.png' },
     ],
-    team :{
+    team: {
       leadershipHeader: 'Leadership Team',
       commissioner: 'Gagandeep Singh Bedi, I.A.S',
       commDesignation: 'Principal Secretary / Commissioner /Special Officer',
@@ -76,10 +104,10 @@ const englishContent = {
       dcDesignation: 'Deputy Commissioner (Works)',
       ceo: 'Mr.Raj Cherubal',
       ceoDesignation: 'CEO, Chennai Smart City Limited',
-      coreTeamHeader:'Core Team',
+      coreTeamHeader: 'Core Team',
       cio: 'M.P. Azhagu Pandia Raja',
       cioDesignation: 'City Innovation Officer',
-      cdo:'Senthilkumaran Murugesan',
+      cdo: 'Senthilkumaran Murugesan',
       cdoDesignation: 'City Data Officer'
     }
   },
@@ -206,8 +234,8 @@ const englishContent = {
     firstRowHeaders: 'Projects',
     firstRowDescription: 'Get to know about all the projects that have been developed in collaboration with Chennai Innovation Hub.',
     secondRowContent: [
-      {title: 'Corona Monitoring Application', host: 'Greater Chennai Corporation',image: './images/projects/corona.png'},
-      {title: 'Shelter for Urban Incubators', host: 'Greater Chennai Corporation',image: './images/projects/shelter.png'}
+      { title: 'Corona Monitoring Application', host: 'Greater Chennai Corporation', image: './images/projects/corona.png' },
+      { title: 'Shelter for Urban Incubators', host: 'Greater Chennai Corporation', image: './images/projects/shelter.png' }
     ],
     thirdRowHeader: 'Interested in Collaborating with C-Hub ?',
     thirdRowButton: 'Work With Us'
@@ -347,7 +375,31 @@ const tamilContent = {
     thirdBannerHeading: 'ேஞ்ச்மேக்கரின் திட்டம்',
     thirdBannerHeadingDescription: 'ாற்றம் வீட்டிலேயே தொடங்குகிறது, மேலும் எங்கள் திட்டத்தின் மூலம் அடிமட்ட அளவிலான மாற்றங்களைக் கொண்டு வர விரும்புகிறோம். சேஞ்ச்மேக்கரின் திட்டம் நகரத்தில் சி-ஹப்பிற்கான கல்வி ஈடுபாடுகளை உருவாக்குவதில் மட்டுமே கவனம் செலுத்துகிறது.',
     thirdBannerSubHeading: 'சேஞ்ச்மேக்கரின் திட்டத்தில் யார் சேரலாம்?',
-    thirdBannerBeAChangeButton: 'ஒரு மாற்றத்தை உருவாக்குபவராக இருங்கள்'
+    thirdBannerBeAChangeButton: 'ஒரு மாற்றத்தை உருவாக்குபவராக இருங்கள்',
+    testimonials: {
+      heading: 'Testimonials',
+      testimonials: [{
+        name: 'Janani Krishnan',
+        subHeading: 'Through C-Hub, I got to work with all the stratas of administration and it kindled my creativity.',
+        description: 'Getting to work with Chub was a great opportunity on my way, who is aspiring to get into the sector of public administration. Various activities of the Greater Chennai Corporation that I got involved on behalf of the Chub, were catering to the real time needs and the recent covid situation was a major part of it. Through this, I got to work with all the stratas of administration within the system. Chub is a place that kindled my creativity and also enabled me to envision an idealistic and a developed society. It turned to be a platform that challenged my skills and knowledge and led me to aid to the welfare of the citizens of Greater Chennai Corporation, in all possible spheres.'
+      },
+      {
+        name: 'Jeffin Pious J',
+        subHeading: 'C-hub have always encouraged new ideas to be pitched in. I worked on real life tasks that impacts Chennai. ',
+        description: 'I have been part of this ecosystem for 5 months and I got opportunities to learn in various domains. I got a chance to work on various real life tasks like optimising the COVID response of Chennai, solid waste management tools etc. The Greater Chennai Corporation and the C-HUB have always encouraged the feasible ideas pitched in. The fellow interns make the working atmosphere comfortable and they are helpful.  I also got chances to work on the field and gain knowledge from concerned officials.'
+      },
+      {
+        name: 'Madhumeetha B',
+        subHeading: 'Being a citizen of this wonderful city, I am grateful for having this chance to do some good for my Madras.',
+        description: 'I have had the chance to understand from the inside how urban governance works during my time at the Chennai Innovation Hub. I could also work on finding solutions for real time problems through different types of projects. I have been working on different focus areas including Combating Covid -19, setting up the Chennai Innovation Hub, Transport for all etc. Being a citizen of this wonderful city, I am grateful for having this chance to do some good for my Madras. I have had the wonderful opportunity of working with the City Innovation Officer alongside the Pioneering team in facilitating the Innovation ecosystem for my city.'
+      },
+      {
+        name: 'Sandip Prakash B',
+        subHeading: 'C-hub is a key mix of exciting, stimulating and challenging work for inventive leaders.',
+        description: 'The key mix of exciting, stimulating and challenging work for inventive leaders. Building systems for COVID-19 war room, the Chennai innovation hub, playing a part in vaccine portal and burial ground management etc to directly impact the city is an exhilarating experience.'
+      }
+      ]
+    }
   },
   aboutUs: {
     firstRowHeader: 'எங்களை பற்றி',
@@ -385,7 +437,7 @@ const tamilContent = {
       'கல்வியாளர்கள், தொழில்முனைவோர் மற்றும் சென்னை கார்ப்பரேஷன் ஆகியவற்றின் குறுக்குவெட்டுக்கான தளமாக இருக்க வேண்டும்.'
     ],
     sixthRowHeader: 'மதிப்புகள்',
-    team :{
+    team: {
       leadershipHeader: 'Leadership Team',
       commissioner: 'Gagandeep Singh Bedi, I.A.S',
       commDesignation: 'Principal Secretary / Commissioner /Special Officer',
@@ -393,10 +445,10 @@ const tamilContent = {
       dcDesignation: 'Deputy Commissioner (Works)',
       ceo: 'Mr.Raj Cherubal',
       ceoDesignation: 'CEO, Chennai Smart City Limited',
-      coreTeamHeader:'Core Team',
+      coreTeamHeader: 'Core Team',
       cio: 'M.P. Azhagu Pandia Raja',
       cioDesignation: 'City Innovation Officer',
-      cdo:'Senthilkumaran Murugesan',
+      cdo: 'Senthilkumaran Murugesan',
       cdoDesignation: 'City Data Officer'
     }
   },

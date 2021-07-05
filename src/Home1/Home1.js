@@ -3,6 +3,7 @@ import CurrentEvents from './CurrentEvents/CurrentEvents';
 import HomeOpeningBanner from "./HomeOpeningBanner";
 import ChangeMaker from './ChangeMaker';
 import Partners from './Partners';
+import Testimonials from './Testimonials';
 
 const Home1 = () => {
   return (
@@ -11,6 +12,7 @@ const Home1 = () => {
       <Partners />
       <CurrentEvents />
       <ChangeMaker />
+      <Testimonials/>
     </div>
   );
 }
