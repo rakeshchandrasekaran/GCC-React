@@ -8,6 +8,7 @@ import config from '../config/config';
 import './Header.css';
 
 import mainLogo from '../images/main_logo.svg';
+import smartCityLogo from '../images/header/smart_city.png';
 import facebookLogo from '../images/facebook-icon.png';
 import instaLogo from '../images/instagram.png';
 import youtubeLogo from '../images/youtube.png';
@@ -27,9 +28,16 @@ const Header = ({ type }) => {
             height="50"
             className="d-inline-block align-top"
           />{''}
+          <img
+            alt="Smart City Logo"
+            src={smartCityLogo}
+            width="80"
+            height="60"
+            className="d-inline-block align-top"
+          />{''}
           <section className="main-logo-text">
-            <span>பெருநகர சென்னை மாநகராட்சி</span>
-            <span>Greater Chennai Coporation</span>
+            {/* <span>பெருநகர சென்னை மாநகராட்சி</span>
+            <span>Greater Chennai Coporation</span> */}
           </section>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -81,7 +89,6 @@ const Header = ({ type }) => {
               />
             </Navbar.Brand>
           </div>
-  
         </Navbar.Collapse>
       </Navbar>
     )
@@ -89,7 +96,7 @@ const Header = ({ type }) => {
     return (
       <Navbar collapseOnSelect expand="lg" bg="light" variant="light" fixed="top" className="sub-nav-bar">
         <Navbar.Brand href={`${appRoute}/`}>
-          <h2 className="sub-nav-logo">Chennai Innovation Hub</h2>
+          <h2 className="sub-nav-logo">Chennai Innovation Hub (C-Hub)</h2>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -119,7 +126,6 @@ const Header = ({ type }) => {
               <Button variant="warning">{L.t('subNav.contactUs')}</Button>
             </Navbar.Brand>
           </div>
-
         </Navbar.Collapse>
       </Navbar>
     )
