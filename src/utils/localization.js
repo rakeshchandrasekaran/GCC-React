@@ -25,19 +25,19 @@ const englishContent = {
       },
       {
         name: 'Jeffin Pious J',
-        image: '../../images/home/testimonials/Jeffin_P_J.png',
+        image: './images/home/testimonials/Jeffin_P_J.png',
         subHeading: 'C-hub have always encouraged new ideas to be pitched in. I worked on real life tasks that impacts Chennai. ',
         description: 'I have been part of this ecosystem for 5 months and I got opportunities to learn in various domains. I got a chance to work on various real life tasks like optimising the COVID response of Chennai, solid waste management tools etc. The Greater Chennai Corporation and the C-HUB have always encouraged the feasible ideas pitched in. The fellow interns make the working atmosphere comfortable and they are helpful.  I also got chances to work on the field and gain knowledge from concerned officials.'
       },
       {
         name: 'Madhumeetha B',
-        image: '../../images/home/testimonials/Madhumeetha_B.png',
+        image: './images/home/testimonials/Madhumeetha_B.png',
         subHeading: 'Being a citizen of this wonderful city, I am grateful for having this chance to do some good for my Madras.',
         description: 'I have had the chance to understand from the inside how urban governance works during my time at the Chennai Innovation Hub. I could also work on finding solutions for real time problems through different types of projects. I have been working on different focus areas including Combating Covid -19, setting up the Chennai Innovation Hub, Transport for all etc. Being a citizen of this wonderful city, I am grateful for having this chance to do some good for my Madras. I have had the wonderful opportunity of working with the City Innovation Officer alongside the Pioneering team in facilitating the Innovation ecosystem for my city.'
       },
       {
         name: 'Sandip Prakash B',
-        image: '../../images/home/testimonials/Sandip_P_B.png',
+        image: './images/home/testimonials/Sandip_P_B.png',
         subHeading: 'C-hub is a key mix of exciting, stimulating and challenging work for inventive leaders.',
         description: 'The key mix of exciting, stimulating and challenging work for inventive leaders. Building systems for COVID-19 war room, the Chennai innovation hub, playing a part in vaccine portal and burial ground management etc to directly impact the city is an exhilarating experience.'
       }
