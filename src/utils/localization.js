@@ -167,7 +167,7 @@ const englishContent = {
             ]
           },
           {
-            participantTitle: 'Colleges and Universities',
+            participantTitle: 'Schools and Universities',
             participantImage: './images/workWithUs/institute.png',
             steps: [
               'Schools/Universities who are interested in setting up innovation hub in their campus can write to us with the subject line <span>"Interested to set up an Innovation Hub in (school/college’s name)"</span>',
@@ -234,8 +234,13 @@ const englishContent = {
     firstRowHeaders: 'Projects',
     firstRowDescription: 'Get to know about all the projects that have been developed in collaboration with Chennai Innovation Hub.',
     secondRowContent: [
-      { title: 'Corona Monitoring Application', host: 'Greater Chennai Corporation', image: './images/projects/corona.png' },
-      { title: 'Shelter for Urban Incubators', host: 'Greater Chennai Corporation', image: './images/projects/shelter.png' }
+      { title: 'GCC Corona Monitoring Application', host: 'Greater Chennai Corporation', image: './images/projects/corona.png' },
+      { title: 'Shelter for Urban Incubators', host: 'Greater Chennai Corporation', image: './images/projects/shelter.png' },
+      { title: 'Madras Waste Exchange', host: 'Greater Chennai Corporation', image: './images/projects/default_image.png' },
+      { title: 'Home Quarantine and Isolation Management System (HQIMS)', host: 'Greater Chennai Corporation', image: './images/projects/default_image.png' },
+      { title: 'Burial Ground Management System', host: 'Greater Chennai Corporation', image: './images/projects/default_image.png' },
+      { title: 'GCC Revenue League', host: 'Greater Chennai Corporation', image: './images/projects/default_image.png' },
+      { title: 'Covid Tele Counselling Process Optimization', host: 'Greater Chennai Corporation', image: './images/projects/covid_vaccination.jpg' }
     ],
     thirdRowHeader: 'Interested in Collaborating with C-Hub ?',
     thirdRowButton: 'Work With Us'
@@ -533,7 +538,7 @@ const tamilContent = {
             ]
           },
           {
-            participantTitle: 'கல்லூரிகள் மற்றும் பல்கலைக்கழகங்கள்',
+            participantTitle: 'பள்ளிகள் மற்றும் பல்கலைக்கழகங்கள்',
             participantImage: './images/workWithUs/institute.png',
             steps: [
               'தங்கள் வளாகத்தில் புதுமை மையத்தை அமைப்பதில் ஆர்வமுள்ள பள்ளிகள் / பல்கலைக்கழகங்கள் <span> "ஒரு கண்டுபிடிப்பு மையத்தை (பள்ளி / கல்லூரியின் பெயர்) அமைக்க ஆர்வமாக உள்ளன" </ span> ',
@@ -599,6 +604,15 @@ const tamilContent = {
   projects: {
     firstRowHeaders: 'திட்டங்கள்',
     firstRowDescription: 'சென்னை கண்டுபிடிப்பு மையத்துடன் இணைந்து உருவாக்கப்பட்டுள்ள அனைத்து திட்டங்களையும் பற்றி அறிந்து கொள்ளுங்கள்.',
+    secondRowContent: [
+      { title: 'GCC Corona Monitoring Application', host: 'Greater Chennai Corporation', image: './images/projects/corona.png' },
+      { title: 'Shelter for Urban Incubators', host: 'Greater Chennai Corporation', image: './images/projects/shelter.png' },
+      { title: 'Madras Waste Exchange', host: 'Greater Chennai Corporation', image: './images/projects/default_image.png' },
+      { title: 'Home Quarantine and Isolation Management System (HQIMS)', host: 'Greater Chennai Corporation', image: './images/projects/default_image.png' },
+      { title: 'Burial Ground Management System', host: 'Greater Chennai Corporation', image: './images/projects/default_image.png' },
+      { title: 'GCC Revenue League', host: 'Greater Chennai Corporation', image: './images/projects/default_image.png' },
+      { title: 'Covid Tele Counselling Process Optimization', host: 'Greater Chennai Corporation', image: './images/projects/covid_vaccination.jpg' }
+    ],
     thirdRowHeader: 'சி-ஹப் உடன் ஒத்துழைக்க ஆர்வமா ?',
     thirdRowButton: 'எங்களுடன் வேலை செய்யுங்கள்'
   },
