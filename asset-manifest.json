@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/GCC-React/static/css/main.fd61bac2.chunk.css",
+    "main.css": "/GCC-React/static/css/main.ca933be7.chunk.css",
     "main.js": "/GCC-React/static/js/main.381f96fa.chunk.js",
     "main.js.map": "/GCC-React/static/js/main.381f96fa.chunk.js.map",
     "runtime-main.js": "/GCC-React/static/js/runtime-main.1b374b71.js",
@@ -12,7 +12,7 @@
     "static/js/3.3a3a8ac3.chunk.js.map": "/GCC-React/static/js/3.3a3a8ac3.chunk.js.map",
     "index.html": "/GCC-React/index.html",
     "static/css/2.11c54b2c.chunk.css.map": "/GCC-React/static/css/2.11c54b2c.chunk.css.map",
-    "static/css/main.fd61bac2.chunk.css.map": "/GCC-React/static/css/main.fd61bac2.chunk.css.map",
+    "static/css/main.ca933be7.chunk.css.map": "/GCC-React/static/css/main.ca933be7.chunk.css.map",
     "static/js/2.736b4b4c.chunk.js.LICENSE.txt": "/GCC-React/static/js/2.736b4b4c.chunk.js.LICENSE.txt",
     "static/media/Chennai Hub.60e38cd5.png": "/GCC-React/static/media/Chennai Hub.60e38cd5.png",
     "static/media/Ellipse.9c0f6cd5.png": "/GCC-React/static/media/Ellipse.9c0f6cd5.png",
@@ -58,7 +58,7 @@
     "static/media/FaqOpeningBanner.css": "/GCC-React/static/media/faq_main_banner.62228f10.png",
     "static/media/great_lakes.14262254.png": "/GCC-React/static/media/great_lakes.14262254.png",
     "static/media/loyola_college.3fe65202.png": "/GCC-React/static/media/loyola_college.3fe65202.png",
-    "static/media/Home1.css": "/GCC-React/static/media/main_banner_3.80e71088.jpg",
+    "static/media/Home1.css": "/GCC-React/static/media/main_banner_new_2.0464d1de.png",
     "static/media/main_logo.c440b9cb.svg": "/GCC-React/static/media/main_logo.c440b9cb.svg",
     "static/media/projects_card1.4c88da72.png": "/GCC-React/static/media/projects_card1.4c88da72.png",
     "static/media/projects_card2.7b2a9232.png": "/GCC-React/static/media/projects_card2.7b2a9232.png",
@@ -72,7 +72,7 @@
     "static/js/runtime-main.1b374b71.js",
     "static/css/2.11c54b2c.chunk.css",
     "static/js/2.736b4b4c.chunk.js",
-    "static/css/main.fd61bac2.chunk.css",
+    "static/css/main.ca933be7.chunk.css",
     "static/js/main.381f96fa.chunk.js"
   ]
 }
