@@ -170,7 +170,7 @@ const englishContent = {
             participantTitle: 'Schools and Universities',
             participantImage: './images/workWithUs/institute.png',
             steps: [
-              'Schools/Universities who are interested in setting up innovation hub in their campus can write to us with the subject line <span>"Interested to set up an Innovation Hub in (school/college’s name)"</span>',
+              'Schools/Universities who are interested in setting up innovation hub in their campus can write to us with the subject line <span>"Interested to set up an Innovation Hub in (school/university’s name)"</span>',
               'For any other relevant enquiries or ideas for collaboration write to us with the subject line <span>"Interested to Collaborate with GCC through the Changemaker’s program"</span>'
             ]
           }
@@ -337,34 +337,18 @@ const englishContent = {
         name: 'Hackathon',
         header: 'Smart City Hackathon',
         image: './images/events/smart-city-hackathon.png',
-        description: 'Come up with technology solutions to make our cities smarter, and participate in our 12-hour hackathon that will be held in Chennai, one of the first few smart cities in India. This hackathon is being organised by the Chennai Innovation Hub along with Greater Chennai Corporation. For further queries mail us at “chub.gcc@gmail.com” .',
+        description: 'The GCC Hackathon is an initiative by the Greater Chennai Corporation(GCC) and Chennai Smart City Limited in finding solutions for Urban problems for the City of Chennai together with its citizens. The Chennai Innovation Hub (CHUB)  will conduct Hackthons in various themes like Education, Health and Wellness, Urban Planning, Entrepreneurship, Innovation, Governance, City Beautification, Accessibility & Inclusivity, Heritage & Arts, Transport etc. These Hackathons are open to everyone and winning ideas  have a chance of getting adapted into solutions by the Greater Chennai Corporation. These hackathons are a great way to network and co create meaningful solutions for Namma Madras. Watch out this space for updates. For further queries mail us at “chub.gcc@gmail.com” .',
         eventDateTeamSizeText: 'Team Size',
-        eventDateTeanSize: 'TBD',
-        eventDateRegistrationFeeText: 'Registration Fee',
-        eventDateRegistrationFee: 'TBD',
+        eventDateTeanSize: 'To be Announced Shortly',
+        eventDateRegistrationFeeText: 'Registration',
+        eventDateRegistrationFee: 'Link to be Updated Shortly',
         eventDateDateText: 'Date',
-        eventDateDate: 'TBD',
+        eventDateDate: 'To be Announced Shortly',
         eventDateTimeText: 'Time',
-        eventDateTime: 'TBD',
+        eventDateTime: 'To be Announced Shortly',
         eventDateLocationText: 'Location',
         eventDateLocation: 'Information Center, Egmore, Chennai - 600002'
-      },
-      {
-        name: 'Hackathon',
-        header: 'Smart City Hackathon',
-        image: './images/events/students-networking-event.png',
-        description: 'Come up with technology solutions to make our cities smarter, and participate in our 12-hour hackathon that will be held in Chennai, one of the first few smart cities in India. This hackathon is being organised by the Chennai Innovation Hub along with Greater Chennai Corporation. For further queries mail us at “chub.gcc@gmail.com” .',
-        eventDateTeamSizeText: 'Team Size',
-        eventDateTeanSize: 'TBD',
-        eventDateRegistrationFeeText: 'Registration Fee',
-        eventDateRegistrationFee: 'TBD',
-        eventDateDateText: 'Date',
-        eventDateDate: 'TBD',
-        eventDateTimeText: 'Time',
-        eventDateTime: 'TBD',
-        eventDateLocationText: 'Location',
-        eventDateLocation: 'Information Center, Egmore, Chennai - 600002'
-      }
+      } 
     ],
     firstRowButton: 'Contact Us'
   },
@@ -706,15 +690,16 @@ const tamilContent = {
       {
         name: 'ஹாகாதான்',
         header: 'ஸ்மார்ட் சிட்டி ஹாகாதான்',
-        description: 'ஒரு சமூகத்திற்கு முக்கியமான சிக்கல்களைத் தீர்க்க உதவுவதில் மூளை மற்றும் ப்ரான்ஸை ஒன்றிணைப்பதற்கான சிறந்த வழி ஹாகாதான்கள். சி-ஹப்பில் தலைமைக் குழுவால் சிக்கல் அறிக்கைகள் வகுக்கப்படும். கிரேட்டர் சென்னை கார்ப்பரேஷன் நடத்திய நெட்வொர்க்கிங் நிகழ்வுகளில் பங்கேற்கும் அணிகள் தங்கள் கருத்துக்களை மற்ற முதலீட்டாளர்களிடமும் வழங்குவதற்கான வாய்ப்பைப் பெறும். ஜி.சி.சி யால் பொருத்தமான மற்றும் செயல்படுத்தக்கூடிய வெற்றிகரமான யோசனைகள் உள்வாங்கப்படும், மேலும் இந்த யோசனைகளை உணர நிறுவனத்துடன் இணைந்து பணியாற்ற அணிகள் வரவேற்கப்படுகின்றன. இந்த தளம் குடிமக்களும் அரசாங்கமும் ஒன்றிணைந்து செயல்படுவதற்கான சிறந்த வழியாகும். இந்த நிகழ்வு ஒத்துழைப்பை ஊக்குவிக்கும் மற்றும் ஒரு முழுமையான லென்ஸ் மூலம் எந்தவொரு பிரச்சினையையும் அணுக வெவ்வேறு பங்குதாரர்களைக் கொண்டுவருவதற்கான ஒரு வழியாகும்.',
+        image: './images/events/smart-city-hackathon.png',
+        description: 'ஜி.சி.சி ஹாகாதான் கிரேட்டர் சென்னை கார்ப்பரேஷன் (ஜி.சி.சி) மற்றும் சென்னை ஸ்மார்ட் சிட்டி லிமிடெட் ஆகியவற்றின் முன்முயற்சியாகும், இது சென்னை நகரத்திற்கான நகர்ப்புற பிரச்சினைகளுக்கு அதன் குடிமக்களுடன் சேர்ந்து தீர்வு காணும். சென்னை கண்டுபிடிப்பு மையம் (CHUB) கல்வி, சுகாதாரம் மற்றும் ஆரோக்கியம், நகர திட்டமிடல், தொழில்முனைவோர், புதுமை, ஆளுகை, நகர அழகுபடுத்தல், அணுகல் மற்றும் உள்ளடக்கம், பாரம்பரியம் மற்றும் கலை, போக்குவரத்து போன்ற பல்வேறு கருப்பொருள்களில் ஹாக்தான்களை நடத்துகிறது. இந்த ஹாக்தான்கள் அனைவருக்கும் திறந்திருக்கும் வென்ற யோசனைகள் கிரேட்டர் சென்னை கார்ப்பரேஷனால் தீர்வுகளைத் தழுவுவதற்கான வாய்ப்பைக் கொண்டுள்ளன. இந்த ஹேக்கத்தான்கள் நெட்வொர்க் மற்றும் இணை மெட்ராஸுக்கு அர்த்தமுள்ள தீர்வுகளை உருவாக்குவதற்கான சிறந்த வழியாகும். புதுப்பிப்புகளுக்கு இந்த இடத்தைப் பாருங்கள். மேலும் கேள்விகளுக்கு எங்களுக்கு மின்னஞ்சல் அனுப்புங்கள் “chub.gcc@gmail.com” .',
         eventDateTeamSizeText: 'அணி அளவு',
-        eventDateTeanSize: 'TBD',
-        eventDateRegistrationFeeText: 'பதிவு கட்டணம்',
-        eventDateRegistrationFee: 'TBD',
+        eventDateTeanSize: 'விரைவில் அறிவிக்கப்பட வேண்டும்',
+        eventDateRegistrationFeeText: 'பதிவு',
+        eventDateRegistrationFee: 'விரைவில் புதுப்பிக்கப்பட வேண்டிய இணைப்பு',
         eventDateDateText: 'தேதி',
-        eventDateDate: 'TBD',
+        eventDateDate: 'விரைவில் அறிவிக்கப்பட வேண்டும்',
         eventDateTimeText: 'நேரம்',
-        eventDateTime: 'TBD',
+        eventDateTime: 'விரைவில் அறிவிக்கப்பட வேண்டும்',
         eventDateLocationText: 'இடம்',
         eventDateLocation: 'தகவல் மையம், எக்மோர், சென்னை - 600002'
       }

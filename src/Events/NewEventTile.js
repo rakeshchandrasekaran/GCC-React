@@ -4,7 +4,8 @@ import './Events.css';
 const NewEventTile = ({event}) => {
   return (
     <div id='event-tile'>
-      <img src={event.image}/>
+      
+      <img src={event.image} style={{marginTop:'30px'}} />
       <div className='event-content'>
         <div>{event.name}</div>
         <h2>{event.header}</h2>
