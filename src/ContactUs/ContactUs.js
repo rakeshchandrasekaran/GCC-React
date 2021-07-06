@@ -7,9 +7,9 @@ import ripponBuildingMap from '../images/contactUs/Ripon_Building_MAP.png';
 const ContactUs = () => (
     <div>
         <div id="divContactUs" className="container"
-            style={{ marginTop: '20px', width: '100%', maxWidth: '1919px', padding: '0' }}>
+            style={{ width: '100%', maxWidth: '1919px', padding: '0' }}>
             <div className="nopadding" style={{ textAlign: 'center' }}>
-                <img src={ripponBuildingMap} style={{ height: '100%', maxHeight: '575px' }} alt="ripponBuildingMap" />
+                <img src={ripponBuildingMap} style={{ height: '100%', maxHeight: '575px', width: '100%' }} alt="ripponBuildingMap" />
             </div>
         </div>
         <br />
@@ -37,7 +37,7 @@ const ContactUs = () => (
             <div style={{ marginTop: '25px', textAlign: 'left' }}>
             <h2 style={{ textAlign: 'left', fontSize: '25px', color: '#004578' }}>chub.gcc@gmail.com</h2>
             </div>
-          
+
         </div>
         </div>
     </div>
