@@ -167,7 +167,7 @@ const englishContent = {
             ]
           },
           {
-            participantTitle: 'Colleges and Universities',
+            participantTitle: 'Schools and Universities',
             participantImage: './images/workWithUs/institute.png',
             steps: [
               'Schools/Universities who are interested in setting up innovation hub in their campus can write to us with the subject line <span>"Interested to set up an Innovation Hub in (school/college’s name)"</span>',
@@ -521,7 +521,7 @@ const tamilContent = {
             ]
           },
           {
-            participantTitle: 'கல்லூரிகள் மற்றும் பல்கலைக்கழகங்கள்',
+            participantTitle: 'பள்ளிகள் மற்றும் பல்கலைக்கழகங்கள்',
             participantImage: './images/workWithUs/institute.png',
             steps: [
               'தங்கள் வளாகத்தில் புதுமை மையத்தை அமைப்பதில் ஆர்வமுள்ள பள்ளிகள் / பல்கலைக்கழகங்கள் <span> "ஒரு கண்டுபிடிப்பு மையத்தை (பள்ளி / கல்லூரியின் பெயர்) அமைக்க ஆர்வமாக உள்ளன" </ span> ',
