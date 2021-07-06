@@ -23,7 +23,7 @@ const EveentTile = (props) => {
                 <div id="divContent" className="col-xs-12 col-sm-12 col-md-3 col-lg-3 well">
                     <h2 style={{
                         color: '#DF7870', fontSize: '14px', backgroundColor: '#FFF8F8',
-                        textAlign: 'left', width: '80px', textAlign: 'center'
+                        width: '80px', textAlign: 'center'
                     }}>
                         {events.name}
                     </h2>
@@ -40,7 +40,7 @@ const EveentTile = (props) => {
                             <h2 style={{ color: '#AAA7A7', fontSize: '16px' }}>
                                 {events.eventDateTeamSizeText}
                             </h2>
-                            <h2 style={{ color: '#AAA7A7', fontSize: '16px', color: '#696969' }}>
+                            <h2 style={{ fontSize: '16px', color: '#696969' }}>
                                 {events.eventDateTeanSize}
                             </h2>
                         </div>
@@ -48,7 +48,7 @@ const EveentTile = (props) => {
                             <h2 style={{ color: '#AAA7A7', fontSize: '16px' }}>
                                 {events.eventDateRegistrationFeeText}
                             </h2>
-                            <h2 style={{ color: '#AAA7A7', fontSize: '16px', color: '#696969' }}>
+                            <h2 style={{ fontSize: '16px', color: '#696969' }}>
                                 {events.eventDateRegistrationFee}
                             </h2>
                         </div>
@@ -59,7 +59,7 @@ const EveentTile = (props) => {
                             <h2 style={{ color: '#AAA7A7', fontSize: '16px' }}>
                                 {events.eventDateDateText}
                             </h2>
-                            <h2 style={{ color: '#AAA7A7', fontSize: '16px', color: '#696969' }}>
+                            <h2 style={{ fontSize: '16px', color: '#696969' }}>
                                 {events.eventDateDate}
                             </h2>
                         </div>
@@ -67,7 +67,7 @@ const EveentTile = (props) => {
                             <h2 style={{ color: '#AAA7A7', fontSize: '16px' }}>
                                 {events.eventDateTimeText}
                             </h2>
-                            <h2 style={{ color: '#AAA7A7', fontSize: '16px', color: '#696969' }}>
+                            <h2 style={{  fontSize: '16px', color: '#696969' }}>
                                 {events.eventDateTime}
                             </h2>
                         </div>
@@ -79,16 +79,16 @@ const EveentTile = (props) => {
                                 {events.eventDateLocationText}
                             </h2>
 
-                            <h2 style={{ color: '#AAA7A7', fontSize: '16px', color: '#696969' }}>
+                            <h2 style={{  fontSize: '16px', color: '#696969' }}>
                                 {events.eventDateLocation}
                             </h2>
                         </div>
                     </div>
 
                     <div className="" style={{ textAlign: 'center' }}>
-                        <button style={{ backgroundColor: '#004578', maxWidth: '278px', 
+                        <button style={{ backgroundColor: '#004578', maxWidth: '278px',
                         height: '53px', width: '100%', color: '#ffffff' }}
-                            id="btnContactUs" href={`${appRoute}/contact_us`}> 
+                            id="btnContactUs" href={`${appRoute}/contact_us`}>
                             {L.t('events.firstRowButton')}</button>
                     </div>
                 </div>

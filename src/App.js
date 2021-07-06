@@ -37,28 +37,31 @@ const publicUrl = process.env.PUBLIC_URL ? process.env.PUBLIC_URL : '/';
 
 function App() {
   return (
-    <div className="App">
-      <Header type="main" />
-      <Header type="sub-nav" />
-      <div className="content-grid">
-        <HashRouter basename={publicUrl}>
-          <Switch>
-            <Route path={routes.workWithUs} component={WorkWithUs} />
-            <Route path={routes.events} component={Events} />
-            <Route path={routes.faq} component={FAQ} />
-            <Route path={routes.contactUs} component={ContactUs} />
-            <Route path={routes.projects} component={ProjectsNew} />
-            <Route path={routes.council} component={Council} />
-            <Route path={routes.aboutUs} component={AboutUsNew} />
-            <Route path={routes.disclaimer} component={Disclaimer} />
-            <Route path={routes.privacyPolicy} component={PrivacyPolicy} />
-            <Route path={routes.sitemap} component={Sitemap} />
-            <Route path={routes.home} component={Home1} />
-          </Switch>
-        </HashRouter>
+    <React.Fragment>
+      <div className="App">
+        <Header type="main" />
+        <Header type="sub-nav" />
+        <div className="content-grid">
+          <HashRouter basename={publicUrl}>
+            <Switch>
+              <Route path={routes.workWithUs} component={WorkWithUs} />
+              <Route path={routes.events} component={Events} />
+              <Route path={routes.faq} component={FAQ} />
+              <Route path={routes.contactUs} component={ContactUs} />
+              <Route path={routes.projects} component={ProjectsNew} />
+              <Route path={routes.council} component={Council} />
+              <Route path={routes.aboutUs} component={AboutUsNew} />
+              <Route path={routes.disclaimer} component={Disclaimer} />
+              <Route path={routes.privacyPolicy} component={PrivacyPolicy} />
+              <Route path={routes.sitemap} component={Sitemap} />
+              <Route path={routes.home} component={Home1} />
+            </Switch>
+          </HashRouter>
+        </div>
       </div>
       <FooterSection />
-    </div>
+    </React.Fragment>
+
   );
 }
 
