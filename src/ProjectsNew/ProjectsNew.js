@@ -13,30 +13,37 @@ const ProjectsNew = () => {
       </div>
       <Tabs defaultActiveKey="0" id="uncontrolled-tab-example">
         <Tab eventKey={0} title={'Completed'}>
+         
+        <div className="col-sm-12 row" style={{marginTop: '10px'}}>
           {
             L.t('projects.secondRowContent') && L.t('projects.secondRowContent.completed').map((data) => {
               return (
-                <div className='projects-grid-card'>
-                  <img alt='' src={data.image}/>
+               
+                  <div className="col-sm-4">
+                  <img alt='' style={{width:'50%'}} src={data.image}/>
                   <p>{data.host}</p>
                   <h3>{data.title}</h3>
-                </div>
+                  </div>
+               
               )
             })
           }
+           </div>
         </Tab>
         <Tab eventKey={1} title={'Ongoing'}>
+        <div className="col-sm-12 row" style={{marginTop: '10px'}}>
           {
             L.t('projects.secondRowContent') && L.t('projects.secondRowContent.ongoing').map((data) => {
               return (
-                <div className='projects-grid-card'>
-                  <img alt='' src={data.image}/>
+                <div className="col-sm-4">
+                  <img alt='' style={{width:'50%'}} src={data.image}/>
                   <p>{data.host}</p>
                   <h3>{data.title}</h3>
                 </div>
               )
             })
           }
+          </div>
         </Tab>
       </Tabs>
       <div className='projects-collaborate-section'>

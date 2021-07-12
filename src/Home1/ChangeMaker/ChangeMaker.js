@@ -4,7 +4,7 @@ import L from '../../utils/localization';
 import './../Home1.css';
 
 import students from '../../images/home/students.png';
-import schoolAndUniversity from '../../images/home/schoolsanduniversity.png';
+import collegeanduniversities from '../../images/home/collegeanduniversities.png';
 
 const ChangeMaker = () => {
 	return (
@@ -18,7 +18,7 @@ const ChangeMaker = () => {
 					<img alt='Student Change Maker' src={students}/>
 				</div>
 				<div>
-					<img alt='Institute Change Maker' src={schoolAndUniversity}/>
+					<img alt='Institute Change Maker' src={collegeanduniversities}/>
 				</div>
 			</div>
 			<button className='change-maker-button'>{L.t('home.thirdBannerBeAChangeButton')}</button>
