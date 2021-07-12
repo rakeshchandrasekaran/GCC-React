@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/GCC-React/static/css/main.17164304.chunk.css",
-    "main.js": "/GCC-React/static/js/main.d0091e4d.chunk.js",
-    "main.js.map": "/GCC-React/static/js/main.d0091e4d.chunk.js.map",
+    "main.js": "/GCC-React/static/js/main.d183abdd.chunk.js",
+    "main.js.map": "/GCC-React/static/js/main.d183abdd.chunk.js.map",
     "runtime-main.js": "/GCC-React/static/js/runtime-main.1b374b71.js",
     "runtime-main.js.map": "/GCC-React/static/js/runtime-main.1b374b71.js.map",
     "static/css/2.11c54b2c.chunk.css": "/GCC-React/static/css/2.11c54b2c.chunk.css",
@@ -14,7 +14,7 @@
     "static/css/2.11c54b2c.chunk.css.map": "/GCC-React/static/css/2.11c54b2c.chunk.css.map",
     "static/css/main.17164304.chunk.css.map": "/GCC-React/static/css/main.17164304.chunk.css.map",
     "static/js/2.6a646067.chunk.js.LICENSE.txt": "/GCC-React/static/js/2.6a646067.chunk.js.LICENSE.txt",
-    "static/media/Chennai Hub.60e38cd5.png": "/GCC-React/static/media/Chennai Hub.60e38cd5.png",
+    "static/media/Chennai Hub.a5780928.png": "/GCC-React/static/media/Chennai Hub.a5780928.png",
     "static/media/Ellipse.9c0f6cd5.png": "/GCC-React/static/media/Ellipse.9c0f6cd5.png",
     "static/media/Hyundai-logo.54ae03de.png": "/GCC-React/static/media/Hyundai-logo.54ae03de.png",
     "static/media/IIT_Madras_Logo.cdff8635.png": "/GCC-React/static/media/IIT_Madras_Logo.cdff8635.png",
@@ -46,6 +46,7 @@
     "static/media/cdo_SenthilKumaran.25224961.png": "/GCC-React/static/media/cdo_SenthilKumaran.25224961.png",
     "static/media/ceo_raj_cherubal.4a74d698.png": "/GCC-React/static/media/ceo_raj_cherubal.4a74d698.png",
     "static/media/cio_Azhagu.dcaf9e61.png": "/GCC-React/static/media/cio_Azhagu.dcaf9e61.png",
+    "static/media/collegeanduniversities.2b88b230.png": "/GCC-React/static/media/collegeanduniversities.2b88b230.png",
     "static/media/commissioner_gagandeep_singh.75d4f20a.png": "/GCC-React/static/media/commissioner_gagandeep_singh.75d4f20a.png",
     "static/media/council_Chennai_Innovation_Hub_Verticals.6a92b5c1.png": "/GCC-React/static/media/council_Chennai_Innovation_Hub_Verticals.6a92b5c1.png",
     "static/media/council_light_house.3d5bf981.png": "/GCC-React/static/media/council_light_house.3d5bf981.png",
@@ -62,7 +63,6 @@
     "static/media/main_logo.c440b9cb.svg": "/GCC-React/static/media/main_logo.c440b9cb.svg",
     "static/media/projects_card1.4c88da72.png": "/GCC-React/static/media/projects_card1.4c88da72.png",
     "static/media/projects_card2.7b2a9232.png": "/GCC-React/static/media/projects_card2.7b2a9232.png",
-    "static/media/schoolsanduniversity.eab6a501.png": "/GCC-React/static/media/schoolsanduniversity.eab6a501.png",
     "static/media/smart_city.b2c9a63a.png": "/GCC-React/static/media/smart_city.b2c9a63a.png",
     "static/media/students.a04387c8.png": "/GCC-React/static/media/students.a04387c8.png",
     "static/media/undp_logo.b4544ff7.png": "/GCC-React/static/media/undp_logo.b4544ff7.png",
@@ -73,6 +73,6 @@
     "static/css/2.11c54b2c.chunk.css",
     "static/js/2.6a646067.chunk.js",
     "static/css/main.17164304.chunk.css",
-    "static/js/main.d0091e4d.chunk.js"
+    "static/js/main.d183abdd.chunk.js"
   ]
 }
