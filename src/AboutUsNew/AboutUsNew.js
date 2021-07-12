@@ -70,6 +70,7 @@ const AboutUsNew = () => {
                 <h2 style={{ color: '#0078D4', fontSize: '18px' }}>
                   {L.t('aboutUs.team.commDesignation')}
                 </h2>
+                <p>{L.t('shared.corporationTitle')}</p>
               </div>
               <div className="col-sm-4">
                 <img src={DC_MS_Prasanth}
@@ -80,6 +81,7 @@ const AboutUsNew = () => {
                 <h2 style={{ color: '#0078D4', fontSize: '18px' }}>
                   {L.t('aboutUs.team.dcDesignation')}
                 </h2>
+                <p>{L.t('shared.corporationTitle')}</p>
               </div>
               <div className="col-sm-4">
                 <img src={CEO_Raj_Cherubal}
@@ -90,6 +92,7 @@ const AboutUsNew = () => {
                 <h2 style={{ color: '#0078D4', fontSize: '18px' }}>
                   {L.t('aboutUs.team.ceoDesignation')}
                 </h2>
+                <p>{L.t('shared.corporationTitle')}</p>
               </div>
             </div>
             <div className="col-sm-1">
@@ -103,7 +106,7 @@ const AboutUsNew = () => {
               </h2>
               <br />
             </div>
-            
+
             <div className="col-sm-12 row" style={{ textAlign: 'center', marginBottom: '30px' }}>
               <div className="col-sm-2">
               </div>
@@ -119,6 +122,7 @@ const AboutUsNew = () => {
                 <h2 style={{ color: '#0078D4', fontSize: '18px' }}>
                   {L.t('aboutUs.team.cioDesignation')}
                 </h2>
+                <p>{L.t('shared.corporationTitle')}</p>
                 </div>
                 <div className="col-sm-4">
                   <img src={CDA_SenthilKumaran}
@@ -129,6 +133,7 @@ const AboutUsNew = () => {
                 <h2 style={{ color: '#0078D4', fontSize: '18px' }}>
                   {L.t('aboutUs.team.cdoDesignation')}
                 </h2>
+                <p>{L.t('shared.corporationTitle')}</p>
                 </div>
                 <div className="col-sm-2">
                 </div>

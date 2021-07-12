@@ -4,6 +4,10 @@
     text-align: center;
 }
 
+#projects-page .nav {
+    justify-content: space-evenly;
+}
+
 #projects-page .projects-collaborate-section {
     background: rgba(223, 120, 112, 0.05);
     padding: 40px 0 63px;
@@ -92,8 +96,12 @@
     box-shadow: 0px 1px 8px 7px rgba(114, 114, 114, 0.21);
 }
 
+.projects-grid-card {
+    margin-top: 1.5rem;
+}
+
 .projects-grid-card p {
-    text-align: left;
+    text-align: center;
     font-weight: normal;
     font-size: 16px;
     line-height: 22px;
@@ -103,16 +111,15 @@
 }
 
 .projects-grid-card h3 {
-    max-width: 320px;
     margin: 10px 21px 26px;
     font-weight: 500;
     font-size: 32px;
     line-height: 35px;
     color: #161515;
-    text-align: left;
+    text-align: center;
 }
 
 .projects-grid-card img {
-    width: 100%;
+    width: 50%;
     height: auto;
 }

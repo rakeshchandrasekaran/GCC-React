@@ -29,13 +29,12 @@ const ContactUs = () => (
                 <h2 style={{ textAlign: 'center', fontSize: '45px', color: '#004578' }}>Chennai Innovation Hub</h2>
             </div>
             <div style={{ marginTop: '25px', textAlign: 'left' }}>
+            <h2 style={{ textAlign: 'left', fontSize: '25px', color: '#004578' }}>2nd floor ripon building, </h2>
             <h2 style={{ textAlign: 'left', fontSize: '25px', color: '#004578' }}>No 53, Raja Muthiah Rd, </h2>
             <h2 style={{ textAlign: 'left', fontSize: '25px', color: '#004578' }}>Kannappar Thidal, </h2>
             <h2 style={{ textAlign: 'left', fontSize: '25px', color: '#004578' }}>Periyamet, Chennai, </h2>
             <h2 style={{ textAlign: 'left', fontSize: '25px', color: '#004578' }}>Tamil Nadu 600003 </h2>
-            </div>
-            <div style={{ marginTop: '25px', textAlign: 'left' }}>
-            <h2 style={{ textAlign: 'left', fontSize: '25px', color: '#004578' }}>chub.gcc@gmail.com</h2>
+            <h2 style={{ textAlign: 'left', fontSize: '25px', color: '#004578' }}>Email: chub.gcc@gmail.com</h2>
             </div>
 
         </div>

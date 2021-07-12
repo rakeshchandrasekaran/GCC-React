@@ -3,6 +3,15 @@
     min-height: 410px;
 }
 
+.tab-pane > #divCouncil {
+    background: #FFFFFF;
+    box-shadow: 0 4px 21px rgb(182 182 182 / 25%);
+    border-radius: 5px;
+    margin: 34px 7% 78px;
+    padding: 25px 46px 60px;
+    text-align: left;
+}
+
 #WorkWithUs .background-banners p {
     color: #8B8B8B;
     font-style: normal;

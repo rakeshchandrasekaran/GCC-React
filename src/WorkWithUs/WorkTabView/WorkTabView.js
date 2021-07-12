@@ -2,6 +2,7 @@ import React from 'react';
 import {Tab, Tabs} from "react-bootstrap";
 import '../WorkWithUs.css'
 import WorkCategoryDetails from "../WorkCategoryDetails";
+import Council from "../../Council/Council";
 import L from '../../utils/localization';
 
 const WorkTabView = () => {
@@ -12,7 +13,11 @@ const WorkTabView = () => {
         L.t('workWithUs.categories').map((category, index) => {
           return (
             <Tab eventKey={index} title={category.title}>
-              <WorkCategoryDetails content={category}/>
+              {
+                category.title === 'Council' ? <Council/> :
+                  <WorkCategoryDetails content={category}/>
+              }
+
             </Tab>
           )
         })

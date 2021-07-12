@@ -1,10 +1,11 @@
 import React from "react";
 import './Events.css';
+import L from '../utils/localization';
 
 const NewEventTile = ({event}) => {
   return (
     <div id='event-tile'>
-      
+
       <img src={event.image} style={{marginTop:'30px'}} />
       <div className='event-content'>
         <div>{event.name}</div>
@@ -36,7 +37,7 @@ const NewEventTile = ({event}) => {
           <div className='event-detail-heading'>Location</div>
           <div className='event-detail-data'>{event.eventDateLocation}</div>
         </div>
-        <button>Register</button>
+        <button>{L.t('shared.comingSoon')}</button>
       </div>
     </div>
   );

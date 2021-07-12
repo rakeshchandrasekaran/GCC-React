@@ -45,7 +45,7 @@ const Projects = () => (
                     </p>
                     <div>
                         <button type="button" className="btn btnworkwithus-cs" style={{backgroundColor: '#BB6059',
-                            color: '#ffffff'}} id="btnworkwithus" 
+                            color: '#ffffff'}} id="btnworkwithus"
                             onclick="window.location.href='./workwithus.html'">{L.t('projects.thirdRowButton')}</button>
                     </div>
                 </div>

@@ -152,6 +152,31 @@ const englishContent = {
     mailId: 'chub.gcc@gmail.com',
     categories: [
       {
+        title: 'Council',
+        image: '',
+        description: 'Change begins at home and we want to be able to bring about grassroot level changes through our program. Academic entities must very much be a part of the innovation conversation and it is for this reason, we wanted to create an exclusive program where we encourage our students to integrate this city’s future with their own.<br><br>The Changemaker’s program exclusively focuses on creating academic engagements for C-Hub in the city. This program will focus on establishing and building connections with the colleges in Chennai. This wing will be open to collaborate with schools to foster innovation at grassroot level. Final year students pursuing their Bachelor’s can use existing problem statements put out by the Greater Chennai Corporation for their final year projects. The data sets and appropriate resources will be available for the PhD students to carry out their research along with the Greater Chennai Corporation. The Changemaker’s program also invites students enrolled in NSS/NCC programs to participate in social work listed as part of their curriculum.',
+        subTitle: 'Want to be a change maker or know one? <br>It is time to take action!',
+        participants: [
+          {
+            participantTitle: 'Students',
+            participantImage: './images/workWithUs/student.png',
+            steps: [
+              'Student who wants to join include your name, age, current education experience and your motivation to join the program and Write to us with the subject line <span>"Interested in the Changemaker Program"</span>',
+              'Final year Bachelor’s student who would like to work with us for your thesis can write to is with the subject line <span>"Interested to carry out Bachelor thesis project with GCC"</span>',
+              'PhD students who want to collaborate on your research can write to us with the subject line <span>"Interested to work on my PhD thesis with GCC"</span>'
+            ]
+          },
+          {
+            participantTitle: 'Schools and Universities',
+            participantImage: './images/workWithUs/institute.png',
+            steps: [
+              'Schools/Universities who are interested in setting up innovation hub in their campus can write to us with the subject line <span>"Interested to set up an Innovation Hub in (school/university’s name)"</span>',
+              'For any other relevant enquiries or ideas for collaboration write to us with the subject line <span>"Interested to Collaborate with GCC through the Changemaker’s program"</span>'
+            ]
+          }
+        ]
+      },
+      {
         title: 'Changemaker’s Program',
         image: './images/workWithUs/changeMaker.png',
         description: 'Change begins at home and we want to be able to bring about grassroot level changes through our program. Academic entities must very much be a part of the innovation conversation and it is for this reason, we wanted to create an exclusive program where we encourage our students to integrate this city’s future with their own.<br><br>The Changemaker’s program exclusively focuses on creating academic engagements for C-Hub in the city. This program will focus on establishing and building connections with the colleges in Chennai. This wing will be open to collaborate with schools to foster innovation at grassroot level. Final year students pursuing their Bachelor’s can use existing problem statements put out by the Greater Chennai Corporation for their final year projects. The data sets and appropriate resources will be available for the PhD students to carry out their research along with the Greater Chennai Corporation. The Changemaker’s program also invites students enrolled in NSS/NCC programs to participate in social work listed as part of their curriculum.',
@@ -233,15 +258,19 @@ const englishContent = {
   projects: {
     firstRowHeaders: 'Projects',
     firstRowDescription: 'Get to know about all the projects that have been developed in collaboration with Chennai Innovation Hub.',
-    secondRowContent: [
-      { title: 'GCC Corona Monitoring Application', host: 'Greater Chennai Corporation', image: './images/projects/corona.png' },
-      { title: 'Shelter for Urban Incubators', host: 'Greater Chennai Corporation', image: './images/projects/shelter.png' },
-      { title: 'Madras Waste Exchange', host: 'Greater Chennai Corporation', image: './images/projects/default_image.png' },
-      { title: 'Home Quarantine and Isolation Management System (HQIMS)', host: 'Greater Chennai Corporation', image: './images/projects/default_image.png' },
-      { title: 'Burial Ground Management System', host: 'Greater Chennai Corporation', image: './images/projects/default_image.png' },
-      { title: 'GCC Revenue League', host: 'Greater Chennai Corporation', image: './images/projects/default_image.png' },
-      { title: 'Covid Tele Counselling Process Optimization', host: 'Greater Chennai Corporation', image: './images/projects/covid_vaccination.jpg' }
-    ],
+    secondRowContent: {
+      completed: [
+        { title: 'GCC Corona Monitoring Application', host: 'Greater Chennai Corporation', image: './images/projects/corona.png' },
+        { title: 'Madras Waste Exchange', host: 'Greater Chennai Corporation', image: './images/projects/default_image.png' },
+        { title: 'Home Quarantine and Isolation Management System (HQIMS)', host: 'Greater Chennai Corporation', image: './images/projects/default_image.png' },
+        { title: 'GCC Revenue League', host: 'Greater Chennai Corporation', image: './images/projects/default_image.png' },
+        { title: 'Covid Tele Counselling Process Optimization', host: 'Greater Chennai Corporation', image: './images/projects/covid_vaccination.jpg' }
+      ],
+      ongoing: [
+        { title: 'Shelter for Urban Incubators', host: 'Greater Chennai Corporation', image: './images/projects/shelter.png' },
+        { title: 'Burial Ground Management System', host: 'Greater Chennai Corporation', image: './images/projects/default_image.png' },
+      ]
+    },
     thirdRowHeader: 'Interested in Collaborating with C-Hub ?',
     thirdRowButton: 'Work With Us'
   },
@@ -348,7 +377,7 @@ const englishContent = {
         eventDateTime: 'To be Announced Shortly',
         eventDateLocationText: 'Location',
         eventDateLocation: 'Information Center, Egmore, Chennai - 600002'
-      } 
+      }
     ],
     firstRowButton: 'Contact Us'
   },
@@ -372,7 +401,11 @@ const englishContent = {
   privacyPolicy:[
     'This website is designed, developed and maintained by <<MRC>>. for the Chennai Innovation Hub (C-HUB). These terms and conditions shall be governed by and construed in accordance with the Indian Laws. Any dispute arising under these terms and conditions shall be subject to the jurisdiction of the courts of India.',
     'The Information posted on this website could include hypertext links to external websites. The Chennai Innovation Hub (C-HUB) is providing these links and pointers solely for your information and convenience. When you select a link to an outside website, you are leaving "Chennai Innovation Hub (C-HUB)" site and are subject to the privacy and security policies of the owners / sponsors of the outside website.'
-  ]
+  ],
+  shared: {
+    corporationTitle: 'Greater Chennai Corporation',
+    comingSoon: 'Coming Soon'
+  }
 };
 
 const tamilContent = {
@@ -426,11 +459,9 @@ const tamilContent = {
       'நிலைத்திருங்கள்.',
       'இயக்கு.'
     ],
-    firstRowParagraph: [
-      'கிரேட்டர் சென்னை கார்ப்பரேஷனால் அமைக்கப்பட்ட சி-ஹப் (சென்னை-ஹப்) அதன் முதல் கண்டுபிடிப்பு மையமாகும். வெவ்வேறு செங்குத்துகளில் புதுமைகளை வளர்ப்பதற்கும் ஊக்குவிப்பதற்கும் இது ஒரு முயற்சி. நல்ல மற்றும் புதுமையான யோசனைகளை ஊக்குவிக்க அகாடெமியா, இண்டஸ்ட்ரீஸ் மற்றும் ஜி.சி.சி இணைந்து செயல்பட வேண்டியதன் அவசியத்தை இது விளக்குகிறது.',
-      'ஒரு முழுமையான லென்ஸ் மூலம் சிக்கல்களை அணுகுவதற்காக ஒரு பல்வகைக் குழு ஒன்று சேர்க்கப்படும். கண்டுபிடிப்பு மையம் இந்த தளத்தின் ஒரு பகுதியாக வெவ்வேறு செங்குத்துகளிலிருந்து பங்குதாரர்களை வழங்கும். இது ஒரு உள்ளடக்கிய தளமாகும், இது நகரத்தில் உள்ள சமூக, சுற்றுச்சூழல் மற்றும் நகர்ப்புற பிரச்சினைகளை அதன் குடிமக்களுடன் சேர்ந்து தீர்க்க முயற்சிக்கும்.',
-      'ஒரு புதிய முன்னுதாரணம் தேவைப்படுகிறது, இது நகர்ப்புற பங்குதாரர்களுக்கு அவர்களின் நிபுணத்துவத்தையும் முன்னோக்கையும் உறுதிப்படுத்தும் நகர்ப்புற சவால்களை எவ்வாறு கூட்டாக வழங்குவதற்கான எதிர்காலத்தை நகர்ப்புற தீர்வுகளில் பிரதிபலிக்கிறது. நான்கு முக்கியமான ஹெலிக்ஸ் என அழைக்கப்படும் இந்த முக்கியமான பங்குதாரர்களின் ஒன்றிணைவு, மதிப்பு மற்றும் அபாயங்களை இரண்டையும் உருவாக்குவதற்கான யோசனைகள் மற்றும் தகவல்களின் செயலில் ஓட்டத்திற்கு உதவக்கூடும், சாராம்சத்தில், நகர்ப்புற சுற்றுச்சூழல் அமைப்பு முழுவதும் நன்மைகளை பரப்பும் ஒரு புதுமை மதிப்பு-வலையமைப்பை உருவாக்குகிறது. எதிர்காலத்திற்கான எங்கள் நகரங்கள்.'
-    ],
+    firstRowContent: 'கிரேட்டர் சென்னை கார்ப்பரேஷனால் அமைக்கப்பட்ட சி-ஹப் (சென்னை-ஹப்) அதன் முதல் கண்டுபிடிப்பு மையமாகும். வெவ்வேறு செங்குத்துகளில் புதுமைகளை வளர்ப்பதற்கும் ஊக்குவிப்பதற்கும் இது ஒரு முயற்சி. நல்ல மற்றும் புதுமையான யோசனைகளை ஊக்குவிக்க அகாடெமியா, இண்டஸ்ட்ரீஸ் மற்றும் ஜி.சி.சி இணைந்து செயல்பட வேண்டியதன் அவசியத்தை இது விளக்குகிறது. ' +
+      'ஒரு முழுமையான லென்ஸ் மூலம் சிக்கல்களை அணுகுவதற்காக ஒரு பல்வகைக் குழு ஒன்று சேர்க்கப்படும். கண்டுபிடிப்பு மையம் இந்த தளத்தின் ஒரு பகுதியாக வெவ்வேறு செங்குத்துகளிலிருந்து பங்குதாரர்களை வழங்கும். இது ஒரு உள்ளடக்கிய தளமாகும், இது நகரத்தில் உள்ள சமூக, சுற்றுச்சூழல் மற்றும் நகர்ப்புற பிரச்சினைகளை அதன் குடிமக்களுடன் சேர்ந்து தீர்க்க முயற்சிக்கும். ' +
+      'ஒரு புதிய முன்னுதாரணம் தேவைப்படுகிறது, இது நகர்ப்புற பங்குதாரர்களுக்கு அவர்களின் நிபுணத்துவத்தையும் முன்னோக்கையும் உறுதிப்படுத்தும் நகர்ப்புற சவால்களை எவ்வாறு கூட்டாக வழங்குவதற்கான எதிர்காலத்தை நகர்ப்புற தீர்வுகளில் பிரதிபலிக்கிறது. நான்கு முக்கியமான ஹெலிக்ஸ் என அழைக்கப்படும் இந்த முக்கியமான பங்குதாரர்களின் ஒன்றிணைவு, மதிப்பு மற்றும் அபாயங்களை இரண்டையும் உருவாக்குவதற்கான யோசனைகள் மற்றும் தகவல்களின் செயலில் ஓட்டத்திற்கு உதவக்கூடும், சாராம்சத்தில், நகர்ப்புற சுற்றுச்சூழல் அமைப்பு முழுவதும் நன்மைகளை பரப்பும் ஒரு புதுமை மதிப்பு-வலையமைப்பை உருவாக்குகிறது. எதிர்காலத்திற்கான எங்கள் நகரங்கள்.',
     secondRowHeader: 'முக்கிய செயல்பாடுகள்',
     secondRowData: [
       'நகர்ப்புற சவால்களை சமாளிக்க புதுமைகளின் கண்டுபிடிப்பு மற்றும் வரிசைப்படுத்தலை இயக்கவும் பராமரிக்கவும்',
@@ -516,17 +547,17 @@ const tamilContent = {
             participantTitle: 'மாணவர்கள்',
             participantImage: './images/workWithUs/student.png',
             steps: [
-              'சேர விரும்பும் மாணவர் உங்கள் பெயர், வயது, தற்போதைய கல்வி அனுபவம் மற்றும் திட்டத்தில் சேர உந்துதல் மற்றும் <span> "சேஞ்ச்மேக்கர் திட்டத்தில் ஆர்வமுள்ளவர்" </ span> என்ற பாட வரியுடன் எங்களுக்கு எழுதுங்கள்',
-              'உங்கள் ஆய்வறிக்கையில் எங்களுடன் பணியாற்ற விரும்பும் இறுதி ஆண்டு இளங்கலை மாணவர் எழுதலாம் <span> "ஜி.சி.சி உடன் இளங்கலை ஆய்வறிக்கை திட்டத்தை மேற்கொள்ள ஆர்வம்" </ span>',
-              'உங்கள் ஆராய்ச்சியில் ஒத்துழைக்க விரும்பும் பி.எச்.டி மாணவர்கள் <span> "ஜி.சி.சி உடன் எனது பிஎச்.டி ஆய்வறிக்கையில் பணியாற்ற ஆர்வமாக உள்ளனர்" </ span>'
+              'சேர விரும்பும் மாணவர் உங்கள் பெயர், வயது, தற்போதைய கல்வி அனுபவம் மற்றும் திட்டத்தில் சேர உந்துதல் மற்றும் <span> "சேஞ்ச்மேக்கர் திட்டத்தில் ஆர்வமுள்ளவர்" </span> என்ற பாட வரியுடன் எங்களுக்கு எழுதுங்கள்',
+              'உங்கள் ஆய்வறிக்கையில் எங்களுடன் பணியாற்ற விரும்பும் இறுதி ஆண்டு இளங்கலை மாணவர் எழுதலாம் <span> "ஜி.சி.சி உடன் இளங்கலை ஆய்வறிக்கை திட்டத்தை மேற்கொள்ள ஆர்வம்" </span>',
+              'உங்கள் ஆராய்ச்சியில் ஒத்துழைக்க விரும்பும் பி.எச்.டி மாணவர்கள் <span> "ஜி.சி.சி உடன் எனது பிஎச்.டி ஆய்வறிக்கையில் பணியாற்ற ஆர்வமாக உள்ளனர்" </span>'
             ]
           },
           {
             participantTitle: 'பள்ளிகள் மற்றும் பல்கலைக்கழகங்கள்',
             participantImage: './images/workWithUs/institute.png',
             steps: [
-              'தங்கள் வளாகத்தில் புதுமை மையத்தை அமைப்பதில் ஆர்வமுள்ள பள்ளிகள் / பல்கலைக்கழகங்கள் <span> "ஒரு கண்டுபிடிப்பு மையத்தை (பள்ளி / கல்லூரியின் பெயர்) அமைக்க ஆர்வமாக உள்ளன" </ span> ',
-              'வேறு ஏதேனும் தொடர்புடைய விசாரணைகள் அல்லது ஒத்துழைப்புக்கான யோசனைகளுக்கு <span> "சேஞ்ச்மேக்கரின் திட்டத்தின் மூலம் ஜி.சி.சி உடன் ஒத்துழைக்க ஆர்வமாக உள்ளது" </ span>'
+              'தங்கள் வளாகத்தில் புதுமை மையத்தை அமைப்பதில் ஆர்வமுள்ள பள்ளிகள் / பல்கலைக்கழகங்கள் <span> "ஒரு கண்டுபிடிப்பு மையத்தை (பள்ளி / கல்லூரியின் பெயர்) அமைக்க ஆர்வமாக உள்ளன" </span> ',
+              'வேறு ஏதேனும் தொடர்புடைய விசாரணைகள் அல்லது ஒத்துழைப்புக்கான யோசனைகளுக்கு <span> "சேஞ்ச்மேக்கரின் திட்டத்தின் மூலம் ஜி.சி.சி உடன் ஒத்துழைக்க ஆர்வமாக உள்ளது" </span>'
             ]
           }
         ]
@@ -588,15 +619,19 @@ const tamilContent = {
   projects: {
     firstRowHeaders: 'திட்டங்கள்',
     firstRowDescription: 'சென்னை கண்டுபிடிப்பு மையத்துடன் இணைந்து உருவாக்கப்பட்டுள்ள அனைத்து திட்டங்களையும் பற்றி அறிந்து கொள்ளுங்கள்.',
-    secondRowContent: [
-      { title: 'GCC Corona Monitoring Application', host: 'Greater Chennai Corporation', image: './images/projects/corona.png' },
-      { title: 'Shelter for Urban Incubators', host: 'Greater Chennai Corporation', image: './images/projects/shelter.png' },
-      { title: 'Madras Waste Exchange', host: 'Greater Chennai Corporation', image: './images/projects/default_image.png' },
-      { title: 'Home Quarantine and Isolation Management System (HQIMS)', host: 'Greater Chennai Corporation', image: './images/projects/default_image.png' },
-      { title: 'Burial Ground Management System', host: 'Greater Chennai Corporation', image: './images/projects/default_image.png' },
-      { title: 'GCC Revenue League', host: 'Greater Chennai Corporation', image: './images/projects/default_image.png' },
-      { title: 'Covid Tele Counselling Process Optimization', host: 'Greater Chennai Corporation', image: './images/projects/covid_vaccination.jpg' }
-    ],
+    secondRowContent: {
+      completed: [
+        { title: 'GCC Corona Monitoring Application', host: 'Greater Chennai Corporation', image: './images/projects/corona.png' },
+        { title: 'Madras Waste Exchange', host: 'Greater Chennai Corporation', image: './images/projects/default_image.png' },
+        { title: 'Home Quarantine and Isolation Management System (HQIMS)', host: 'Greater Chennai Corporation', image: './images/projects/default_image.png' },
+        { title: 'GCC Revenue League', host: 'Greater Chennai Corporation', image: './images/projects/default_image.png' },
+        { title: 'Covid Tele Counselling Process Optimization', host: 'Greater Chennai Corporation', image: './images/projects/covid_vaccination.jpg' }
+      ],
+      ongoing: [
+        { title: 'Shelter for Urban Incubators', host: 'Greater Chennai Corporation', image: './images/projects/shelter.png' },
+        { title: 'Burial Ground Management System', host: 'Greater Chennai Corporation', image: './images/projects/default_image.png' },
+      ]
+    },
     thirdRowHeader: 'சி-ஹப் உடன் ஒத்துழைக்க ஆர்வமா ?',
     thirdRowButton: 'எங்களுடன் வேலை செய்யுங்கள்'
   },
@@ -726,7 +761,11 @@ const tamilContent = {
   privacyPolicy:[
   'இந்த வலைத்தளம் <<MRC>> ஆல் வடிவமைக்கப்பட்டுள்ளது, உருவாக்கப்பட்டது மற்றும் பராமரிக்கப்படுகிறது. சென்னை கண்டுபிடிப்பு மையத்திற்கு (சி-ஹப்). இந்த விதிமுறைகள் மற்றும் நிபந்தனைகள் இந்திய சட்டங்களின்படி நிர்வகிக்கப்படுகின்றன. இந்த விதிமுறைகள் மற்றும் நிபந்தனைகளின் கீழ் எழும் எந்தவொரு சர்ச்சையும் இந்திய நீதிமன்றங்களின் அதிகார எல்லைக்கு உட்பட்டதாக இருக்கும். ',
     'இந்த இணையதளத்தில் வெளியிடப்பட்ட தகவல்களில் வெளிப்புற வலைத்தளங்களுக்கான ஹைபர்டெக்ஸ்ட் இணைப்புகள் இருக்கலாம். சென்னை கண்டுபிடிப்பு மையம் (சி-ஹப்) இந்த இணைப்புகள் மற்றும் சுட்டிகளை உங்கள் தகவல் மற்றும் வசதிக்காக மட்டுமே வழங்குகிறது. நீங்கள் ஒரு வெளிப்புற வலைத்தளத்திற்கான இணைப்பைத் தேர்ந்தெடுக்கும்போது, ​​நீங்கள் "சென்னை புதுமை மையம் (சி-ஹப்)" தளத்தை விட்டு வெளியேறுகிறீர்கள், மேலும் வெளிப்புற வலைத்தளத்தின் உரிமையாளர்கள் / ஆதரவாளர்களின் தனியுரிமை மற்றும் பாதுகாப்புக் கொள்கைகளுக்கு உட்பட்டுள்ளீர்கள். '
-  ]
+  ],
+  shared: {
+    corporationTitle: 'Greater Chennai Corporation',
+    comingSoon: 'விரைவில்'
+  }
 };
 
 const translate = (contentPath, values) => {
