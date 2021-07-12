@@ -10,7 +10,7 @@ const NewEventTile = ({event}) => {
       <div className='event-content'>
         <div>{event.name}</div>
         <h2>{event.header}</h2>
-        <p>{event.description}</p>
+        <p style={{textAlign:'justify'}}>{event.description}</p>
       </div>
       <div className='event-details'>
         <div className='event-detail-row'>
