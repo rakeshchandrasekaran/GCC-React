@@ -36,8 +36,8 @@ const Header = ({ type }) => {
             className="d-inline-block align-top"
           />{''}
           <section className="main-logo-text">
-            {/* <span>பெருநகர சென்னை மாநகராட்சி</span>
-            <span>Greater Chennai Coporation</span> */}
+            <span>பெருநகர சென்னை மாநகராட்சி</span>
+            <span>Greater Chennai Coporation</span>
           </section>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -107,9 +107,9 @@ const Header = ({ type }) => {
             <Navbar.Brand href={`${appRoute}/about_us`}>
               <Button variant="warning">{L.t('subNav.aboutUs')}</Button>
             </Navbar.Brand>
-            <Navbar.Brand href={`${appRoute}/council`}>
+            {/* <Navbar.Brand href={`${appRoute}/council`}>
               <Button variant="warning">{L.t('subNav.council')}</Button>
-            </Navbar.Brand>
+            </Navbar.Brand> */}
             <Navbar.Brand href={`${appRoute}/workWithUs`}>
               <Button variant="warning">{L.t('subNav.workWithUs')}</Button>
             </Navbar.Brand>
