@@ -22,13 +22,17 @@ const Partners = () => {
 				<img src={vector} style={{ width: '72.5px', height: '4px;' }} />
 			</div>
 			<div id="divPartners">
-				<img src={mrCooper} />
+			<marquee width="100%" direction="left" scrollamount="12" height="200px">
+			<img src={mrCooper} />
 				<img src={undp} />
 				<img src={hyundai} />
 				<img src={iitm} />
 				<img src={greatLakes} />
 				<img src={moudgoi} />
 				<img src={loyola} />
+				{/* <img src={mrCooper} /> */}
+			</marquee>
+				
 			</div>
 		</div>
 	);

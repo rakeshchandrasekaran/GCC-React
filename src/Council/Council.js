@@ -5,6 +5,9 @@ import lightHouse from '../images/council/council_light_house.png'
 import chennaiInnovationHubVerticals from '../images/council/council_Chennai_Innovation_Hub_Verticals.png'
 import ellipse from '../images/common/Ellipse.png'
 import orangeRectanlge from '../images/council/council_rectangle.png'
+import orangeRectanlge_1 from '../images/council/orangeRectanlge_1.png'
+import orangeRectanlge_2 from '../images/council/orangeRectanlge_2.png'
+import orangeRectanlge_3 from '../images/council/orangeRectanlge_3.png'
 
 const Council = () => (
     <div className="container" id="divCouncil">
@@ -146,36 +149,36 @@ const Council = () => (
                 </div>
                 <div className="col-xs-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 row">
                     <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                        <img src={orangeRectanlge} alt="orangeRectanlge" style={{width:'61px', height:'59px'}} />
+                        <img src={orangeRectanlge_1} alt="orangeRectanlge" style={{width:'61px', height:'59px'}} />
                         <br/>
                         <br/>
                         <h2 style={{color:'#004578', fontSize: '16px'}}>
                         {L.t('council.fourthRowSubHeader1')}
                         </h2>
                         
-                        <h2 style={{color:'#161515', fontSize: '16px'}}>
+                        <h2 style={{color:'#161515', fontSize: '16px', textAlign: 'justify'}}>
                         {L.t('council.fourthRowDescription1')}
                         </h2>
                     </div>
                     <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                        <img src={orangeRectanlge} alt="orangeRectanlge" style={{width:'61px', height:'59px'}} />
+                        <img src={orangeRectanlge_2} alt="orangeRectanlge" style={{width:'61px', height:'59px'}} />
                         <br/>
                         <br/>
                         <h2 style={{color:'#004578', fontSize: '16px'}}>
                         {L.t('council.fourthRowSubHeader2')}
                         </h2>
-                        <h2 style={{color:'#161515', fontSize: '16px'}}>
+                        <h2 style={{color:'#161515', fontSize: '16px', textAlign: 'justify'}}>
                         {L.t('council.fourthRowDescription2')}
                         </h2>
                     </div>
                     <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                        <img src={orangeRectanlge} alt="orangeRectanlge" style={{width:'61px', height:'59px'}} />
+                        <img src={orangeRectanlge_3} alt="orangeRectanlge" style={{width:'61px', height:'59px'}} />
                         <br/>
                         <br/>
                         <h2 style={{color:'#004578', fontSize: '16px'}}>
                         {L.t('council.fourthRowSubHeader3')}
                         </h2>
-                        <h2 style={{color:'#161515', fontSize: '16px'}}>
+                        <h2 style={{color:'#161515', fontSize: '16px', textAlign: 'justify'}}>
                         {L.t('council.fourthRowDescription3')}
                         </h2>
                     </div>

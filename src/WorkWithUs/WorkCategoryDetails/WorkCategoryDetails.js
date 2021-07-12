@@ -11,7 +11,7 @@ const WorkCategoryDetails = (props) => {
         <img alt='' src={content.image}/>
         <h2>{content.title}</h2>
       </div>
-      <div className='category-card-description'>{parse(content.description)}</div>
+      <div className='category-card-description' style={{textAlign:"justify"}}>{parse(content.description)}</div>
       <div className='category-card-subtitle'>{parse(content.subTitle)}</div>
       {
         content.participants && content.participants.map((participant) => {
