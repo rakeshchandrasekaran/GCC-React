@@ -21,7 +21,7 @@ const Council = () => (
                         "{L.t('council.firstRowSubHeader')}"
                 </h2>
                     <br />
-                    <h2 style={{ fontSize: '16px', color: '#161515' }}>
+                    <h2 style={{ fontSize: '16px', color: '#161515', textAlign:'justify' }}>
                         {L.t('council.firstRowDescription')}
                     </h2>
                 </div>

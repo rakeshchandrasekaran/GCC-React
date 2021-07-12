@@ -9,9 +9,9 @@ const Home1 = () => {
   return (
     <div id='HomePage'>
       <HomeOpeningBanner />
-      <Partners />
       <CurrentEvents />
       <ChangeMaker />
+      <Partners />
       <Testimonials/>
     </div>
   );

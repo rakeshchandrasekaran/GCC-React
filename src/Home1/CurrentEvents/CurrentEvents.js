@@ -18,12 +18,12 @@ const CurrentEvents = () => {
 					<Splide
 					options={{
 						rewind : true,
-						perPage: 3,
+						perPage: 1,
 						perMove: 1,
 						gap    : '1rem',
 						breakpoints: {
 							'1080': {
-								perPage: 2
+								perPage: 1
 							},
 							'740': {
 								perPage: 1
@@ -33,7 +33,7 @@ const CurrentEvents = () => {
 						<SplideSlide>
 							<img src={currentEventImage1} className="carousal-img-css" alt="Image 1"/>
 						</SplideSlide>
-						<SplideSlide>
+						{/* <SplideSlide>
 							<img src={currentEventImage2} className="carousal-img-css" alt="Image 2" />
 						</SplideSlide>
 						<SplideSlide>
@@ -65,7 +65,7 @@ const CurrentEvents = () => {
 						</SplideSlide>
 						<SplideSlide>
 							<img src={currentEventImage3} className="carousal-img-css" alt="Image 2" />
-						</SplideSlide>
+						</SplideSlide> */}
 					</Splide>
 				</div>
 		</div>
