@@ -122,6 +122,9 @@ const AboutUsNew = () => {
                 <h2 style={{ color: '#0078D4', fontSize: '18px' }}>
                   {L.t('aboutUs.team.cioDesignation')}
                 </h2>
+                <h2 style={{ color: '#0078D4', fontSize: '18px' }}>
+                Chennai Smart City Limited
+                </h2>
                 <p>{L.t('shared.corporationTitle')}</p>
                 </div>
                 <div className="col-sm-4">
@@ -132,6 +135,9 @@ const AboutUsNew = () => {
                 </h2>
                 <h2 style={{ color: '#0078D4', fontSize: '18px' }}>
                   {L.t('aboutUs.team.cdoDesignation')}
+                </h2>
+                <h2 style={{ color: '#0078D4', fontSize: '18px' }}>
+                Chennai Smart City Limited
                 </h2>
                 <p>{L.t('shared.corporationTitle')}</p>
                 </div>
