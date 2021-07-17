@@ -21,8 +21,10 @@ const ProjectsNew = () => {
                
                   <div className="col-sm-4">
                   <img alt='' style={{width:'50%'}} src={data.image}/>
-                  <p>{data.host}</p>
-                  <h3>{data.title}</h3>
+                  <h6>{data.host}</h6>
+                  <h6>{data.title}</h6>
+                  <br/>
+                  <br/>
                   </div>
                
               )
@@ -37,8 +39,8 @@ const ProjectsNew = () => {
               return (
                 <div className="col-sm-4">
                   <img alt='' style={{width:'50%'}} src={data.image}/>
-                  <p>{data.host}</p>
-                  <h3>{data.title}</h3>
+                  <h6>{data.host}</h6>
+                  <h6>{data.title}</h6>
                 </div>
               )
             })
