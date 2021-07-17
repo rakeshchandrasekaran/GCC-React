@@ -8,7 +8,10 @@ import iitm from '../../images/home/IIT_Madras_Logo.png';
 import moudgoi from '../../images/home/MOUHA.png';
 import loyola from '../../images/home/loyola_college.png';
 import vector from '../../images/common/Vector.png';
+import guidance_tamilnadu from '../../images/home/guidance_tamilnadu.jpeg';
 import smart_city_mission_transformation from '../../images/home/smart_city_mission_transformation.jpeg';
+import ministry_of_urban_development_logo from '../../images/home/ministry-of-urban-development-logo.png';
+import STARTUPTN from '../../images/home/STARTUPTN.png';
 
 
 import '@splidejs/splide/dist/css/themes/splide-default.min.css';
@@ -27,12 +30,15 @@ const Partners = () => {
 			<marquee width="100%" direction="left" scrollamount="12" height="200px">
 			<img src={mrCooper} />
 				<img src={undp} />
-				<img src={hyundai} />
+				{/* <img src={hyundai} /> */}
 				<img src={iitm} />
 				<img src={greatLakes} />
 				<img src={moudgoi} />
 				<img src={loyola} />
 				<img src={smart_city_mission_transformation} />
+				<img src={guidance_tamilnadu} />
+				<img src={ministry_of_urban_development_logo} />
+				<img src={STARTUPTN} />
 			</marquee>
 				
 			</div>
