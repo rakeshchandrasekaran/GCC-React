@@ -20,7 +20,7 @@ const QaQuestion = (props) => {
       </button>
       <div ref={contentHeight} style={cardOpened? {'maxHeight': contentHeight.current.scrollHeight} : {'maxHeight': 0} } className="content">
         <div style={{marginBottom: '24px'}}>
-          { faqData.answer && <div className="collapsible-answer">{faqData.answer}</div> }
+          { faqData.answer && <div className="collapsible-answer" style={{textAlign: "justify"}} >{faqData.answer}</div> }
           <ol className="collapsible-points">
             {
               faqData.answerPoints && faqData.answerPoints.map((faqPoint) => {

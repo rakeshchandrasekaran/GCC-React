@@ -639,11 +639,26 @@ const tamilContent = {
     firstRowDescription: 'சென்னை கண்டுபிடிப்பு மையத்துடன் இணைந்து உருவாக்கப்பட்டுள்ள அனைத்து திட்டங்களையும் பற்றி அறிந்து கொள்ளுங்கள்.',
     secondRowContent: {
       completed: [
-        { title: 'GCC Corona Monitoring Application', host: 'Greater Chennai Corporation', image: './images/projects/corona.png' },
-        { title: 'Madras Waste Exchange', host: 'Greater Chennai Corporation', image: './images/projects/default_image.png' },
-        { title: 'Home Quarantine and Isolation Management System (HQIMS)', host: 'Greater Chennai Corporation', image: './images/projects/default_image.png' },
-        { title: 'GCC Revenue League', host: 'Greater Chennai Corporation', image: './images/projects/default_image.png' },
-        { title: 'Covid Tele Counselling Process Optimization', host: 'Greater Chennai Corporation', image: './images/projects/covid_vaccination.jpg' }
+        { 
+          title: 'GCC Corona Monitoring Application', 
+          host: 'Greater Chennai Corporation', 
+          image: './images/projects/corona.png' },
+        { 
+          title: 'Madras Waste Exchange', 
+          host: 'Greater Chennai Corporation', 
+          image: './images/projects/default_image.png' },
+        { 
+          title: 'Home Quarantine and Isolation Management System (HQIMS)', 
+          host: 'Greater Chennai Corporation', 
+          image: './images/projects/default_image.png' },
+        { 
+          title: 'GCC Revenue League', 
+          host: 'Greater Chennai Corporation', 
+          image: './images/projects/default_image.png' },
+        { 
+          title: 'Covid Tele Counselling Process Optimization', 
+          host: 'Greater Chennai Corporation', 
+          image: './images/projects/covid_vaccination.jpg' }
       ],
       ongoing: [
         { title: 'Shelter for Urban Incubators', host: 'Greater Chennai Corporation', image: './images/projects/shelter.png' },

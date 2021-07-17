@@ -8,6 +8,8 @@ import iitm from '../../images/home/IIT_Madras_Logo.png';
 import moudgoi from '../../images/home/MOUHA.png';
 import loyola from '../../images/home/loyola_college.png';
 import vector from '../../images/common/Vector.png';
+import smart_city_mission_transformation from '../../images/home/smart_city_mission_transformation.jpeg';
+
 
 import '@splidejs/splide/dist/css/themes/splide-default.min.css';
 import './../Home1.css';
@@ -30,7 +32,7 @@ const Partners = () => {
 				<img src={greatLakes} />
 				<img src={moudgoi} />
 				<img src={loyola} />
-				{/* <img src={mrCooper} /> */}
+				<img src={smart_city_mission_transformation} />
 			</marquee>
 				
 			</div>

@@ -57,10 +57,10 @@ const AboutUsNew = () => {
             </h2>
             <br />
           </div>
-          <div className="col-sm-12 row" style={{ textAlign: 'center' }}>
-            <div className="col-sm-1">
-            </div>
-            <div className="col-sm-10 row" style={{ marginBottom: '30px' }}>
+          <div className="col-sm-12 row" style={{ textAlign: 'center'}}>
+            {/* <div className="col-sm-1">
+            </div> */}
+            {/* <div className="col-sm-12 row" style={{ marginBottom: '30px' }}> */}
               <div className="col-sm-4">
                 <img src={Commissioner_GaganDeep_Singh}
                   style={{ width: '180px', height: '175px' }} />
@@ -95,9 +95,9 @@ const AboutUsNew = () => {
                 <p>{L.t('shared.corporationTitle')}</p>
               </div>
             </div>
-            <div className="col-sm-1">
-            </div>
-          </div>
+            {/* <div className="col-sm-1">
+            </div> */}
+          {/* </div> */}
           <br />
           <div style={{ textAlign: 'center' }}>
             <div style={{ textAlign: 'center' }}>
