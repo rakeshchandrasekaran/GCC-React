@@ -12,6 +12,12 @@
     text-align: left;
 }
 
+@media (max-width: 800px) {
+    .container {
+        width: 85%;
+    }
+}
+
 #WorkWithUs .background-banners p {
     color: #8B8B8B;
     font-style: normal;

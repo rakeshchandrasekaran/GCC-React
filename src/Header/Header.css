@@ -171,3 +171,26 @@
         border: none;
     }
 }
+
+@media only screen and (min-width: 800px) {
+    .sub-nav-bar {
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .navbar-brand > h2 {
+        font-size: 1rem;
+    }
+
+    .main-logo-text > span {
+        font-size: 0.65rem;
+    }
+}
+
+@media (max-width: 475px) {
+    .sub-nav-logo > span {
+        display: none;
+    }
+}

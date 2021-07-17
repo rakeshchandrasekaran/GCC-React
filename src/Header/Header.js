@@ -1,5 +1,5 @@
 /* eslint-disable no-lone-blocks */
-import React from 'react';
+import React, {useState} from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button'
 import L from '../utils/localization';
@@ -13,10 +13,16 @@ import facebookLogo from '../images/facebook-icon.png';
 import instaLogo from '../images/instagram.png';
 import youtubeLogo from '../images/youtube.png';
 import twitterLogo from '../images/twitter.png';
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
 
 const appRoute = config.appRoute;
 
 const Header = ({ type }) => {
+
+  const [navExpanded, setNavExpanded] = useState(false);
+
+
   if(type === 'main') {
     return (
       <Navbar collapseOnSelect expand="lg" bg="light" variant="light" fixed="top" className="main-nav-bar">
@@ -94,39 +100,44 @@ const Header = ({ type }) => {
     )
   } else {
     return (
-      <Navbar collapseOnSelect expand="lg" bg="light" variant="light" fixed="top" className="sub-nav-bar">
-        <Navbar.Brand href={`${appRoute}/`}>
-          <h2 className="sub-nav-logo">Chennai Innovation Hub (C-HUB)</h2>
-        </Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <div className="sub-nav-links">
-            <Navbar.Brand href={`${appRoute}/`}>
-              <Button variant="warning">{L.t('subNav.home')}</Button>
-            </Navbar.Brand>
-            <Navbar.Brand href={`${appRoute}/about_us`}>
-              <Button variant="warning">{L.t('subNav.aboutUs')}</Button>
-            </Navbar.Brand>
-            {/* <Navbar.Brand href={`${appRoute}/council`}>
-              <Button variant="warning">{L.t('subNav.council')}</Button>
+      <Navbar collapseOnSelect expand="lg" bg="light" variant="light" fixed="top" className="sub-nav-bar" expanded={navExpanded}>
+        <Container>
+          <Navbar.Brand href={`${appRoute}/`}>
+            <h2 className="sub-nav-logo">Chennai Innovation Hub <span>(C-HUB)</span></h2>
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" onClick={() => setNavExpanded(!navExpanded)}/>
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav>
+              <div className="sub-nav-links">
+                <Navbar.Brand href={`${appRoute}/`}>
+                  <Button variant="warning" onClick={() => setNavExpanded(!navExpanded)}>{L.t('subNav.home')}</Button>
+                </Navbar.Brand>
+                <Navbar.Brand href={`${appRoute}/about_us`}>
+                  <Button variant="warning" onClick={() => setNavExpanded(!navExpanded)}>{L.t('subNav.aboutUs')}</Button>
+                </Navbar.Brand>
+                {/* <Navbar.Brand href={`${appRoute}/council`}>
+              <Button variant="warning" onClick={() => setNavExpanded(!navExpanded)}>{L.t('subNav.council')}</Button>
             </Navbar.Brand> */}
-            <Navbar.Brand href={`${appRoute}/workWithUs`}>
-              <Button variant="warning">{L.t('subNav.workWithUs')}</Button>
-            </Navbar.Brand>
-            <Navbar.Brand href={`${appRoute}/events`}>
-              <Button variant="warning">{L.t('subNav.events')}</Button>
-            </Navbar.Brand>
-            <Navbar.Brand href={`${appRoute}/projects`}>
-              <Button variant="warning">{L.t('subNav.projects')}</Button>
-            </Navbar.Brand>
-            <Navbar.Brand href={`${appRoute}/faq`}>
-              <Button variant="warning">{L.t('subNav.faq')}</Button>
-            </Navbar.Brand>
-            <Navbar.Brand href={`${appRoute}/contact_us`}>
-              <Button variant="warning">{L.t('subNav.contactUs')}</Button>
-            </Navbar.Brand>
-          </div>
-        </Navbar.Collapse>
+                <Navbar.Brand href={`${appRoute}/workWithUs`}>
+                  <Button variant="warning" onClick={() => setNavExpanded(!navExpanded)}>{L.t('subNav.workWithUs')}</Button>
+                </Navbar.Brand>
+                <Navbar.Brand href={`${appRoute}/events`}>
+                  <Button variant="warning" onClick={() => setNavExpanded(!navExpanded)}>{L.t('subNav.events')}</Button>
+                </Navbar.Brand>
+                <Navbar.Brand href={`${appRoute}/projects`}>
+                  <Button variant="warning" onClick={() => setNavExpanded(!navExpanded)}>{L.t('subNav.projects')}</Button>
+                </Navbar.Brand>
+                <Navbar.Brand href={`${appRoute}/faq`}>
+                  <Button variant="warning" onClick={() => setNavExpanded(!navExpanded)}>{L.t('subNav.faq')}</Button>
+                </Navbar.Brand>
+                <Navbar.Brand href={`${appRoute}/contact_us`}>
+                  <Button variant="warning" onClick={() => setNavExpanded(!navExpanded)}>{L.t('subNav.contactUs')}</Button>
+                </Navbar.Brand>
+              </div>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+
       </Navbar>
     )
   }
