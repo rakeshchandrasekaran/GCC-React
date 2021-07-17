@@ -167,7 +167,7 @@ const englishContent = {
             ]
           },
           {
-            participantTitle: 'Schools and Universities',
+            participantTitle: 'Colleges and Universities',
             participantImage: './images/workWithUs/institute.png',
             steps: [
               'Schools/Universities who are interested in setting up innovation hub in their campus can write to us with the subject line <span>"Interested to set up an Innovation Hub in (school/university’s name)"</span>',
@@ -182,6 +182,24 @@ const englishContent = {
         description: 'Change begins at home and we want to be able to bring about grassroot level changes through our program. Academic entities must very much be a part of the innovation conversation and it is for this reason, we wanted to create an exclusive program where we encourage our students to integrate this city’s future with their own.<br><br>The Changemaker’s program exclusively focuses on creating academic engagements for C-Hub in the city. This program will focus on establishing and building connections with the colleges in Chennai. This wing will be open to collaborate with schools to foster innovation at grassroot level. Final year students pursuing their Bachelor’s can use existing problem statements put out by the Greater Chennai Corporation for their final year projects. The data sets and appropriate resources will be available for the PhD students to carry out their research along with the Greater Chennai Corporation. The Changemaker’s program also invites students enrolled in NSS/NCC programs to participate in social work listed as part of their curriculum.',
         subTitle: 'Want to be a change maker or know one? <br>It is time to take action!',
         participants: [
+          {
+            participantTitle: 'Volunteers',
+            participantImage: '',
+            steps: [
+              'Student who wants to join include your name, age, current education experience and your motivation to join the program and Write to us with the subject line <span>"Interested in the Changemaker Program"</span>',
+              'Final year Bachelor’s student who would like to work with us for your thesis can write to is with the subject line <span>"Interested to carry out Bachelor thesis project with GCC"</span>',
+              'PhD students who want to collaborate on your research can write to us with the subject line <span>"Interested to work on my PhD thesis with GCC"</span>'
+            ]
+          },
+          {
+            participantTitle: 'Startup',
+            participantImage: '',
+            steps: [
+              'Student who wants to join include your name, age, current education experience and your motivation to join the program and Write to us with the subject line <span>"Interested in the Changemaker Program"</span>',
+              'Final year Bachelor’s student who would like to work with us for your thesis can write to is with the subject line <span>"Interested to carry out Bachelor thesis project with GCC"</span>',
+              'PhD students who want to collaborate on your research can write to us with the subject line <span>"Interested to work on my PhD thesis with GCC"</span>'
+            ]
+          },
           {
             participantTitle: 'Students',
             participantImage: './images/workWithUs/student.png',
