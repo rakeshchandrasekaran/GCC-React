@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/GCC-React/static/css/main.9175cf48.chunk.css",
-    "main.js": "/GCC-React/static/js/main.91d21130.chunk.js",
-    "main.js.map": "/GCC-React/static/js/main.91d21130.chunk.js.map",
+    "main.css": "/GCC-React/static/css/main.8287c545.chunk.css",
+    "main.js": "/GCC-React/static/js/main.3dc5caa6.chunk.js",
+    "main.js.map": "/GCC-React/static/js/main.3dc5caa6.chunk.js.map",
     "runtime-main.js": "/GCC-React/static/js/runtime-main.40248c7e.js",
     "runtime-main.js.map": "/GCC-React/static/js/runtime-main.40248c7e.js.map",
     "static/css/2.11c54b2c.chunk.css": "/GCC-React/static/css/2.11c54b2c.chunk.css",
-    "static/js/2.1fa3e7bc.chunk.js": "/GCC-React/static/js/2.1fa3e7bc.chunk.js",
-    "static/js/2.1fa3e7bc.chunk.js.map": "/GCC-React/static/js/2.1fa3e7bc.chunk.js.map",
+    "static/js/2.47cb0770.chunk.js": "/GCC-React/static/js/2.47cb0770.chunk.js",
+    "static/js/2.47cb0770.chunk.js.map": "/GCC-React/static/js/2.47cb0770.chunk.js.map",
     "static/js/3.122518cb.chunk.js": "/GCC-React/static/js/3.122518cb.chunk.js",
     "static/js/3.122518cb.chunk.js.map": "/GCC-React/static/js/3.122518cb.chunk.js.map",
     "index.html": "/GCC-React/index.html",
     "static/css/2.11c54b2c.chunk.css.map": "/GCC-React/static/css/2.11c54b2c.chunk.css.map",
-    "static/css/main.9175cf48.chunk.css.map": "/GCC-React/static/css/main.9175cf48.chunk.css.map",
-    "static/js/2.1fa3e7bc.chunk.js.LICENSE.txt": "/GCC-React/static/js/2.1fa3e7bc.chunk.js.LICENSE.txt",
+    "static/css/main.8287c545.chunk.css.map": "/GCC-React/static/css/main.8287c545.chunk.css.map",
+    "static/js/2.47cb0770.chunk.js.LICENSE.txt": "/GCC-React/static/js/2.47cb0770.chunk.js.LICENSE.txt",
     "static/media/Chennai Hub.a5780928.png": "/GCC-React/static/media/Chennai Hub.a5780928.png",
     "static/media/Ellipse.9c0f6cd5.png": "/GCC-React/static/media/Ellipse.9c0f6cd5.png",
     "static/media/Hyundai-logo.54ae03de.png": "/GCC-React/static/media/Hyundai-logo.54ae03de.png",
@@ -74,8 +74,8 @@
   "entrypoints": [
     "static/js/runtime-main.40248c7e.js",
     "static/css/2.11c54b2c.chunk.css",
-    "static/js/2.1fa3e7bc.chunk.js",
-    "static/css/main.9175cf48.chunk.css",
-    "static/js/main.91d21130.chunk.js"
+    "static/js/2.47cb0770.chunk.js",
+    "static/css/main.8287c545.chunk.css",
+    "static/js/main.3dc5caa6.chunk.js"
   ]
 }
