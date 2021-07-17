@@ -8,21 +8,24 @@ import L from '../../utils/localization';
 const WorkTabView = () => {
 
   return (
-    <Tabs defaultActiveKey="0" id="uncontrolled-tab-example">
-      {
-        L.t('workWithUs.categories').map((category, index) => {
-          return (
-            <Tab eventKey={index} title={category.title}>
-              {
-                category.title === 'Council' ? <Council/> :
-                  <WorkCategoryDetails content={category}/>
-              }
+    <div>
+      <Tabs defaultActiveKey="0" id="uncontrolled-tab-example">
+        {
+          L.t('workWithUs.categories').map((category, index) => {
+            return (
+              <Tab eventKey={index} title={category.title}>
+                {
+                  category.title === 'Council' ? <Council/> :
+                    <WorkCategoryDetails content={category}/>
+                }
 
-            </Tab>
-          )
-        })
-      }
-    </Tabs>
+              </Tab>
+            )
+          })
+        }
+      </Tabs>
+    </div>
+
   );
 };
 
